@@ -1,0 +1,786 @@
+{
+  "discordId": "1216055594348445719",
+  "uuid": "ddf36f19-503e-4b08-8ced-d9ae14ad3676",
+  "name": "scene_maker09",
+  "skinIcon": "/assets/images/generated/player-skins/ddf36f19-503e-4b08-8ced-d9ae14ad3676.png",
+  "headIcon": "/assets/images/generated/player-heads/ddf36f19-503e-4b08-8ced-d9ae14ad3676.png",
+  "race": "Orebringer",
+  "class": "Miner",
+  "advancementsCompleted": 10,
+  "advancementsDetailed": [
+    {
+      "category": "Adventure",
+      "items": [
+        {
+          "label": "Adventure",
+          "description": "Adventure, exploration and combat",
+          "done": true
+        },
+        {
+          "label": "Adventuring Time",
+          "description": "Discover every biome",
+          "done": false
+        },
+        {
+          "label": "Monster Hunter",
+          "description": "Kill any hostile monster",
+          "done": true
+        },
+        {
+          "label": "Monsters Hunted",
+          "description": "Kill one of every hostile monster",
+          "done": false
+        },
+        {
+          "label": "Sweet Dreams",
+          "description": "Sleep in a Bed to change your respawn point",
+          "done": true
+        }
+      ],
+      "doneCount": 3
+    },
+    {
+      "category": "Husbandry",
+      "items": [
+        {
+          "label": "A Balanced Diet",
+          "description": "Eat everything that is edible, even if it's not good for you",
+          "done": false
+        },
+        {
+          "label": "Husbandry",
+          "description": "The world is full of friends and food",
+          "done": true
+        }
+      ],
+      "doneCount": 1
+    },
+    {
+      "category": "Katters Structures (General)",
+      "items": [
+        {
+          "label": "Katters Structures",
+          "description": "Brand new vanilla like structures!",
+          "done": true
+        }
+      ],
+      "doneCount": 1
+    },
+    {
+      "category": "Story",
+      "items": [
+        {
+          "label": "Acquire Hardware",
+          "description": "Smelt an Iron Ingot",
+          "done": true
+        },
+        {
+          "label": "Getting an Upgrade",
+          "description": "Construct a better Pickaxe",
+          "done": true
+        },
+        {
+          "label": "Isn't It Iron Pick",
+          "description": "Upgrade your Pickaxe",
+          "done": true
+        },
+        {
+          "label": "Minecraft",
+          "description": "The heart and story of the game",
+          "done": true
+        },
+        {
+          "label": "Stone Age",
+          "description": "Mine Stone with your new Pickaxe",
+          "done": true
+        }
+      ],
+      "doneCount": 5
+    }
+  ],
+  "stats": {
+    "playtimeHours": 1.2,
+    "deaths": 1,
+    "mobKillsTotal": 9,
+    "blocksMinedTotal": 324
+  },
+  "statsDetailed": [
+    {
+      "category": "General",
+      "items": [
+        {
+          "label": "Walk",
+          "value": "2,106 blocks",
+          "raw": 210581
+        },
+        {
+          "label": "Sprint",
+          "value": "1,811 blocks",
+          "raw": 181088
+        },
+        {
+          "label": "Fly",
+          "value": "1,225 blocks",
+          "raw": 122474
+        },
+        {
+          "label": "Total World Time",
+          "value": "1.2 h",
+          "raw": 89810
+        },
+        {
+          "label": "Play Time",
+          "value": "1.2 h",
+          "raw": 89810
+        },
+        {
+          "label": "Swim",
+          "value": "610 blocks",
+          "raw": 61000
+        },
+        {
+          "label": "Time Since Death",
+          "value": "50 min",
+          "raw": 59591
+        },
+        {
+          "label": "Fall",
+          "value": "234 blocks",
+          "raw": 23406
+        },
+        {
+          "label": "Time Since Rest",
+          "value": "12 min",
+          "raw": 14306
+        },
+        {
+          "label": "Walk On Water",
+          "value": "88 blocks",
+          "raw": 8839
+        },
+        {
+          "label": "Walk Under Water",
+          "value": "72 blocks",
+          "raw": 7184
+        },
+        {
+          "label": "Crouch",
+          "value": "36 blocks",
+          "raw": 3589
+        },
+        {
+          "label": "Damage Dealt",
+          "value": "1,788",
+          "raw": 1788
+        },
+        {
+          "label": "Jump",
+          "value": "1,246",
+          "raw": 1246
+        },
+        {
+          "label": "Sneak Time",
+          "value": "1 min",
+          "raw": 1217
+        },
+        {
+          "label": "Damage Taken",
+          "value": "829",
+          "raw": 829
+        },
+        {
+          "label": "Climb",
+          "value": "3 blocks",
+          "raw": 347
+        },
+        {
+          "label": "Interact With Crafting Table",
+          "value": "26",
+          "raw": 26
+        },
+        {
+          "label": "Interact With Furnace",
+          "value": "19",
+          "raw": 19
+        },
+        {
+          "label": "Mob Kills",
+          "value": "9",
+          "raw": 9
+        },
+        {
+          "label": "Open Chest",
+          "value": "9",
+          "raw": 9
+        },
+        {
+          "label": "Sleep In Bed",
+          "value": "5",
+          "raw": 5
+        },
+        {
+          "label": "Leave Game",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Deaths",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Drop",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Blocks Mined",
+      "items": [
+        {
+          "label": "Stone",
+          "value": "62",
+          "raw": 62
+        },
+        {
+          "label": "Large Fern",
+          "value": "54",
+          "raw": 54
+        },
+        {
+          "label": "Coal Ore",
+          "value": "42",
+          "raw": 42
+        },
+        {
+          "label": "Sweet Berry Bush",
+          "value": "30",
+          "raw": 30
+        },
+        {
+          "label": "Short Grass",
+          "value": "29",
+          "raw": 29
+        },
+        {
+          "label": "Copper Ore",
+          "value": "22",
+          "raw": 22
+        },
+        {
+          "label": "Fern",
+          "value": "15",
+          "raw": 15
+        },
+        {
+          "label": "Kelp Plant",
+          "value": "15",
+          "raw": 15
+        },
+        {
+          "label": "Spruce Log",
+          "value": "12",
+          "raw": 12
+        },
+        {
+          "label": "Cobblestone",
+          "value": "6",
+          "raw": 6
+        },
+        {
+          "label": "Dirt",
+          "value": "6",
+          "raw": 6
+        },
+        {
+          "label": "Oak Leaves",
+          "value": "5",
+          "raw": 5
+        },
+        {
+          "label": "Tall Grass",
+          "value": "4",
+          "raw": 4
+        },
+        {
+          "label": "Birch Log",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Grass Block",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Oak Log",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Iron Ore",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Granite",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Crafting Table",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Spruce Planks",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Leaf Litter",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Rose Bush",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Makeshift Claim Anchor",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Spruce Leaves",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Wall Torch",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Items Crafted",
+      "items": [
+        {
+          "label": "Dried Kelp",
+          "value": "41",
+          "raw": 41
+        },
+        {
+          "label": "Spruce Planks",
+          "value": "40",
+          "raw": 40
+        },
+        {
+          "label": "Copper Ingot",
+          "value": "25",
+          "raw": 25
+        },
+        {
+          "label": "Copper Torch",
+          "value": "16",
+          "raw": 16
+        },
+        {
+          "label": "Stick",
+          "value": "16",
+          "raw": 16
+        },
+        {
+          "label": "Birch Planks",
+          "value": "12",
+          "raw": 12
+        },
+        {
+          "label": "Torch",
+          "value": "12",
+          "raw": 12
+        },
+        {
+          "label": "Oak Planks",
+          "value": "12",
+          "raw": 12
+        },
+        {
+          "label": "Copper Nugget",
+          "value": "9",
+          "raw": 9
+        },
+        {
+          "label": "Cooked Mutton",
+          "value": "5",
+          "raw": 5
+        },
+        {
+          "label": "Iron Ingot",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Crafting Table",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Stone Sword",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Copper Boots",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Copper Leggings",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Stone Pickaxe",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Wooden Pickaxe",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Copper Chestplate",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Chest",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Furnace",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "White Bed",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Stone Axe",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Copper Helmet",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Iron Pickaxe",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Items Used",
+      "items": [
+        {
+          "label": "Stone Sword",
+          "value": "167",
+          "raw": 167
+        },
+        {
+          "label": "Stone Pickaxe",
+          "value": "115",
+          "raw": 115
+        },
+        {
+          "label": "Wooden Pickaxe",
+          "value": "43",
+          "raw": 43
+        },
+        {
+          "label": "Cobblestone",
+          "value": "28",
+          "raw": 28
+        },
+        {
+          "label": "Sweet Berries",
+          "value": "16",
+          "raw": 16
+        },
+        {
+          "label": "Copper Torch",
+          "value": "16",
+          "raw": 16
+        },
+        {
+          "label": "Stone Axe",
+          "value": "12",
+          "raw": 12
+        },
+        {
+          "label": "Torch",
+          "value": "12",
+          "raw": 12
+        },
+        {
+          "label": "Spruce Planks",
+          "value": "10",
+          "raw": 10
+        },
+        {
+          "label": "Cooked Mutton",
+          "value": "7",
+          "raw": 7
+        },
+        {
+          "label": "Dirt",
+          "value": "6",
+          "raw": 6
+        },
+        {
+          "label": "Iron Pickaxe",
+          "value": "4",
+          "raw": 4
+        },
+        {
+          "label": "Crafting Table",
+          "value": "4",
+          "raw": 4
+        },
+        {
+          "label": "Spruce Log",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Makeshift Claim Anchor",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Goggles",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Chest",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Furnace",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "White Bed",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Items Broken",
+      "items": [
+        {
+          "label": "Wooden Pickaxe",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Items Picked Up",
+      "items": [
+        {
+          "label": "Raw Copper",
+          "value": "83",
+          "raw": 83
+        },
+        {
+          "label": "Sweet Berries",
+          "value": "64",
+          "raw": 64
+        },
+        {
+          "label": "Cobblestone",
+          "value": "64",
+          "raw": 64
+        },
+        {
+          "label": "Coal",
+          "value": "42",
+          "raw": 42
+        },
+        {
+          "label": "Kelp",
+          "value": "41",
+          "raw": 41
+        },
+        {
+          "label": "Spruce Log",
+          "value": "12",
+          "raw": 12
+        },
+        {
+          "label": "Wheat Seeds",
+          "value": "9",
+          "raw": 9
+        },
+        {
+          "label": "Dirt",
+          "value": "7",
+          "raw": 7
+        },
+        {
+          "label": "Mutton",
+          "value": "5",
+          "raw": 5
+        },
+        {
+          "label": "Bone",
+          "value": "4",
+          "raw": 4
+        },
+        {
+          "label": "Oak Log",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Birch Log",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "White Wool",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Raw Iron",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Leaf Litter",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Granite",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Player Head",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Crafting Table",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Rotten Flesh",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Spruce Planks",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Spruce Sapling",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Torch",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Makeshift Claim Anchor",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Iron Pickaxe",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Egg",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Stick",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Arrow",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Items Dropped",
+      "items": [
+        {
+          "label": "Iron Pickaxe",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Mobs Killed",
+      "items": [
+        {
+          "label": "Zombie",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Skeleton",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Sheep",
+          "value": "3",
+          "raw": 3
+        }
+      ]
+    },
+    {
+      "category": "Killed By",
+      "items": [
+        {
+          "label": "Zombie",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    }
+  ],
+  "claims": [],
+  "waypoints": []
+}

@@ -1,0 +1,139 @@
+{
+  "discordId": "717365914483425391",
+  "uuid": "95bcd95c-3206-4881-b9d0-d3eaacd87bd3",
+  "name": "solzu69",
+  "skinIcon": "/assets/images/generated/player-skins/95bcd95c-3206-4881-b9d0-d3eaacd87bd3.png",
+  "headIcon": "/assets/images/generated/player-heads/95bcd95c-3206-4881-b9d0-d3eaacd87bd3.png",
+  "race": "Endling",
+  "class": null,
+  "advancementsCompleted": 1,
+  "advancementsDetailed": [
+    {
+      "category": "Adventure",
+      "items": [
+        {
+          "label": "Adventuring Time",
+          "description": "Discover every biome",
+          "done": false
+        }
+      ],
+      "doneCount": 0
+    },
+    {
+      "category": "Katters Structures (General)",
+      "items": [
+        {
+          "label": "Katters Structures",
+          "description": "Brand new vanilla like structures!",
+          "done": true
+        }
+      ],
+      "doneCount": 1
+    }
+  ],
+  "stats": {
+    "playtimeHours": 0,
+    "deaths": 0,
+    "mobKillsTotal": 0,
+    "blocksMinedTotal": 0
+  },
+  "statsDetailed": [
+    {
+      "category": "General",
+      "items": [
+        {
+          "label": "Fly",
+          "value": "59 blocks",
+          "raw": 5907
+        },
+        {
+          "label": "Time Since Rest",
+          "value": "3 min",
+          "raw": 3137
+        },
+        {
+          "label": "Play Time",
+          "value": "3 min",
+          "raw": 3137
+        },
+        {
+          "label": "Time Since Death",
+          "value": "3 min",
+          "raw": 3137
+        },
+        {
+          "label": "Total World Time",
+          "value": "3 min",
+          "raw": 3137
+        },
+        {
+          "label": "Sprint",
+          "value": "31 blocks",
+          "raw": 3133
+        },
+        {
+          "label": "Swim",
+          "value": "31 blocks",
+          "raw": 3081
+        },
+        {
+          "label": "Fall",
+          "value": "27 blocks",
+          "raw": 2686
+        },
+        {
+          "label": "Walk On Water",
+          "value": "25 blocks",
+          "raw": 2538
+        },
+        {
+          "label": "Walk",
+          "value": "20 blocks",
+          "raw": 2027
+        },
+        {
+          "label": "Walk Under Water",
+          "value": "8 blocks",
+          "raw": 755
+        },
+        {
+          "label": "Damage Taken",
+          "value": "50",
+          "raw": 50
+        },
+        {
+          "label": "Jump",
+          "value": "17",
+          "raw": 17
+        },
+        {
+          "label": "Sneak Time",
+          "value": "0 min",
+          "raw": 13
+        },
+        {
+          "label": "Leave Game",
+          "value": "4",
+          "raw": 4
+        },
+        {
+          "label": "Drop",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Items Dropped",
+      "items": [
+        {
+          "label": "Goggles",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    }
+  ],
+  "claims": [],
+  "waypoints": []
+}

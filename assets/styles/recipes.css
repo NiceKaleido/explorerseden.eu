@@ -1,0 +1,452 @@
+/* /recipes page layout */
+
+/* Shell + hero spacing mirror /structures so all three overview pages have
+   the same vertical rhythm: roomy top padding, 22 px between the logo and
+   the search/filters row, and a 26 px gap from the controls down to the
+   first content block. */
+.recipes-page .recipes-shell {
+  width: min(1680px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 64px 0 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+.recipes-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 22px;
+  margin-bottom: 26px;
+}
+
+.recipes-title-img {
+  width: min(760px, 92vw);
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  filter: drop-shadow(0 22px 28px rgba(0, 0, 0, .68));
+}
+
+/* Search row + per-pack quick filters: mirror /enchantments exactly so the
+   three overview pages feel identical. */
+.recipes-controls {
+  width: min(1500px, 100%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  min-width: 0;
+}
+
+.recipes-search-wrap {
+  position: relative;
+  flex: 0 1 430px;
+  width: min(430px, 100%);
+  min-width: min(430px, 100%);
+  max-width: 430px;
+}
+.recipes-search-wrap .bi-search {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--accent, #87bdff);
+  pointer-events: none;
+}
+.recipes-search-wrap input {
+  width: 100%;
+  padding: 10px 38px 10px 38px;
+  border: 1px solid rgba(255, 255, 255, .16);
+  border-radius: 16px;
+  color: #fff;
+  background: rgba(5, 7, 13, .58);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, .18), inset 0 1px 0 rgba(255, 255, 255, .12);
+  backdrop-filter: blur(10px);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 750;
+  outline: none;
+}
+.recipes-search-wrap input:focus {
+  border-color: color-mix(in srgb, var(--accent, #87bdff) 56%, transparent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent, #87bdff) 18%, transparent), 0 12px 28px rgba(0, 0, 0, .28);
+}
+.recipes-search-wrap button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: none;
+  background: rgba(255, 255, 255, .08);
+  color: rgba(255, 255, 255, .85);
+  border: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.recipes-shell .quick-filters {
+  flex: 0 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: min(980px, 100%);
+  width: auto;
+}
+
+.recipes-shell .filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid rgba(255, 255, 255, .14);
+  border-radius: 999px;
+  background: rgba(6, 8, 16, .56);
+  color: rgba(255, 255, 255, .9);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .08), 0 10px 22px rgba(0, 0, 0, .2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 8px 12px;
+  font-weight: 900;
+  font-family: inherit;
+  font-size: 12px;
+  cursor: pointer;
+}
+.recipes-shell .filter-chip:hover,
+.recipes-shell .filter-chip.is-active {
+  color: #fff;
+  border-color: rgba(255, 255, 255, .28);
+  background: rgba(255, 255, 255, .11);
+}
+.recipes-shell .filter-chip.is-empty {
+  opacity: .45;
+  cursor: not-allowed;
+}
+.recipes-shell .filter-chip strong {
+  min-width: 24px;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .14);
+  color: #fff;
+  font-size: 11px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+/* Master/detail layout */
+.recipes-layout {
+  display: grid;
+  grid-template-columns: minmax(320px, 420px) 1fr;
+  gap: 18px;
+  align-items: stretch;
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+.recipes-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: rgba(8, 10, 18, .55);
+  border: 1px solid rgba(255, 255, 255, .08);
+  border-radius: 18px;
+  padding: 14px;
+  max-height: calc(100vh - 220px);
+  overflow: hidden;
+  position: sticky;
+  top: 80px;
+}
+
+.recipes-sidebar-toggle {
+  display: none;
+  background: rgba(255, 255, 255, .06);
+  border: 1px solid rgba(255, 255, 255, .12);
+  color: inherit;
+  font: inherit;
+  padding: 10px 14px;
+  border-radius: 12px;
+  cursor: pointer;
+  align-items: center;
+  gap: 10px;
+}
+
+.recipes-sidebar-body { overflow-y: auto; overflow-x: hidden; flex: 1 1 auto; padding-right: 4px; }
+.recipes-sidebar-body::-webkit-scrollbar { width: 8px; }
+.recipes-sidebar-body::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, .15); border-radius: 4px; }
+
+.recipes-group-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.recipes-empty { padding: 12px; color: rgba(255, 255, 255, .55); font-style: italic; text-align: center; }
+.recipes-empty--error { color: #ff9595; }
+
+.recipes-group { display: flex; flex-direction: column; }
+.recipes-group-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  font-weight: 700;
+  padding: 8px 6px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: left;
+}
+.recipes-group-header:hover { background: rgba(255, 255, 255, .05); }
+.recipes-group-caret { transition: transform .15s; color: rgba(255, 255, 255, .65); }
+.recipes-group.is-open .recipes-group-caret { transform: rotate(90deg); }
+.recipes-group-name { flex: 1 1 auto; }
+.recipes-group-count {
+  background: rgba(255, 255, 255, .1);
+  color: rgba(255, 255, 255, .8);
+  font-size: 11px;
+  padding: 1px 7px;
+  border-radius: 999px;
+  flex: 0 0 auto;
+}
+
+.recipes-types-list { list-style: none; margin: 0; padding: 0 0 6px 18px; display: none; flex-direction: column; gap: 2px; }
+.recipes-group.is-open .recipes-types-list { display: flex; }
+
+.recipes-type { display: flex; flex-direction: column; }
+.recipes-type-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: transparent;
+  border: 0;
+  color: rgba(255, 255, 255, .82);
+  font: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 5px 6px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: left;
+}
+.recipes-type-header:hover { background: rgba(255, 255, 255, .04); }
+.recipes-type-caret { transition: transform .15s; color: rgba(255, 255, 255, .55); font-size: 11px; }
+.recipes-type.is-open .recipes-type-caret { transform: rotate(90deg); }
+.recipes-type-name { flex: 1 1 auto; }
+.recipes-type-count {
+  background: rgba(255, 255, 255, .07);
+  color: rgba(255, 255, 255, .65);
+  font-size: 10px;
+  padding: 1px 6px;
+  border-radius: 999px;
+  flex: 0 0 auto;
+}
+
+.recipes-group-items { list-style: none; margin: 0; padding: 0 0 4px 18px; display: none; flex-direction: column; gap: 2px; }
+.recipes-type.is-open .recipes-group-items { display: flex; }
+
+.recipes-item { display: flex; }
+.recipes-item-btn {
+  background: transparent;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  width: 100%;
+  padding: 6px 10px;
+  border-radius: 7px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.recipes-item-btn:hover { background: rgba(255, 255, 255, .05); }
+.recipes-item.is-active .recipes-item-btn {
+  background: rgba(135, 189, 255, .14);
+  outline: 1px solid rgba(135, 189, 255, .35);
+}
+.recipes-item-name { font-size: 13px; line-height: 1.25; }
+.recipes-item-type {
+  font-size: 11px;
+  color: rgba(255, 255, 255, .5);
+  letter-spacing: .02em;
+}
+
+/* Detail pane */
+.recipes-detail {
+  background: rgba(8, 10, 18, .55);
+  border: 1px solid rgba(255, 255, 255, .08);
+  border-radius: 18px;
+  padding: 22px 26px 28px;
+  min-height: 460px;
+}
+.recipes-detail-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  text-align: center;
+  color: rgba(255, 255, 255, .5);
+  gap: 12px;
+}
+.recipes-detail-empty .bi { font-size: 42px; color: rgba(255, 255, 255, .35); }
+
+.recipes-detail-head { display: flex; flex-direction: column; gap: 6px; margin-bottom: 18px; }
+.recipes-detail-pack {
+  font-size: 12px;
+  color: var(--accent, #87bdff);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  align-self: flex-start;
+  text-decoration: none;
+}
+a.recipes-detail-pack:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.recipes-detail-name {
+  margin: 0;
+  font-size: clamp(22px, 2.6vw, 30px);
+  font-weight: 800;
+  line-height: 1.15;
+}
+/* The recipe-id pill now sits directly under the title in the detail head,
+   so it gets a small top margin and aligns itself to the start of the row. */
+.recipes-detail-head > .recipes-copy-id {
+  margin-top: 6px;
+  align-self: flex-start;
+}
+
+/* Match the structure-viewer .copy-id button verbatim — same padding, radius,
+   colour, and hover so a copyable id reads consistently across all pages. */
+.recipes-copy-id {
+  display: inline-flex;
+  max-width: 100%;
+  margin: 0;
+  padding: 7px 10px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, .14);
+  background: rgba(255, 255, 255, .055);
+  color: var(--accent, #b6c8ff);
+  font-weight: 850;
+  font-size: 12px;
+  font-family: inherit;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: background .15s, border-color .15s;
+}
+.recipes-copy-id:hover { background: rgba(182, 200, 255, .14); border-color: rgba(182, 200, 255, .42); }
+.recipes-copy-id.is-copied { background: rgba(94, 230, 134, .12); border-color: rgba(94, 230, 134, .7); color: #6fe89b; }
+.recipes-copy-id code { background: transparent; padding: 0; color: inherit; font: inherit; }
+
+.recipes-detail-grid {
+  /* Single column: crafting-grid PNG on top, ingredients/pattern body below.
+     Avoids the side-by-side layout pushing wide-cell tables like
+     `#nice_things:dyeable_glazed_terracotta` past the right edge of the
+     detail pane. */
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  min-width: 0;
+}
+
+.recipes-detail-image-wrap {
+  background: rgba(255, 255, 255, .04);
+  border: 1px solid rgba(255, 255, 255, .08);
+  border-radius: 14px;
+  padding: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+}
+.recipes-detail-image {
+  width: 100%;
+  max-width: 720px;
+  height: auto;
+  image-rendering: pixelated;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Pattern/Ingredients/Tags body must clip to the detail pane width — long
+   tag names like #nice_things:dyeable_glazed_terracotta would otherwise
+   push the table beyond the right border of the card. */
+.recipes-detail-body { min-width: 0; overflow-wrap: anywhere; }
+.recipes-detail-noimage { color: rgba(255, 255, 255, .5); font-style: italic; padding: 24px; }
+
+.recipes-detail-body { font-size: 14px; line-height: 1.55; }
+.recipes-detail-body h3 { margin: 18px 0 10px; font-size: 16px; font-weight: 800; }
+.recipes-detail-body h4 { margin: 14px 0 6px; font-size: 14px; font-weight: 700; }
+.recipes-detail-body p { margin: 6px 0; }
+.recipes-detail-body ul { padding-left: 18px; margin: 6px 0; }
+.recipes-detail-body code { background: rgba(255, 255, 255, .07); padding: 1px 6px; border-radius: 4px; font-size: 12px; }
+.recipes-detail-body details {
+  background: rgba(255, 255, 255, .04);
+  border: 1px solid rgba(255, 255, 255, .08);
+  border-radius: 10px;
+  padding: 8px 12px;
+  margin: 8px 0;
+}
+.recipes-detail-body details summary { cursor: pointer; font-weight: 700; padding: 2px 0; }
+.recipes-detail-body table.ee-recipe-grid {
+  border-collapse: collapse;
+  margin: 8px 0;
+  background: rgba(255, 255, 255, .03);
+  border-radius: 8px;
+  overflow: hidden;
+  width: 100%;
+  /* Equal-width columns so a single long tag id can't blow out the layout. */
+  table-layout: fixed;
+}
+.recipes-detail-body table.ee-recipe-grid td {
+  border: 1px solid rgba(255, 255, 255, .12);
+  padding: 6px 10px;
+  font-size: 12px;
+  min-width: 0;
+  text-align: center;
+  /* Force long unbroken identifiers (#nice_things:dyeable_glazed_terracotta)
+     to wrap inside the cell rather than push the table past its container. */
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+.recipes-detail-loading { color: rgba(255, 255, 255, .55); font-style: italic; }
+
+/* Desktop: lock body to viewport height so a long recipe list can't push the page taller */
+
+@media (min-width: 901px) {
+  body.recipes-page {
+    height: 100vh;
+    overflow: hidden;
+  }
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+  .recipes-layout { grid-template-columns: 1fr; }
+  .recipes-sidebar {
+    position: static;
+    max-height: none;
+    gap: 0;
+    padding: 12px;
+  }
+  .recipes-sidebar-toggle { display: inline-flex; }
+  .recipes-sidebar-body {
+    display: none;
+    max-height: 50vh;
+    margin-top: 10px;
+  }
+  .recipes-sidebar-body.is-open { display: block; }
+  .recipes-detail-grid { grid-template-columns: 1fr; }
+  .recipes-detail { padding: 18px; }
+}

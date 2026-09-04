@@ -1,0 +1,55 @@
+# Minecraft version mappings — the single place to update when a new MC release drops.
+#
+# Referenced by:
+#   tools/scripts/fetch-configurator-pack-data.js  (data_pack_formats + resource_pack_formats)
+#   tools/scripts/fetch-resource-pack-data.js      (resource_pack_formats)
+#   tools/scripts/download-vanilla-assets.js       (latest)
+#   tools/scripts/generate-entity-renders.js       (latest)
+#
+# The client-side fallback in assets/scripts/data-pack-configurator.js is kept in sync
+# automatically: the CI scripts write packFormatToVersion into pack-data.json, which the
+# client reads at runtime. Update the client PACK_FORMAT_FALLBACK only if the first-deploy
+# fallback matters for a new version.
+
+# Absolute fallback version when no release_infos.yml is found in a repo
+latest: '26.2'
+
+# MC version → data pack format number.
+# Verified against misode/mcmeta pack.mcmeta.
+data_pack_formats:
+  '1.21':    48
+  '1.21.1':  48
+  '1.21.2':  57
+  '1.21.3':  57
+  '1.21.4':  61
+  '1.21.5':  71
+  '1.21.6':  80
+  '1.21.7':  81
+  '1.21.8':  81
+  '1.21.9':  88
+  '1.21.10': 88
+  '1.21.11': 94
+  '26.1':    101
+  '26.1.1':  101
+  '26.1.2':  101
+  '26.2':  107.1
+
+# MC version → resource pack format number.
+# Verified against misode/mcmeta -assets tags.
+resource_pack_formats:
+  '1.21':    34
+  '1.21.1':  34
+  '1.21.2':  42
+  '1.21.3':  42
+  '1.21.4':  46
+  '1.21.5':  55
+  '1.21.6':  63
+  '1.21.7':  64
+  '1.21.8':  64
+  '1.21.9':  69
+  '1.21.10': 69
+  '1.21.11': 75
+  '26.1':    84
+  '26.1.1':  84
+  '26.1.2':  84
+  '26.2':  88

@@ -1,0 +1,203 @@
+{
+  "discordId": "667348213421965312",
+  "uuid": "332558e6-5234-4c0a-a53a-fd74f7c9a9b5",
+  "name": "M80R35E",
+  "skinIcon": "/assets/images/generated/player-skins/332558e6-5234-4c0a-a53a-fd74f7c9a9b5.png",
+  "headIcon": "/assets/images/generated/player-heads/332558e6-5234-4c0a-a53a-fd74f7c9a9b5.png",
+  "race": "Turtlekin",
+  "class": "Miner",
+  "advancementsCompleted": 2,
+  "advancementsDetailed": [
+    {
+      "category": "Adventure",
+      "items": [
+        {
+          "label": "Adventure",
+          "description": "Adventure, exploration and combat",
+          "done": true
+        },
+        {
+          "label": "Adventuring Time",
+          "description": "Discover every biome",
+          "done": false
+        }
+      ],
+      "doneCount": 1
+    },
+    {
+      "category": "Katters Structures (General)",
+      "items": [
+        {
+          "label": "Katters Structures",
+          "description": "Brand new vanilla like structures!",
+          "done": true
+        }
+      ],
+      "doneCount": 1
+    }
+  ],
+  "stats": {
+    "playtimeHours": 0.2,
+    "deaths": 1,
+    "mobKillsTotal": 0,
+    "blocksMinedTotal": 2
+  },
+  "statsDetailed": [
+    {
+      "category": "General",
+      "items": [
+        {
+          "label": "Fly",
+          "value": "440 blocks",
+          "raw": 44047
+        },
+        {
+          "label": "Sprint",
+          "value": "206 blocks",
+          "raw": 20570
+        },
+        {
+          "label": "Play Time",
+          "value": "15 min",
+          "raw": 17581
+        },
+        {
+          "label": "Total World Time",
+          "value": "15 min",
+          "raw": 17581
+        },
+        {
+          "label": "Fall",
+          "value": "123 blocks",
+          "raw": 12321
+        },
+        {
+          "label": "Walk",
+          "value": "95 blocks",
+          "raw": 9482
+        },
+        {
+          "label": "Time Since Rest",
+          "value": "7 min",
+          "raw": 8455
+        },
+        {
+          "label": "Time Since Death",
+          "value": "7 min",
+          "raw": 8429
+        },
+        {
+          "label": "Walk On Water",
+          "value": "4 blocks",
+          "raw": 406
+        },
+        {
+          "label": "Damage Taken",
+          "value": "360",
+          "raw": 360
+        },
+        {
+          "label": "Jump",
+          "value": "210",
+          "raw": 210
+        },
+        {
+          "label": "Crouch",
+          "value": "2 blocks",
+          "raw": 202
+        },
+        {
+          "label": "Damage Dealt",
+          "value": "196",
+          "raw": 196
+        },
+        {
+          "label": "Sneak Time",
+          "value": "0 min",
+          "raw": 76
+        },
+        {
+          "label": "Interact With Crafting Table",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Talked To Villager",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Leave Game",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Deaths",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Blocks Mined",
+      "items": [
+        {
+          "label": "Short Grass",
+          "value": "2",
+          "raw": 2
+        }
+      ]
+    },
+    {
+      "category": "Items Used",
+      "items": [
+        {
+          "label": "Makeshift Claim Anchor",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Goggles",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Fishing Rod",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Items Picked Up",
+      "items": [
+        {
+          "label": "Birch Boat",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Killed By",
+      "items": [
+        {
+          "label": "Zombie",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "dimension": "Overworld",
+      "x": -101,
+      "y": 64,
+      "z": -975,
+      "anchorType": "Makeshift Claim Anchor",
+      "trusted": []
+    }
+  ],
+  "waypoints": []
+}

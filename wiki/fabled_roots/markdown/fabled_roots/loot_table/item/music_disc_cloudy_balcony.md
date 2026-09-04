@@ -1,0 +1,5 @@
+# Music Disc Cloudy Balcony
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| <img src="https://explorerseden.eu/wiki/fabled_roots/images/items/fabled_roots/roots_disc_A8FCFF.png" height="16" style="vertical-align:middle; image-rendering:pixelated"> Music Disc (Peter Hont - Cloudy Balcony) | 1 | 1 | 5 | 100% |

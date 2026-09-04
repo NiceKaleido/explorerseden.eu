@@ -1,0 +1,456 @@
+{
+  "discordId": "972136738099195925",
+  "uuid": "dd3064df-6f7e-477d-be6d-a48aa52254ea",
+  "name": "thefrogman42",
+  "skinIcon": "/assets/images/generated/player-skins/dd3064df-6f7e-477d-be6d-a48aa52254ea.png",
+  "headIcon": "/assets/images/generated/player-heads/dd3064df-6f7e-477d-be6d-a48aa52254ea.png",
+  "race": "Oakhearted",
+  "class": "Hermit",
+  "advancementsCompleted": 7,
+  "advancementsDetailed": [
+    {
+      "category": "Adventure",
+      "items": [
+        {
+          "label": "Adventure",
+          "description": "Adventure, exploration and combat",
+          "done": true
+        },
+        {
+          "label": "Adventuring Time",
+          "description": "Discover every biome",
+          "done": false
+        },
+        {
+          "label": "Monster Hunter",
+          "description": "Kill any hostile monster",
+          "done": true
+        },
+        {
+          "label": "Monsters Hunted",
+          "description": "Kill one of every hostile monster",
+          "done": false
+        }
+      ],
+      "doneCount": 2
+    },
+    {
+      "category": "Husbandry",
+      "items": [
+        {
+          "label": "A Balanced Diet",
+          "description": "Eat everything that is edible, even if it's not good for you",
+          "done": false
+        },
+        {
+          "label": "Fishy Business",
+          "description": "Catch a fish",
+          "done": true
+        },
+        {
+          "label": "Husbandry",
+          "description": "The world is full of friends and food",
+          "done": true
+        },
+        {
+          "label": "The Parrots and the Bats",
+          "description": "Breed two animals together",
+          "done": true
+        },
+        {
+          "label": "Two by Two",
+          "description": "Breed all the animals!",
+          "done": false
+        }
+      ],
+      "doneCount": 3
+    },
+    {
+      "category": "Katters Structures (General)",
+      "items": [
+        {
+          "label": "Katters Structures",
+          "description": "Brand new vanilla like structures!",
+          "done": true
+        }
+      ],
+      "doneCount": 1
+    },
+    {
+      "category": "Story",
+      "items": [
+        {
+          "label": "Minecraft",
+          "description": "The heart and story of the game",
+          "done": true
+        }
+      ],
+      "doneCount": 1
+    }
+  ],
+  "stats": {
+    "playtimeHours": 0.5,
+    "deaths": 1,
+    "mobKillsTotal": 7,
+    "blocksMinedTotal": 74
+  },
+  "statsDetailed": [
+    {
+      "category": "General",
+      "items": [
+        {
+          "label": "Walk",
+          "value": "852 blocks",
+          "raw": 85247
+        },
+        {
+          "label": "Sprint",
+          "value": "428 blocks",
+          "raw": 42795
+        },
+        {
+          "label": "Play Time",
+          "value": "31 min",
+          "raw": 37509
+        },
+        {
+          "label": "Total World Time",
+          "value": "31 min",
+          "raw": 37509
+        },
+        {
+          "label": "Fly",
+          "value": "169 blocks",
+          "raw": 16929
+        },
+        {
+          "label": "Fall",
+          "value": "112 blocks",
+          "raw": 11160
+        },
+        {
+          "label": "Time Since Rest",
+          "value": "9 min",
+          "raw": 10949
+        },
+        {
+          "label": "Time Since Death",
+          "value": "9 min",
+          "raw": 10885
+        },
+        {
+          "label": "Swim",
+          "value": "46 blocks",
+          "raw": 4638
+        },
+        {
+          "label": "Walk On Water",
+          "value": "42 blocks",
+          "raw": 4212
+        },
+        {
+          "label": "Walk Under Water",
+          "value": "13 blocks",
+          "raw": 1316
+        },
+        {
+          "label": "Damage Dealt",
+          "value": "710",
+          "raw": 710
+        },
+        {
+          "label": "Damage Taken",
+          "value": "452",
+          "raw": 452
+        },
+        {
+          "label": "Jump",
+          "value": "133",
+          "raw": 133
+        },
+        {
+          "label": "Sneak Time",
+          "value": "0 min",
+          "raw": 17
+        },
+        {
+          "label": "Mob Kills",
+          "value": "7",
+          "raw": 7
+        },
+        {
+          "label": "Talked To Villager",
+          "value": "4",
+          "raw": 4
+        },
+        {
+          "label": "Leave Game",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Fish Caught",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Interact With Crafting Table",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Deaths",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Animals Bred",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Blocks Mined",
+      "items": [
+        {
+          "label": "Hay Block",
+          "value": "22",
+          "raw": 22
+        },
+        {
+          "label": "Oak Leaves",
+          "value": "17",
+          "raw": 17
+        },
+        {
+          "label": "Oak Log",
+          "value": "15",
+          "raw": 15
+        },
+        {
+          "label": "Grass Block",
+          "value": "6",
+          "raw": 6
+        },
+        {
+          "label": "Spruce Log",
+          "value": "5",
+          "raw": 5
+        },
+        {
+          "label": "Spruce Leaves",
+          "value": "5",
+          "raw": 5
+        },
+        {
+          "label": "Short Grass",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Dirt",
+          "value": "2",
+          "raw": 2
+        }
+      ]
+    },
+    {
+      "category": "Items Crafted",
+      "items": [
+        {
+          "label": "Wheat",
+          "value": "198",
+          "raw": 198
+        },
+        {
+          "label": "Oak Planks",
+          "value": "60",
+          "raw": 60
+        },
+        {
+          "label": "Bread",
+          "value": "22",
+          "raw": 22
+        },
+        {
+          "label": "Spruce Planks",
+          "value": "16",
+          "raw": 16
+        },
+        {
+          "label": "Stick",
+          "value": "8",
+          "raw": 8
+        },
+        {
+          "label": "Crafting Table",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Wooden Axe",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Wooden Sword",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Items Used",
+      "items": [
+        {
+          "label": "Wooden Axe",
+          "value": "40",
+          "raw": 40
+        },
+        {
+          "label": "Wooden Sword",
+          "value": "6",
+          "raw": 6
+        },
+        {
+          "label": "Dirt",
+          "value": "6",
+          "raw": 6
+        },
+        {
+          "label": "Fishing Rod",
+          "value": "6",
+          "raw": 6
+        },
+        {
+          "label": "Crafting Table",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Goggles",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Cooked Porkchop",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Items Picked Up",
+      "items": [
+        {
+          "label": "Hay Block",
+          "value": "22",
+          "raw": 22
+        },
+        {
+          "label": "Oak Log",
+          "value": "15",
+          "raw": 15
+        },
+        {
+          "label": "Dirt",
+          "value": "8",
+          "raw": 8
+        },
+        {
+          "label": "Spruce Log",
+          "value": "5",
+          "raw": 5
+        },
+        {
+          "label": "Porkchop",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Cod",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Feather",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Chicken",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Brown Egg",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Oak Sapling",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Wheat Seeds",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Magenta Wool",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Mutton",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Mobs Killed",
+      "items": [
+        {
+          "label": "Chicken",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Sheep",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Zombie",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Skeleton",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Pig",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Killed By",
+      "items": [
+        {
+          "label": "Rabbit",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    }
+  ],
+  "claims": [],
+  "waypoints": []
+}

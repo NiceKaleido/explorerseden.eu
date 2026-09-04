@@ -1,0 +1,11 @@
+**/.DS_Store
+CLAUDE.md
+.git/
+.chache/
+.cache/
+.claude/
+node_modules/
+package-lock.json
+local.env.php
+.env
+assets/cache/*.json

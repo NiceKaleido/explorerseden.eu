@@ -1,0 +1,752 @@
+{
+  "discordId": "596824106272292874",
+  "uuid": "1f0f2102-00cd-4406-a777-7209c0b80151",
+  "name": "JankyMuffinZ",
+  "skinIcon": "/assets/images/generated/player-skins/1f0f2102-00cd-4406-a777-7209c0b80151.png",
+  "headIcon": "/assets/images/generated/player-heads/1f0f2102-00cd-4406-a777-7209c0b80151.png",
+  "race": "Palehearted",
+  "class": "Cleric",
+  "advancementsCompleted": 8,
+  "advancementsDetailed": [
+    {
+      "category": "Adventure",
+      "items": [
+        {
+          "label": "Adventure",
+          "description": "Adventure, exploration and combat",
+          "done": true
+        },
+        {
+          "label": "Adventuring Time",
+          "description": "Discover every biome",
+          "done": false
+        },
+        {
+          "label": "Monster Hunter",
+          "description": "Kill any hostile monster",
+          "done": true
+        },
+        {
+          "label": "Monsters Hunted",
+          "description": "Kill one of every hostile monster",
+          "done": false
+        }
+      ],
+      "doneCount": 2
+    },
+    {
+      "category": "Husbandry",
+      "items": [
+        {
+          "label": "A Balanced Diet",
+          "description": "Eat everything that is edible, even if it's not good for you",
+          "done": false
+        },
+        {
+          "label": "Husbandry",
+          "description": "The world is full of friends and food",
+          "done": true
+        }
+      ],
+      "doneCount": 1
+    },
+    {
+      "category": "Katters Structures (Ambient)",
+      "items": [
+        {
+          "label": "Seafaring Shacks",
+          "description": "Discover tiny villager boats dotting the ocean.",
+          "done": true
+        }
+      ],
+      "doneCount": 1
+    },
+    {
+      "category": "Katters Structures (General)",
+      "items": [
+        {
+          "label": "Katters Structures",
+          "description": "Brand new vanilla like structures!",
+          "done": true
+        }
+      ],
+      "doneCount": 1
+    },
+    {
+      "category": "Story",
+      "items": [
+        {
+          "label": "Getting an Upgrade",
+          "description": "Construct a better Pickaxe",
+          "done": true
+        },
+        {
+          "label": "Minecraft",
+          "description": "The heart and story of the game",
+          "done": true
+        },
+        {
+          "label": "Stone Age",
+          "description": "Mine Stone with your new Pickaxe",
+          "done": true
+        }
+      ],
+      "doneCount": 3
+    }
+  ],
+  "stats": {
+    "playtimeHours": 0.6,
+    "deaths": 0,
+    "mobKillsTotal": 11,
+    "blocksMinedTotal": 146
+  },
+  "statsDetailed": [
+    {
+      "category": "General",
+      "items": [
+        {
+          "label": "Fly",
+          "value": "1,468 blocks",
+          "raw": 146807
+        },
+        {
+          "label": "Boat",
+          "value": "1,384 blocks",
+          "raw": 138440
+        },
+        {
+          "label": "Swim",
+          "value": "969 blocks",
+          "raw": 96852
+        },
+        {
+          "label": "Sprint",
+          "value": "779 blocks",
+          "raw": 77872
+        },
+        {
+          "label": "Walk",
+          "value": "454 blocks",
+          "raw": 45426
+        },
+        {
+          "label": "Time Since Rest",
+          "value": "34 min",
+          "raw": 41317
+        },
+        {
+          "label": "Time Since Death",
+          "value": "34 min",
+          "raw": 41317
+        },
+        {
+          "label": "Total World Time",
+          "value": "34 min",
+          "raw": 41317
+        },
+        {
+          "label": "Play Time",
+          "value": "34 min",
+          "raw": 41317
+        },
+        {
+          "label": "Fall",
+          "value": "291 blocks",
+          "raw": 29058
+        },
+        {
+          "label": "Walk On Water",
+          "value": "105 blocks",
+          "raw": 10452
+        },
+        {
+          "label": "Walk Under Water",
+          "value": "64 blocks",
+          "raw": 6391
+        },
+        {
+          "label": "Crouch",
+          "value": "51 blocks",
+          "raw": 5090
+        },
+        {
+          "label": "Sneak Time",
+          "value": "2 min",
+          "raw": 2967
+        },
+        {
+          "label": "Damage Dealt",
+          "value": "2,353",
+          "raw": 2353
+        },
+        {
+          "label": "Damage Taken",
+          "value": "703",
+          "raw": 703
+        },
+        {
+          "label": "Jump",
+          "value": "673",
+          "raw": 673
+        },
+        {
+          "label": "Damage Absorbed",
+          "value": "138",
+          "raw": 138
+        },
+        {
+          "label": "Mob Kills",
+          "value": "11",
+          "raw": 11
+        },
+        {
+          "label": "Open Chest",
+          "value": "8",
+          "raw": 8
+        },
+        {
+          "label": "Interact With Crafting Table",
+          "value": "7",
+          "raw": 7
+        },
+        {
+          "label": "Talked To Villager",
+          "value": "5",
+          "raw": 5
+        },
+        {
+          "label": "Drop",
+          "value": "5",
+          "raw": 5
+        },
+        {
+          "label": "Open Barrel",
+          "value": "4",
+          "raw": 4
+        },
+        {
+          "label": "Bell Ring",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Leave Game",
+          "value": "2",
+          "raw": 2
+        }
+      ]
+    },
+    {
+      "category": "Blocks Mined",
+      "items": [
+        {
+          "label": "Azalea Leaves",
+          "value": "26",
+          "raw": 26
+        },
+        {
+          "label": "Oak Log",
+          "value": "21",
+          "raw": 21
+        },
+        {
+          "label": "Stone",
+          "value": "20",
+          "raw": 20
+        },
+        {
+          "label": "Hay Block",
+          "value": "13",
+          "raw": 13
+        },
+        {
+          "label": "Sugar Cane",
+          "value": "9",
+          "raw": 9
+        },
+        {
+          "label": "Copper Ore",
+          "value": "8",
+          "raw": 8
+        },
+        {
+          "label": "Acacia Leaves",
+          "value": "6",
+          "raw": 6
+        },
+        {
+          "label": "Acacia Log",
+          "value": "6",
+          "raw": 6
+        },
+        {
+          "label": "Dirt",
+          "value": "5",
+          "raw": 5
+        },
+        {
+          "label": "Flowering Azalea Leaves",
+          "value": "5",
+          "raw": 5
+        },
+        {
+          "label": "Crafting Table",
+          "value": "4",
+          "raw": 4
+        },
+        {
+          "label": "Fire Coral Block",
+          "value": "4",
+          "raw": 4
+        },
+        {
+          "label": "Cobweb",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Cactus",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Sandstone Stairs",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Beetroots",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Sea Pickle",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Pumpkin",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Short Grass",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Sandstone",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Grass Block",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Decorated Pot",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Yellow Bed",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Horn Coral",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Seagrass",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Dead Bush",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Items Crafted",
+      "items": [
+        {
+          "label": "Wheat",
+          "value": "117",
+          "raw": 117
+        },
+        {
+          "label": "Bread",
+          "value": "39",
+          "raw": 39
+        },
+        {
+          "label": "Acacia Planks",
+          "value": "24",
+          "raw": 24
+        },
+        {
+          "label": "Stick",
+          "value": "8",
+          "raw": 8
+        },
+        {
+          "label": "Pumpkin Seeds",
+          "value": "4",
+          "raw": 4
+        },
+        {
+          "label": "Stone Sword",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Wooden Pickaxe",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Acacia Boat",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Stone Axe",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Stone Pickaxe",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Crafting Table",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Items Used",
+      "items": [
+        {
+          "label": "Stone Sword",
+          "value": "67",
+          "raw": 67
+        },
+        {
+          "label": "Stone Axe",
+          "value": "46",
+          "raw": 46
+        },
+        {
+          "label": "Wooden Pickaxe",
+          "value": "19",
+          "raw": 19
+        },
+        {
+          "label": "Stone Pickaxe",
+          "value": "17",
+          "raw": 17
+        },
+        {
+          "label": "Bread",
+          "value": "6",
+          "raw": 6
+        },
+        {
+          "label": "Dirt",
+          "value": "6",
+          "raw": 6
+        },
+        {
+          "label": "Acacia Boat",
+          "value": "5",
+          "raw": 5
+        },
+        {
+          "label": "Acacia Planks",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Cooked Cod",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Oak Log",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Crafting Table",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Cooked Rabbit",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Goggles",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Cooked Chicken",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Cooked Beef",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Pink Bundle",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Items Picked Up",
+      "items": [
+        {
+          "label": "Sugar Cane",
+          "value": "37",
+          "raw": 37
+        },
+        {
+          "label": "Raw Copper",
+          "value": "27",
+          "raw": 27
+        },
+        {
+          "label": "Oak Log",
+          "value": "21",
+          "raw": 21
+        },
+        {
+          "label": "Cobblestone",
+          "value": "20",
+          "raw": 20
+        },
+        {
+          "label": "Hay Block",
+          "value": "13",
+          "raw": 13
+        },
+        {
+          "label": "Cactus",
+          "value": "9",
+          "raw": 9
+        },
+        {
+          "label": "Dirt",
+          "value": "6",
+          "raw": 6
+        },
+        {
+          "label": "Acacia Log",
+          "value": "6",
+          "raw": 6
+        },
+        {
+          "label": "Acacia Boat",
+          "value": "4",
+          "raw": 4
+        },
+        {
+          "label": "Crafting Table",
+          "value": "4",
+          "raw": 4
+        },
+        {
+          "label": "Dead Fire Coral Block",
+          "value": "4",
+          "raw": 4
+        },
+        {
+          "label": "String",
+          "value": "4",
+          "raw": 4
+        },
+        {
+          "label": "Sea Pickle",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Stick",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Azalea",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Rabbit",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Cactus Flower",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Rotten Flesh",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Pink Bundle",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Yellow Bed",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Sweet Berries",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Rabbit Hide",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Brown Mushroom",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Acacia Sapling",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Sand",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Pumpkin",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Jungle Sign",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Player Head",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Decorated Pot",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Beetroot Seeds",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Rabbit Foot",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Items Dropped",
+      "items": [
+        {
+          "label": "Jungle Sign",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Decorated Pot",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Brown Mushroom",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Sweet Berries",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Wooden Pickaxe",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Mobs Killed",
+      "items": [
+        {
+          "label": "Rabbit",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Zombie",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Husk",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Parched",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Enderman",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Drowned",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Spider",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    }
+  ],
+  "claims": [],
+  "waypoints": []
+}

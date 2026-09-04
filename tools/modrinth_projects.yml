@@ -1,0 +1,14 @@
+# Explorer's Eden Modrinth project slugs
+# Format: modrinth-slug: "Display Name"
+# Read by modrinth-projects.php (PHP) and fetch-resource-pack-data.js (Node.js).
+enchantments-encore: "Enchantments Encore"
+fabled-roots: "Fabled Roots"
+katters-structures: "Katters Structures"
+nice-actions: "Nice Actions"
+nice-admin-tools: "Nice Admin Tools"
+nice-keep-inventory: "Nice Keep Inventory"
+nice-mob-manager: "Nice Mob Manager"
+nice-mob-variants: "Nice Mob Variants"
+nice-name-tags: "Nice Name Tags"
+nice-things-eden: "Nice Things"
+warping-wonders: "Warping Wonders"

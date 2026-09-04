@@ -1,0 +1,99 @@
+{
+  "discordId": "534485845663809536",
+  "uuid": "ef58308a-4cb9-41ce-b05f-09cfaeee0b70",
+  "name": "RoseBarry97",
+  "skinIcon": "/assets/images/generated/player-skins/ef58308a-4cb9-41ce-b05f-09cfaeee0b70.png",
+  "headIcon": "/assets/images/generated/player-heads/ef58308a-4cb9-41ce-b05f-09cfaeee0b70.png",
+  "race": "Dunesworn",
+  "class": "Hermit",
+  "advancementsCompleted": 1,
+  "advancementsDetailed": [
+    {
+      "category": "Adventure",
+      "items": [
+        {
+          "label": "Adventuring Time",
+          "description": "Discover every biome",
+          "done": false
+        }
+      ],
+      "doneCount": 0
+    },
+    {
+      "category": "Katters Structures (General)",
+      "items": [
+        {
+          "label": "Katters Structures",
+          "description": "Brand new vanilla like structures!",
+          "done": true
+        }
+      ],
+      "doneCount": 1
+    }
+  ],
+  "stats": {
+    "playtimeHours": 0.1,
+    "deaths": 0,
+    "mobKillsTotal": 0,
+    "blocksMinedTotal": 0
+  },
+  "statsDetailed": [
+    {
+      "category": "General",
+      "items": [
+        {
+          "label": "Walk",
+          "value": "535 blocks",
+          "raw": 53523
+        },
+        {
+          "label": "Time Since Rest",
+          "value": "8 min",
+          "raw": 9867
+        },
+        {
+          "label": "Total World Time",
+          "value": "8 min",
+          "raw": 9867
+        },
+        {
+          "label": "Play Time",
+          "value": "8 min",
+          "raw": 9867
+        },
+        {
+          "label": "Time Since Death",
+          "value": "8 min",
+          "raw": 9867
+        },
+        {
+          "label": "Sprint",
+          "value": "96 blocks",
+          "raw": 9591
+        },
+        {
+          "label": "Fly",
+          "value": "53 blocks",
+          "raw": 5324
+        },
+        {
+          "label": "Jump",
+          "value": "40",
+          "raw": 40
+        },
+        {
+          "label": "Interact With Crafting Table",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Leave Game",
+          "value": "2",
+          "raw": 2
+        }
+      ]
+    }
+  ],
+  "claims": [],
+  "waypoints": []
+}

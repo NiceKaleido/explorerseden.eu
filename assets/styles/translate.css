@@ -1,0 +1,797 @@
+.translate-page {
+  width: min(1680px, calc(100% - 32px));
+  max-width: 1680px;
+  margin: 0 auto;
+  padding: 2rem 0 4rem;
+}
+
+/* Same treatment as the site-wide #clear-search (enchantments.css) - these
+   need their own IDs since My/All Suggestions each have their own search
+   box on the same page as the detail view's, and IDs must be unique. */
+#translate-mine-clear-search,
+#translate-admin-clear-search,
+#translate-voting-clear-search {
+  position: absolute;
+  right: 7px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+  border: 0;
+  border-radius: 999px;
+  cursor: pointer;
+  color: #fff;
+  background: rgba(255,255,255,.10);
+  font-size: 20px;
+  line-height: 1;
+}
+#translate-mine-clear-search:hover,
+#translate-admin-clear-search:hover,
+#translate-voting-clear-search:hover {
+  background: rgba(255,255,255,.18);
+}
+
+.translate-hero {
+  text-align: center;
+  padding: 22px 0 10px;
+  margin-bottom: 1.5rem;
+}
+
+.translate-hero__logo {
+  width: min(700px, 92vw);
+  max-width: 100%;
+  display: block;
+  margin: 0 auto 18px;
+  filter: drop-shadow(0 18px 26px rgba(0, 0, 0, .65));
+}
+
+/* Discord-membership notice, shown above the data pack cards. */
+
+.translate-discord-notice {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 20px;
+  border: 1px solid rgba(255, 255, 255, .14);
+  border-radius: 16px;
+  background: rgba(8, 10, 18, .5);
+  backdrop-filter: blur(12px);
+}
+
+.translate-discord-notice i {
+  font-size: 20px;
+  color: var(--accent);
+  flex: 0 0 auto;
+}
+
+.translate-discord-notice p {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.translate-discord-notice a {
+  color: var(--accent);
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.translate-loading,
+.translate-empty {
+  text-align: center;
+  color: var(--muted);
+}
+
+/* Exactly 3 fixed-width columns (not 3 equal shares of the row) so cards
+   stay the same size they always were - wide screens just leave the
+   leftover row space empty instead of stretching cards to fill it. */
+.translate-landing {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(280px, 320px));
+  justify-content: center;
+  gap: 1.1rem;
+}
+
+@media (max-width: 980px) {
+  .translate-landing { grid-template-columns: repeat(2, minmax(280px, 320px)); }
+}
+
+@media (max-width: 620px) {
+  .translate-landing { grid-template-columns: 1fr; justify-content: stretch; }
+}
+
+.translate-card {
+  display: block;
+  padding: 1.1rem 1.25rem;
+  border-radius: 14px;
+  background: linear-gradient(160deg, var(--card-a), var(--card-b));
+  border: 1px solid var(--line);
+  text-decoration: none;
+  color: var(--text);
+  transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+}
+
+.translate-card:hover {
+  transform: translateY(-2px);
+  border-color: color-mix(in srgb, var(--accent) 48%, transparent);
+  box-shadow: 0 14px 30px rgba(0,0,0,.28);
+}
+
+.translate-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: .6rem;
+  padding-bottom: .7rem;
+  margin-bottom: .7rem;
+  border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+/* Always reserves 2 lines of height, even for titles that only need 1, so
+   cards in the same grid row line up instead of the badge/divider below
+   sitting at a different height per card depending on title length. */
+.translate-card__header h3 {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 900;
+  line-height: 1.25;
+  min-height: 2.5em;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.translate-card__overall {
+  flex: 0 0 auto;
+  font-size: .76rem;
+  color: var(--accent-2);
+  font-weight: 800;
+  white-space: nowrap;
+  padding: 5px 12px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--accent-2) 14%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent-2) 30%, transparent);
+}
+
+.translate-card__meta {
+  margin: -.35rem 0 .7rem;
+  color: var(--muted);
+  font-size: .82rem;
+}
+
+.translate-card__locales {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: .45rem;
+}
+
+.translate-card__locales li {
+  display: grid;
+  grid-template-columns: 4.5rem 1fr 2.5rem;
+  align-items: center;
+  gap: .5rem;
+  font-size: .78rem;
+}
+
+.translate-card__locale-name {
+  color: var(--muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.translate-card__locale-pct {
+  text-align: right;
+  color: var(--muted);
+}
+
+/* Voting cards have no progress bar - just a name/count pair per locale,
+   given some breathing room as its own pill row rather than bare text so
+   it doesn't read as a cramped, redundant echo of the header badge above. */
+.translate-card__locales--voting li {
+  grid-template-columns: 1fr auto;
+  padding: .5rem .7rem;
+  border-radius: 10px;
+  background: rgba(255,255,255,.035);
+}
+
+.translate-card__locales--voting .translate-card__locale-name {
+  font-weight: 650;
+  color: var(--text);
+}
+
+.translate-card__locales--voting .translate-card__locale-pct {
+  color: var(--accent-2);
+  font-weight: 800;
+  letter-spacing: .01em;
+}
+
+.translate-progress-bar {
+  height: 6px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.08);
+  overflow: hidden;
+}
+
+.translate-progress-bar__fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  border-radius: 999px;
+}
+
+/* Detail view */
+
+.translate-detail__back {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  color: var(--muted);
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+
+.translate-detail__back:hover { color: var(--text); }
+
+.translate-detail__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .75rem;
+  margin-bottom: 1rem;
+}
+
+.translate-detail__header h2 {
+  margin: 0;
+  font-weight: 900;
+  font-size: 1.4rem;
+  letter-spacing: .01em;
+  color: #fff;
+}
+
+.translate-locale-picker select {
+  background: var(--glass);
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: .5rem .75rem;
+  font: inherit;
+}
+
+/* Sits directly to the left of the search box in .translate-detail__tools -
+   styled to match the search-wrap pill (enchantments.css) exactly, down to
+   the box model, rather than the plain select above. Native <select> chrome
+   (appearance, intrinsic padding) varies enough across browsers that just
+   copying the input's padding/border isn't enough to make the two pills
+   line up, so the native arrow is stripped and a CSS-drawn one takes over. */
+.translate-locale-picker--inline {
+  position: relative;
+  display: inline-flex;
+  flex: 0 0 auto;
+}
+
+.translate-locale-picker--inline select {
+  appearance: none;
+  -webkit-appearance: none;
+  box-sizing: border-box;
+  margin: 0;
+  /* Fixed height rather than relying on padding+line-height to land on the
+     same number as the search input's box - Safari keeps a sliver of
+     intrinsic <select> sizing even under appearance:none, so matching the
+     math isn't enough to match the render. */
+  height: 38px;
+  background: rgba(5,7,13,.58);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,.16);
+  border-radius: 16px;
+  padding: 0 34px 0 16px;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 750;
+  line-height: normal;
+  box-shadow: 0 10px 24px rgba(0,0,0,.18), inset 0 1px 0 rgba(255,255,255,.12);
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+}
+
+.translate-locale-picker--inline select:focus {
+  outline: none;
+  border-color: color-mix(in srgb, var(--accent) 56%, transparent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 18%, transparent), 0 12px 28px rgba(0,0,0,.28);
+}
+
+.translate-locale-picker--inline::after {
+  content: "";
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  width: 7px;
+  height: 7px;
+  border-right: 2px solid var(--accent);
+  border-bottom: 2px solid var(--accent);
+  transform: translateY(-70%) rotate(45deg);
+  pointer-events: none;
+}
+
+.translate-detail__tools {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+/* .search-wrap / .results-count come from enchantments.css (loaded site-wide).
+   Pin the input to the same explicit height as the locale-picker select
+   right next to it - box-sizing:border-box means padding is already
+   included, so this can't fight the input's own 10px/38px padding rule. */
+.translate-detail__tools .search-wrap input {
+  box-sizing: border-box;
+  height: 38px;
+}
+
+.translate-detail__tools .search-wrap {
+  flex: 1 1 320px;
+  max-width: 480px;
+}
+
+/* Table - matches the enchantments table's visual language exactly
+   (.enchantments-page overrides the base .table-card look the same way) */
+
+.translate-table-card.table-card {
+  width: 100%;
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,.08);
+  background: rgba(8,10,18,.55);
+  box-shadow: none;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.translate-table-card.table-card::before {
+  display: none;
+}
+
+.translate-table {
+  width: 100%;
+  min-width: 900px;
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+.translate-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  text-align: left;
+  padding: 13px;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  color: var(--accent, #b6c8ff);
+  background: rgba(5, 7, 13, .48);
+  border-bottom: 1px solid rgba(255,255,255,.08);
+  border-right: 1px solid rgba(255,255,255,.06);
+}
+.translate-table thead th:first-child { border-left: 1px solid rgba(255,255,255,.06); }
+.translate-table thead th:nth-child(1) { width: 32%; }
+.translate-table thead th:nth-child(2) { width: 32%; }
+.translate-table thead th:nth-child(3) { width: 22%; }
+.translate-table thead th:nth-child(4) { width: 14%; text-align: center; }
+
+.translate-row > td {
+  padding: 10px 13px;
+  font-size: .84rem;
+  line-height: 1.5;
+  color: rgba(247,251,255,.92);
+  font-weight: 650;
+  vertical-align: top;
+  overflow-wrap: anywhere;
+  border-bottom: 1px solid rgba(255,255,255,.06);
+  border-right: 1px solid rgba(255,255,255,.06);
+}
+.translate-row > td:first-child { border-left: 1px solid rgba(255,255,255,.06); }
+.translate-row:hover > td { background: color-mix(in srgb, var(--accent) 7%, transparent); }
+.translate-row:last-child > td { border-bottom: 0; }
+
+.translate-row__text {
+  display: block;
+  font-weight: 900;
+  color: #fff;
+}
+
+.translate-row__path {
+  display: block;
+  margin-top: .25rem;
+  font-size: .68rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.translate-row__empty {
+  color: var(--muted);
+  font-style: italic;
+  font-weight: 600;
+}
+
+.translate-row__outdated {
+  color: #ffb35c;
+  margin-left: .35rem;
+}
+
+.translate-row__suggestions { text-align: center; }
+.translate-vote-none { color: var(--muted); font-style: italic; font-weight: 600; font-size: .78rem; }
+
+/* My/All Suggestions tables - deliberately separate from .translate-table's
+   nth-child column widths, which are sized for that table's fixed 4 columns.
+   This table's column count varies (4 without an author column, 5 with),
+   so columns are targeted by semantic class instead of position. */
+.translate-suggestions-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+.translate-suggestions-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  text-align: left;
+  padding: 10px 13px;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  color: var(--accent, #b6c8ff);
+  background: rgba(5, 7, 13, .48);
+  border-bottom: 1px solid rgba(255,255,255,.08);
+  border-right: 1px solid rgba(255,255,255,.06);
+}
+.translate-suggestions-table thead th:first-child { border-left: 1px solid rgba(255,255,255,.06); }
+
+.translate-suggestions-table__source { width: 28%; }
+.translate-suggestions-table__author { width: 12%; text-align: center; }
+.translate-suggestions-table__status { width: 12%; text-align: center; }
+.translate-suggestions-table__votes { width: 15%; text-align: center; white-space: nowrap; }
+/* __body (the suggestion text itself) is intentionally left unset - it's
+   the one flexible column, taking whatever's left regardless of whether
+   __author is present, so 4- and 5-column layouts both size correctly. */
+
+.translate-suggestions-table__votes .translate-suggestion__delete {
+  margin-top: 4px;
+}
+
+.translate-row__time-left,
+.translate-row__votes-needed {
+  display: block;
+  margin-top: .3rem;
+  font-size: .68rem;
+  font-weight: 700;
+}
+
+.translate-row__time-left { color: var(--accent-2); }
+.translate-row__votes-needed { color: var(--muted); }
+
+/* Voting's table has no status column, so the votes column (score + up/down
+   + delete, all narrow) doesn't need as much width as the 5-column layout
+   shared with My Suggestions - give the freed-up space to the body column. */
+#translate-voting-list .translate-suggestions-table__votes { width: 9%; }
+
+.translate-card__empty {
+  margin: 0;
+  padding: .5rem .7rem;
+  color: var(--muted);
+  font-size: .8rem;
+  font-style: italic;
+}
+
+.translate-suggestions-btn {
+  background: rgba(255,255,255,.05);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 5px 12px;
+  color: var(--text);
+  font: inherit;
+  font-size: .74rem;
+  font-weight: 800;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background .15s ease, border-color .15s ease;
+}
+
+.translate-suggestions-btn:hover {
+  background: color-mix(in srgb, var(--accent) 16%, rgba(10,28,40,.68));
+  border-color: color-mix(in srgb, var(--accent) 44%, transparent);
+}
+
+.translate-suggestions-btn .bi { color: var(--accent); margin-left: 2px; }
+
+.translate-vote-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: #7dd88a;
+  font-weight: 800;
+  font-size: .8rem;
+}
+
+.translate-vote-btn {
+  background: none;
+  border: none;
+  color: var(--muted);
+  font: inherit;
+  cursor: pointer;
+  padding: .1rem;
+  line-height: 1;
+}
+
+.translate-vote-btn:disabled { cursor: not-allowed; opacity: .4; }
+.translate-vote-btn.is-active.translate-vote-btn--up { color: #7dd88a; }
+.translate-vote-btn.is-active.translate-vote-btn--down { color: #ff8b8b; }
+
+.translate-suggestion__score {
+  font-size: .78rem;
+  font-weight: 800;
+}
+
+.translate-suggest-form {
+  display: flex;
+  gap: .4rem;
+}
+
+.translate-suggest-form input {
+  flex: 1;
+  min-width: 0;
+  background: var(--glass);
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: .35rem .55rem;
+  font: inherit;
+  font-size: .82rem;
+}
+
+.translate-suggest-form button {
+  background: color-mix(in srgb, var(--accent) 18%, rgba(10,28,40,.68));
+  border: 1px solid color-mix(in srgb, var(--accent) 48%, transparent);
+  color: var(--text);
+  border-radius: 6px;
+  padding: .35rem .6rem;
+  font: inherit;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.translate-suggest-form input:disabled { opacity: .5; cursor: not-allowed; }
+
+.translate-row--staged > td {
+  background: color-mix(in srgb, var(--accent-2) 10%, transparent);
+}
+
+/* Floating bar - appears once at least one suggestion is staged, letting you
+   fill in several rows before sending them all in one request. */
+
+.translate-bulk-bar {
+  position: fixed;
+  left: 50%;
+  bottom: 24px;
+  transform: translateX(-50%);
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 12px 16px 12px 22px;
+  border-radius: 999px;
+  background: rgba(8, 10, 18, .88);
+  border: 1px solid rgba(255,255,255,.16);
+  box-shadow: 0 18px 44px rgba(0,0,0,.45);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.translate-bulk-bar #translate-bulk-count {
+  font-size: .84rem;
+  font-weight: 800;
+  color: var(--text);
+  white-space: nowrap;
+}
+
+.translate-bulk-bar__actions {
+  display: flex;
+  gap: 10px;
+}
+
+.translate-bulk-bar__cancel,
+.translate-bulk-bar__submit {
+  border-radius: 999px;
+  padding: 8px 16px;
+  font: inherit;
+  font-size: .8rem;
+  font-weight: 800;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.translate-bulk-bar__cancel {
+  background: rgba(255,255,255,.06);
+  border: 1px solid var(--line);
+  color: var(--muted);
+}
+
+.translate-bulk-bar__cancel:hover { color: var(--text); background: rgba(255,255,255,.1); }
+
+.translate-bulk-bar__submit {
+  background: color-mix(in srgb, var(--accent) 24%, rgba(10,28,40,.68));
+  border: 1px solid color-mix(in srgb, var(--accent) 56%, transparent);
+  color: #fff;
+}
+
+.translate-bulk-bar__submit:hover {
+  background: color-mix(in srgb, var(--accent) 34%, rgba(10,28,40,.68));
+}
+
+.translate-bulk-bar__submit:disabled { opacity: .5; cursor: not-allowed; }
+
+@media (max-width: 640px) {
+  .translate-bulk-bar {
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    transform: none;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+}
+
+/* Suggestions modal */
+
+.translate-modal {
+  width: min(640px, 92vw);
+  max-height: min(720px, 84vh);
+  padding: 22px 24px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: linear-gradient(160deg, var(--card-a), var(--card-b)), var(--glass);
+  color: var(--text);
+  box-shadow: 0 24px 54px rgba(0,0,0,.4);
+}
+
+.translate-modal::backdrop {
+  background: rgba(3, 5, 10, .72);
+  backdrop-filter: blur(3px);
+}
+
+.translate-modal__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.translate-modal__header h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--muted);
+  word-break: break-all;
+}
+
+.translate-modal__close {
+  background: none;
+  border: none;
+  color: var(--muted);
+  font-size: 1rem;
+  cursor: pointer;
+  padding: .25rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.translate-modal__close:hover { color: var(--text); }
+
+.translate-modal__source {
+  margin: .5rem 0 1rem;
+  padding-bottom: .75rem;
+  border-bottom: 1px solid var(--line);
+  font-weight: 700;
+  font-size: 1.02rem;
+  color: #fff;
+}
+
+.translate-suggestion-list {
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+  overflow-y: auto;
+  max-height: calc(min(720px, 84vh) - 140px);
+}
+
+.translate-suggestion {
+  display: flex;
+  gap: .75rem;
+  padding: .6rem .7rem;
+  border-radius: 10px;
+  background: rgba(255,255,255,.03);
+}
+
+.translate-suggestion--accepted {
+  background: color-mix(in srgb, var(--accent) 12%, rgba(255,255,255,.03));
+  border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
+}
+
+.translate-suggestion__votes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+  min-width: 2.2rem;
+}
+
+.translate-suggestion__body { flex: 1; min-width: 0; }
+
+.translate-suggestion__text {
+  margin: 0;
+  font-weight: 650;
+  overflow-wrap: anywhere;
+}
+
+.translate-suggestion__meta {
+  margin: .25rem 0 0;
+  font-size: .72rem;
+  color: var(--muted);
+}
+
+.translate-empty--inline { padding: .5rem 0; }
+
+.translate-suggestion__delete {
+  align-self: center;
+  background: none;
+  border: none;
+  color: var(--muted);
+  font-size: .95rem;
+  cursor: pointer;
+  padding: .3rem;
+  flex-shrink: 0;
+}
+
+.translate-suggestion__delete:hover { color: #ff8b8b; }
+
+/* My Suggestions view */
+
+.translate-mine h2 {
+  margin: 0 0 1rem;
+  font-weight: 900;
+  font-size: 1.4rem;
+  letter-spacing: .01em;
+  color: #fff;
+}
+
+.translate-mine-status {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: .72rem;
+  font-weight: 800;
+  background: rgba(255,255,255,.06);
+  color: var(--muted);
+}
+
+.translate-mine-status--pending { color: var(--accent-2); background: color-mix(in srgb, var(--accent-2) 16%, rgba(255,255,255,.06)); }
+.translate-mine-status--accepted { color: #7dd88a; background: rgba(125,216,138,.14); }
+.translate-mine-status--declined,
+.translate-mine-status--withdrawn { color: #ff8b8b; background: rgba(255,139,139,.12); }
+.translate-mine-status--superseded { color: var(--muted); }

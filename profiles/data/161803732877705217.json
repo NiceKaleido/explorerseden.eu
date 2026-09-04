@@ -1,0 +1,160 @@
+{
+  "discordId": "161803732877705217",
+  "uuid": "7129dbe3-264c-4b17-bfb3-90ed3ef30fa5",
+  "name": "jeoboogie",
+  "skinIcon": "/assets/images/generated/player-skins/7129dbe3-264c-4b17-bfb3-90ed3ef30fa5.png",
+  "headIcon": "/assets/images/generated/player-heads/7129dbe3-264c-4b17-bfb3-90ed3ef30fa5.png",
+  "race": "Orebringer",
+  "class": "Miner",
+  "advancementsCompleted": 2,
+  "advancementsDetailed": [
+    {
+      "category": "Adventure",
+      "items": [
+        {
+          "label": "Adventuring Time",
+          "description": "Discover every biome",
+          "done": false
+        }
+      ],
+      "doneCount": 0
+    },
+    {
+      "category": "Katters Structures (General)",
+      "items": [
+        {
+          "label": "Katters Structures",
+          "description": "Brand new vanilla like structures!",
+          "done": true
+        }
+      ],
+      "doneCount": 1
+    },
+    {
+      "category": "Story",
+      "items": [
+        {
+          "label": "Acquire Hardware",
+          "description": "Smelt an Iron Ingot",
+          "done": true
+        }
+      ],
+      "doneCount": 1
+    }
+  ],
+  "stats": {
+    "playtimeHours": 0.2,
+    "deaths": 0,
+    "mobKillsTotal": 0,
+    "blocksMinedTotal": 3
+  },
+  "statsDetailed": [
+    {
+      "category": "General",
+      "items": [
+        {
+          "label": "Walk",
+          "value": "499 blocks",
+          "raw": 49945
+        },
+        {
+          "label": "Sprint",
+          "value": "243 blocks",
+          "raw": 24341
+        },
+        {
+          "label": "Time Since Rest",
+          "value": "11 min",
+          "raw": 13245
+        },
+        {
+          "label": "Play Time",
+          "value": "11 min",
+          "raw": 13245
+        },
+        {
+          "label": "Time Since Death",
+          "value": "11 min",
+          "raw": 13245
+        },
+        {
+          "label": "Total World Time",
+          "value": "11 min",
+          "raw": 13245
+        },
+        {
+          "label": "Fly",
+          "value": "60 blocks",
+          "raw": 5982
+        },
+        {
+          "label": "Walk Under Water",
+          "value": "56 blocks",
+          "raw": 5568
+        },
+        {
+          "label": "Walk On Water",
+          "value": "52 blocks",
+          "raw": 5170
+        },
+        {
+          "label": "Swim",
+          "value": "44 blocks",
+          "raw": 4400
+        },
+        {
+          "label": "Sneak Time",
+          "value": "0 min",
+          "raw": 146
+        },
+        {
+          "label": "Jump",
+          "value": "60",
+          "raw": 60
+        },
+        {
+          "label": "Open Chest",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Interact With Crafting Table",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Leave Game",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Blocks Mined",
+      "items": [
+        {
+          "label": "Spruce Leaves",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Packed Ice",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Items Picked Up",
+      "items": [
+        {
+          "label": "Sugar Cane",
+          "value": "2",
+          "raw": 2
+        }
+      ]
+    }
+  ],
+  "claims": [],
+  "waypoints": []
+}

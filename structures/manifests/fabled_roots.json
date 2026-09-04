@@ -1,0 +1,272 @@
+[
+  {
+    "datapack": "Fabled Roots",
+    "datapackSlug": "fabled_roots",
+    "namespace": "fabled_roots",
+    "structure": "congress_hall/congress_hall",
+    "id": "fabled_roots:congress_hall/congress_hall",
+    "displayName": "Congress Hall",
+    "structureId": "fabled_roots:congress_hall/congress_hall",
+    "blocks": 16728,
+    "uniqueBlocks": 99,
+    "url": "structures/fabled_roots/fabled_roots/congress_hall/congress_hall/index.html",
+    "previews": [
+      "/wiki/fabled_roots/images/structures/fabled_roots/congress_hall/congress_hall/north.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/congress_hall/congress_hall/east.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/congress_hall/congress_hall/south.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/congress_hall/congress_hall/west.png"
+    ]
+  },
+  {
+    "datapack": "Fabled Roots",
+    "datapackSlug": "fabled_roots",
+    "namespace": "fabled_roots",
+    "structure": "outpost/dunesworn",
+    "id": "fabled_roots:outpost/dunesworn",
+    "displayName": "Dunesworn",
+    "structureId": "fabled_roots:outpost/dunesworn",
+    "blocks": 1149,
+    "uniqueBlocks": 15,
+    "url": "structures/fabled_roots/fabled_roots/outpost/dunesworn/index.html",
+    "previews": [
+      "/wiki/fabled_roots/images/structures/fabled_roots/outpost/dunesworn/north.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/outpost/dunesworn/east.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/outpost/dunesworn/south.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/outpost/dunesworn/west.png"
+    ]
+  },
+  {
+    "datapack": "Fabled Roots",
+    "datapackSlug": "fabled_roots",
+    "namespace": "fabled_roots",
+    "structure": "outpost/endling",
+    "id": "fabled_roots:outpost/endling",
+    "displayName": "Endling",
+    "structureId": "fabled_roots:outpost/endling",
+    "blocks": 1149,
+    "uniqueBlocks": 11,
+    "url": "structures/fabled_roots/fabled_roots/outpost/endling/index.html",
+    "previews": [
+      "/wiki/fabled_roots/images/structures/fabled_roots/outpost/endling/north.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/outpost/endling/east.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/outpost/endling/south.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/outpost/endling/west.png"
+    ]
+  },
+  {
+    "datapack": "Fabled Roots",
+    "datapackSlug": "fabled_roots",
+    "namespace": "fabled_roots",
+    "structure": "outpost/oakhearted",
+    "id": "fabled_roots:outpost/oakhearted",
+    "displayName": "Oakhearted",
+    "structureId": "fabled_roots:outpost/oakhearted",
+    "blocks": 1150,
+    "uniqueBlocks": 14,
+    "url": "structures/fabled_roots/fabled_roots/outpost/oakhearted/index.html",
+    "previews": [
+      "/wiki/fabled_roots/images/structures/fabled_roots/outpost/oakhearted/north.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/outpost/oakhearted/east.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/outpost/oakhearted/south.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/outpost/oakhearted/west.png"
+    ]
+  },
+  {
+    "datapack": "Fabled Roots",
+    "datapackSlug": "fabled_roots",
+    "namespace": "fabled_roots",
+    "structure": "outpost/palehearted",
+    "id": "fabled_roots:outpost/palehearted",
+    "displayName": "Palehearted",
+    "structureId": "fabled_roots:outpost/palehearted",
+    "blocks": 1149,
+    "uniqueBlocks": 12,
+    "url": "structures/fabled_roots/fabled_roots/outpost/palehearted/index.html",
+    "previews": [
+      "/wiki/fabled_roots/images/structures/fabled_roots/outpost/palehearted/north.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/outpost/palehearted/east.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/outpost/palehearted/south.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/outpost/palehearted/west.png"
+    ]
+  },
+  {
+    "datapack": "Fabled Roots",
+    "datapackSlug": "fabled_roots",
+    "namespace": "fabled_roots",
+    "structure": "shelter/aetherian",
+    "id": "fabled_roots:shelter/aetherian",
+    "displayName": "Aetherian",
+    "structureId": "fabled_roots:shelter/aetherian",
+    "blocks": 17720,
+    "uniqueBlocks": 37,
+    "url": "structures/fabled_roots/fabled_roots/shelter/aetherian/index.html",
+    "previews": [
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/aetherian/north.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/aetherian/east.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/aetherian/south.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/aetherian/west.png"
+    ]
+  },
+  {
+    "datapack": "Fabled Roots",
+    "datapackSlug": "fabled_roots",
+    "namespace": "fabled_roots",
+    "structure": "shelter/dunesworn",
+    "id": "fabled_roots:shelter/dunesworn",
+    "displayName": "Dunesworn",
+    "structureId": "fabled_roots:shelter/dunesworn",
+    "blocks": 1326,
+    "uniqueBlocks": 16,
+    "url": "structures/fabled_roots/fabled_roots/shelter/dunesworn/index.html",
+    "previews": [
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/dunesworn/north.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/dunesworn/east.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/dunesworn/south.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/dunesworn/west.png"
+    ]
+  },
+  {
+    "datapack": "Fabled Roots",
+    "datapackSlug": "fabled_roots",
+    "namespace": "fabled_roots",
+    "structure": "shelter/endling",
+    "id": "fabled_roots:shelter/endling",
+    "displayName": "Endling",
+    "structureId": "fabled_roots:shelter/endling",
+    "blocks": 401,
+    "uniqueBlocks": 12,
+    "url": "structures/fabled_roots/fabled_roots/shelter/endling/index.html",
+    "previews": [
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/endling/north.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/endling/east.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/endling/south.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/endling/west.png"
+    ]
+  },
+  {
+    "datapack": "Fabled Roots",
+    "datapackSlug": "fabled_roots",
+    "namespace": "fabled_roots",
+    "structure": "shelter/frostborne",
+    "id": "fabled_roots:shelter/frostborne",
+    "displayName": "Frostborne",
+    "structureId": "fabled_roots:shelter/frostborne",
+    "blocks": 2929,
+    "uniqueBlocks": 33,
+    "url": "structures/fabled_roots/fabled_roots/shelter/frostborne/index.html",
+    "previews": [
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/frostborne/north.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/frostborne/east.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/frostborne/south.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/frostborne/west.png"
+    ]
+  },
+  {
+    "datapack": "Fabled Roots",
+    "datapackSlug": "fabled_roots",
+    "namespace": "fabled_roots",
+    "structure": "shelter/moonshroud",
+    "id": "fabled_roots:shelter/moonshroud",
+    "displayName": "Moonshroud",
+    "structureId": "fabled_roots:shelter/moonshroud",
+    "blocks": 1774,
+    "uniqueBlocks": 16,
+    "url": "structures/fabled_roots/fabled_roots/shelter/moonshroud/index.html",
+    "previews": [
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/moonshroud/north.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/moonshroud/east.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/moonshroud/south.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/moonshroud/west.png"
+    ]
+  },
+  {
+    "datapack": "Fabled Roots",
+    "datapackSlug": "fabled_roots",
+    "namespace": "fabled_roots",
+    "structure": "shelter/netherian",
+    "id": "fabled_roots:shelter/netherian",
+    "displayName": "Netherian",
+    "structureId": "fabled_roots:shelter/netherian",
+    "blocks": 932,
+    "uniqueBlocks": 19,
+    "url": "structures/fabled_roots/fabled_roots/shelter/netherian/index.html",
+    "previews": [
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/netherian/north.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/netherian/east.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/netherian/south.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/netherian/west.png"
+    ]
+  },
+  {
+    "datapack": "Fabled Roots",
+    "datapackSlug": "fabled_roots",
+    "namespace": "fabled_roots",
+    "structure": "shelter/oakhearted",
+    "id": "fabled_roots:shelter/oakhearted",
+    "displayName": "Oakhearted",
+    "structureId": "fabled_roots:shelter/oakhearted",
+    "blocks": 1958,
+    "uniqueBlocks": 27,
+    "url": "structures/fabled_roots/fabled_roots/shelter/oakhearted/index.html",
+    "previews": [
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/oakhearted/north.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/oakhearted/east.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/oakhearted/south.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/oakhearted/west.png"
+    ]
+  },
+  {
+    "datapack": "Fabled Roots",
+    "datapackSlug": "fabled_roots",
+    "namespace": "fabled_roots",
+    "structure": "shelter/orebringer",
+    "id": "fabled_roots:shelter/orebringer",
+    "displayName": "Orebringer",
+    "structureId": "fabled_roots:shelter/orebringer",
+    "blocks": 5334,
+    "uniqueBlocks": 22,
+    "url": "structures/fabled_roots/fabled_roots/shelter/orebringer/index.html",
+    "previews": [
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/orebringer/north.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/orebringer/east.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/orebringer/south.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/orebringer/west.png"
+    ]
+  },
+  {
+    "datapack": "Fabled Roots",
+    "datapackSlug": "fabled_roots",
+    "namespace": "fabled_roots",
+    "structure": "shelter/palehearted",
+    "id": "fabled_roots:shelter/palehearted",
+    "displayName": "Palehearted",
+    "structureId": "fabled_roots:shelter/palehearted",
+    "blocks": 5884,
+    "uniqueBlocks": 29,
+    "url": "structures/fabled_roots/fabled_roots/shelter/palehearted/index.html",
+    "previews": [
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/palehearted/north.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/palehearted/east.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/palehearted/south.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/palehearted/west.png"
+    ]
+  },
+  {
+    "datapack": "Fabled Roots",
+    "datapackSlug": "fabled_roots",
+    "namespace": "fabled_roots",
+    "structure": "shelter/turtlekin",
+    "id": "fabled_roots:shelter/turtlekin",
+    "displayName": "Turtlekin",
+    "structureId": "fabled_roots:shelter/turtlekin",
+    "blocks": 1583,
+    "uniqueBlocks": 21,
+    "url": "structures/fabled_roots/fabled_roots/shelter/turtlekin/index.html",
+    "previews": [
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/turtlekin/north.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/turtlekin/east.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/turtlekin/south.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/turtlekin/west.png"
+    ]
+  }
+]

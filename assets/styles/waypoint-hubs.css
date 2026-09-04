@@ -1,0 +1,202 @@
+/* ── Waypoint Hubs page ────────────────────────────────────────────────────── */
+
+.waypoint-hubs-shell {
+  width: min(1680px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 64px 0 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.waypoint-hubs-hero {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 8px 0 4px;
+}
+
+/* ── Search bar + count, one line, left-aligned (mirrors .translate-detail__tools) ─ */
+
+.waypoint-hubs-hero__tools {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.waypoint-search-wrap {
+  position: relative;
+  flex: 0 1 380px;
+  width: min(380px, 100%);
+}
+
+.waypoint-search-wrap .bi-search {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--accent);
+  pointer-events: none;
+}
+
+.waypoint-search-wrap input {
+  width: 100%;
+  padding: 11px 38px;
+  border: 1px solid rgba(255,255,255,.16);
+  border-radius: 16px;
+  color: #fff;
+  background: rgba(5,7,13,.58);
+  box-shadow: 0 10px 24px rgba(0,0,0,.18), inset 0 1px 0 rgba(255,255,255,.12);
+  backdrop-filter: blur(10px);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 750;
+  outline: none;
+}
+
+.waypoint-search-wrap input:focus {
+  border-color: color-mix(in srgb, var(--accent) 56%, transparent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 18%, transparent), 0 12px 28px rgba(0,0,0,.28);
+}
+
+#clear-waypoint-search {
+  position: absolute;
+  right: 7px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+  border: 0;
+  border-radius: 999px;
+  cursor: pointer;
+  color: #fff;
+  background: rgba(255,255,255,.1);
+  font-size: 20px;
+  line-height: 1;
+}
+
+#clear-waypoint-search:hover {
+  background: rgba(255,255,255,.18);
+}
+
+.waypoint-results-count {
+  margin: 0;
+  color: rgba(255,255,255,.82);
+  font-size: 12px;
+  font-weight: 900;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(5,7,13,.38);
+  border: 1px solid rgba(255,255,255,.11);
+}
+
+/* ── Card grid ─────────────────────────────────────────────────────────────── */
+
+.waypoint-hub-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 14px;
+}
+
+.waypoint-hubs-empty {
+  grid-column: 1 / -1;
+  margin: 0;
+  padding: 26px;
+  text-align: center;
+  color: var(--muted);
+  border-radius: 20px;
+  background: rgba(5,7,13,.4);
+  border: 1px solid rgba(255,255,255,.1);
+}
+
+.waypoint-card {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,.095);
+  background:
+    linear-gradient(135deg, rgba(10,12,22,.6), rgba(3,5,10,.68)),
+    rgba(5,7,13,.46);
+  box-shadow: 0 12px 28px rgba(0,0,0,.28), inset 0 1px 0 rgba(255,255,255,.07);
+  backdrop-filter: blur(12px) saturate(1.05);
+  transition: transform .16s ease, border-color .16s ease, box-shadow .16s ease;
+}
+
+.waypoint-card:hover {
+  transform: translateY(-3px);
+  border-color: color-mix(in srgb, var(--accent) 42%, transparent);
+  box-shadow: 0 18px 36px rgba(0,0,0,.32), 0 0 22px color-mix(in srgb, var(--accent) 12%, transparent), inset 0 1px 0 rgba(255,255,255,.14);
+}
+
+.waypoint-card__avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  display: block;
+  border: 1px solid rgba(255,255,255,.14);
+  background: rgba(5,7,13,.4);
+  object-fit: cover;
+  image-rendering: pixelated;
+}
+
+.waypoint-card__body {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.waypoint-card__body h3 {
+  margin: 0;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: -.01em;
+  line-height: 1.25;
+}
+
+.waypoint-card__owner {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.waypoint-card__coords {
+  margin: 0;
+  color: rgba(239,247,255,.78);
+  font-size: 11px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.waypoint-card__coords i {
+  color: var(--accent);
+  font-size: 11px;
+}
+
+.waypoint-card__description {
+  margin: 2px 0 0;
+  color: rgba(233,240,250,.7);
+  font-size: 11px;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

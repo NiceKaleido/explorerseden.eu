@@ -1,0 +1,12 @@
+# Overview blacklist — items/structures/etc. matching these patterns are excluded from overview.md.
+# Patterns support * as a wildcard. Matching is case-insensitive and applied to display names.
+
+Items:
+  - "*Journal*"
+  - "*Egg*"
+
+Structures:
+
+Enchantments:
+
+MobVariants:

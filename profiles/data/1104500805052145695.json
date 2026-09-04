@@ -1,0 +1,416 @@
+{
+  "discordId": "1104500805052145695",
+  "uuid": "3715b6a5-928c-4d96-a99d-4ea79ae28eab",
+  "name": "FabulousMouse",
+  "skinIcon": "/assets/images/generated/player-skins/3715b6a5-928c-4d96-a99d-4ea79ae28eab.png",
+  "headIcon": "/assets/images/generated/player-heads/3715b6a5-928c-4d96-a99d-4ea79ae28eab.png",
+  "race": "Orebringer",
+  "class": "Builder",
+  "advancementsCompleted": 7,
+  "advancementsDetailed": [
+    {
+      "category": "Adventure",
+      "items": [
+        {
+          "label": "Adventure",
+          "description": "Adventure, exploration and combat",
+          "done": true
+        },
+        {
+          "label": "Adventuring Time",
+          "description": "Discover every biome",
+          "done": false
+        }
+      ],
+      "doneCount": 1
+    },
+    {
+      "category": "Husbandry",
+      "items": [
+        {
+          "label": "A Balanced Diet",
+          "description": "Eat everything that is edible, even if it's not good for you",
+          "done": false
+        },
+        {
+          "label": "Husbandry",
+          "description": "The world is full of friends and food",
+          "done": true
+        }
+      ],
+      "doneCount": 1
+    },
+    {
+      "category": "Katters Structures (General)",
+      "items": [
+        {
+          "label": "Katters Structures",
+          "description": "Brand new vanilla like structures!",
+          "done": true
+        }
+      ],
+      "doneCount": 1
+    },
+    {
+      "category": "Story",
+      "items": [
+        {
+          "label": "Acquire Hardware",
+          "description": "Smelt an Iron Ingot",
+          "done": true
+        },
+        {
+          "label": "Isn't It Iron Pick",
+          "description": "Upgrade your Pickaxe",
+          "done": true
+        },
+        {
+          "label": "Minecraft",
+          "description": "The heart and story of the game",
+          "done": true
+        },
+        {
+          "label": "Stone Age",
+          "description": "Mine Stone with your new Pickaxe",
+          "done": true
+        }
+      ],
+      "doneCount": 4
+    }
+  ],
+  "stats": {
+    "playtimeHours": 0.2,
+    "deaths": 0,
+    "mobKillsTotal": 1,
+    "blocksMinedTotal": 68
+  },
+  "statsDetailed": [
+    {
+      "category": "General",
+      "items": [
+        {
+          "label": "Walk",
+          "value": "786 blocks",
+          "raw": 78637
+        },
+        {
+          "label": "Sprint",
+          "value": "250 blocks",
+          "raw": 25027
+        },
+        {
+          "label": "Time Since Rest",
+          "value": "14 min",
+          "raw": 17319
+        },
+        {
+          "label": "Play Time",
+          "value": "14 min",
+          "raw": 17319
+        },
+        {
+          "label": "Time Since Death",
+          "value": "14 min",
+          "raw": 17319
+        },
+        {
+          "label": "Total World Time",
+          "value": "14 min",
+          "raw": 17319
+        },
+        {
+          "label": "Fly",
+          "value": "152 blocks",
+          "raw": 15232
+        },
+        {
+          "label": "Fall",
+          "value": "76 blocks",
+          "raw": 7632
+        },
+        {
+          "label": "Walk Under Water",
+          "value": "38 blocks",
+          "raw": 3825
+        },
+        {
+          "label": "Walk On Water",
+          "value": "11 blocks",
+          "raw": 1096
+        },
+        {
+          "label": "Swim",
+          "value": "11 blocks",
+          "raw": 1073
+        },
+        {
+          "label": "Crouch",
+          "value": "4 blocks",
+          "raw": 371
+        },
+        {
+          "label": "Sneak Time",
+          "value": "0 min",
+          "raw": 314
+        },
+        {
+          "label": "Jump",
+          "value": "242",
+          "raw": 242
+        },
+        {
+          "label": "Damage Dealt",
+          "value": "223",
+          "raw": 223
+        },
+        {
+          "label": "Damage Taken",
+          "value": "141",
+          "raw": 141
+        },
+        {
+          "label": "Interact With Crafting Table",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Leave Game",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Mob Kills",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Blocks Mined",
+      "items": [
+        {
+          "label": "Dead Bush",
+          "value": "27",
+          "raw": 27
+        },
+        {
+          "label": "Oak Log",
+          "value": "14",
+          "raw": 14
+        },
+        {
+          "label": "Stone",
+          "value": "11",
+          "raw": 11
+        },
+        {
+          "label": "Gold Ore",
+          "value": "7",
+          "raw": 7
+        },
+        {
+          "label": "Dark Oak Planks",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Cactus",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Gravel",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Short Grass",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Rail",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Crafting Table",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Items Crafted",
+      "items": [
+        {
+          "label": "Oak Planks",
+          "value": "32",
+          "raw": 32
+        },
+        {
+          "label": "Iron Pickaxe",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Crafting Table",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Iron Axe",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Items Used",
+      "items": [
+        {
+          "label": "Iron Axe",
+          "value": "23",
+          "raw": 23
+        },
+        {
+          "label": "Iron Pickaxe",
+          "value": "18",
+          "raw": 18
+        },
+        {
+          "label": "Glow Berries",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Crafting Table",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Chest Minecart",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Goggles",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Leather Leggings",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Items Picked Up",
+      "items": [
+        {
+          "label": "Stick",
+          "value": "33",
+          "raw": 33
+        },
+        {
+          "label": "Rail",
+          "value": "23",
+          "raw": 23
+        },
+        {
+          "label": "Torch",
+          "value": "20",
+          "raw": 20
+        },
+        {
+          "label": "Oak Log",
+          "value": "14",
+          "raw": 14
+        },
+        {
+          "label": "Cobblestone",
+          "value": "11",
+          "raw": 11
+        },
+        {
+          "label": "Raw Gold",
+          "value": "7",
+          "raw": 7
+        },
+        {
+          "label": "Iron Ingot",
+          "value": "6",
+          "raw": 6
+        },
+        {
+          "label": "Coal",
+          "value": "5",
+          "raw": 5
+        },
+        {
+          "label": "Redstone",
+          "value": "4",
+          "raw": 4
+        },
+        {
+          "label": "Glow Berries",
+          "value": "4",
+          "raw": 4
+        },
+        {
+          "label": "Pumpkin Seeds",
+          "value": "4",
+          "raw": 4
+        },
+        {
+          "label": "Cactus",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Dark Oak Planks",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Chest Minecart",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Name Tag",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Powered Rail",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Gravel",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Crafting Table",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Mobs Killed",
+      "items": [
+        {
+          "label": "Armadillo",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    }
+  ],
+  "claims": [],
+  "waypoints": []
+}

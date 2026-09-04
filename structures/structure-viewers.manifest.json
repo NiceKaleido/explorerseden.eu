@@ -1,0 +1,3476 @@
+[
+  {
+    "datapack": "Enchantments Encore",
+    "datapackSlug": "enchantments_encore",
+    "namespace": "enchantencore",
+    "structure": "rise/rise/rise_big",
+    "id": "enchantencore:rise/rise/rise_big",
+    "displayName": "Rise Big",
+    "structureId": "enchantencore:rise",
+    "blocks": 8298,
+    "uniqueBlocks": 52,
+    "url": "structures/enchantments_encore/enchantencore/rise/rise/rise_big/index.html",
+    "previews": [
+      "/wiki/enchantments_encore/images/structures/enchantencore/rise/rise/rise_big/north.png",
+      "/wiki/enchantments_encore/images/structures/enchantencore/rise/rise/rise_big/east.png",
+      "/wiki/enchantments_encore/images/structures/enchantencore/rise/rise/rise_big/south.png",
+      "/wiki/enchantments_encore/images/structures/enchantencore/rise/rise/rise_big/west.png"
+    ]
+  },
+  {
+    "datapack": "Enchantments Encore",
+    "datapackSlug": "enchantments_encore",
+    "namespace": "enchantencore",
+    "structure": "rise/rise/rise_small",
+    "id": "enchantencore:rise/rise/rise_small",
+    "displayName": "Rise Small",
+    "structureId": "enchantencore:rise",
+    "blocks": 3864,
+    "uniqueBlocks": 47,
+    "url": "structures/enchantments_encore/enchantencore/rise/rise/rise_small/index.html",
+    "previews": [
+      "/wiki/enchantments_encore/images/structures/enchantencore/rise/rise/rise_small/north.png",
+      "/wiki/enchantments_encore/images/structures/enchantencore/rise/rise/rise_small/east.png",
+      "/wiki/enchantments_encore/images/structures/enchantencore/rise/rise/rise_small/south.png",
+      "/wiki/enchantments_encore/images/structures/enchantencore/rise/rise/rise_small/west.png"
+    ]
+  },
+  {
+    "datapack": "Fabled Roots",
+    "datapackSlug": "fabled_roots",
+    "namespace": "fabled_roots",
+    "structure": "congress_hall/congress_hall",
+    "id": "fabled_roots:congress_hall/congress_hall",
+    "displayName": "Congress Hall",
+    "structureId": "fabled_roots:congress_hall/congress_hall",
+    "blocks": 16728,
+    "uniqueBlocks": 99,
+    "url": "structures/fabled_roots/fabled_roots/congress_hall/congress_hall/index.html",
+    "previews": [
+      "/wiki/fabled_roots/images/structures/fabled_roots/congress_hall/congress_hall/north.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/congress_hall/congress_hall/east.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/congress_hall/congress_hall/south.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/congress_hall/congress_hall/west.png"
+    ]
+  },
+  {
+    "datapack": "Fabled Roots",
+    "datapackSlug": "fabled_roots",
+    "namespace": "fabled_roots",
+    "structure": "outpost/dunesworn",
+    "id": "fabled_roots:outpost/dunesworn",
+    "displayName": "Dunesworn",
+    "structureId": "fabled_roots:outpost/dunesworn",
+    "blocks": 1149,
+    "uniqueBlocks": 15,
+    "url": "structures/fabled_roots/fabled_roots/outpost/dunesworn/index.html",
+    "previews": [
+      "/wiki/fabled_roots/images/structures/fabled_roots/outpost/dunesworn/north.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/outpost/dunesworn/east.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/outpost/dunesworn/south.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/outpost/dunesworn/west.png"
+    ]
+  },
+  {
+    "datapack": "Fabled Roots",
+    "datapackSlug": "fabled_roots",
+    "namespace": "fabled_roots",
+    "structure": "outpost/endling",
+    "id": "fabled_roots:outpost/endling",
+    "displayName": "Endling",
+    "structureId": "fabled_roots:outpost/endling",
+    "blocks": 1149,
+    "uniqueBlocks": 11,
+    "url": "structures/fabled_roots/fabled_roots/outpost/endling/index.html",
+    "previews": [
+      "/wiki/fabled_roots/images/structures/fabled_roots/outpost/endling/north.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/outpost/endling/east.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/outpost/endling/south.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/outpost/endling/west.png"
+    ]
+  },
+  {
+    "datapack": "Fabled Roots",
+    "datapackSlug": "fabled_roots",
+    "namespace": "fabled_roots",
+    "structure": "outpost/oakhearted",
+    "id": "fabled_roots:outpost/oakhearted",
+    "displayName": "Oakhearted",
+    "structureId": "fabled_roots:outpost/oakhearted",
+    "blocks": 1150,
+    "uniqueBlocks": 14,
+    "url": "structures/fabled_roots/fabled_roots/outpost/oakhearted/index.html",
+    "previews": [
+      "/wiki/fabled_roots/images/structures/fabled_roots/outpost/oakhearted/north.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/outpost/oakhearted/east.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/outpost/oakhearted/south.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/outpost/oakhearted/west.png"
+    ]
+  },
+  {
+    "datapack": "Fabled Roots",
+    "datapackSlug": "fabled_roots",
+    "namespace": "fabled_roots",
+    "structure": "outpost/palehearted",
+    "id": "fabled_roots:outpost/palehearted",
+    "displayName": "Palehearted",
+    "structureId": "fabled_roots:outpost/palehearted",
+    "blocks": 1149,
+    "uniqueBlocks": 12,
+    "url": "structures/fabled_roots/fabled_roots/outpost/palehearted/index.html",
+    "previews": [
+      "/wiki/fabled_roots/images/structures/fabled_roots/outpost/palehearted/north.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/outpost/palehearted/east.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/outpost/palehearted/south.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/outpost/palehearted/west.png"
+    ]
+  },
+  {
+    "datapack": "Fabled Roots",
+    "datapackSlug": "fabled_roots",
+    "namespace": "fabled_roots",
+    "structure": "shelter/aetherian",
+    "id": "fabled_roots:shelter/aetherian",
+    "displayName": "Aetherian",
+    "structureId": "fabled_roots:shelter/aetherian",
+    "blocks": 17720,
+    "uniqueBlocks": 37,
+    "url": "structures/fabled_roots/fabled_roots/shelter/aetherian/index.html",
+    "previews": [
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/aetherian/north.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/aetherian/east.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/aetherian/south.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/aetherian/west.png"
+    ]
+  },
+  {
+    "datapack": "Fabled Roots",
+    "datapackSlug": "fabled_roots",
+    "namespace": "fabled_roots",
+    "structure": "shelter/dunesworn",
+    "id": "fabled_roots:shelter/dunesworn",
+    "displayName": "Dunesworn",
+    "structureId": "fabled_roots:shelter/dunesworn",
+    "blocks": 1326,
+    "uniqueBlocks": 16,
+    "url": "structures/fabled_roots/fabled_roots/shelter/dunesworn/index.html",
+    "previews": [
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/dunesworn/north.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/dunesworn/east.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/dunesworn/south.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/dunesworn/west.png"
+    ]
+  },
+  {
+    "datapack": "Fabled Roots",
+    "datapackSlug": "fabled_roots",
+    "namespace": "fabled_roots",
+    "structure": "shelter/endling",
+    "id": "fabled_roots:shelter/endling",
+    "displayName": "Endling",
+    "structureId": "fabled_roots:shelter/endling",
+    "blocks": 401,
+    "uniqueBlocks": 12,
+    "url": "structures/fabled_roots/fabled_roots/shelter/endling/index.html",
+    "previews": [
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/endling/north.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/endling/east.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/endling/south.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/endling/west.png"
+    ]
+  },
+  {
+    "datapack": "Fabled Roots",
+    "datapackSlug": "fabled_roots",
+    "namespace": "fabled_roots",
+    "structure": "shelter/frostborne",
+    "id": "fabled_roots:shelter/frostborne",
+    "displayName": "Frostborne",
+    "structureId": "fabled_roots:shelter/frostborne",
+    "blocks": 2929,
+    "uniqueBlocks": 33,
+    "url": "structures/fabled_roots/fabled_roots/shelter/frostborne/index.html",
+    "previews": [
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/frostborne/north.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/frostborne/east.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/frostborne/south.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/frostborne/west.png"
+    ]
+  },
+  {
+    "datapack": "Fabled Roots",
+    "datapackSlug": "fabled_roots",
+    "namespace": "fabled_roots",
+    "structure": "shelter/moonshroud",
+    "id": "fabled_roots:shelter/moonshroud",
+    "displayName": "Moonshroud",
+    "structureId": "fabled_roots:shelter/moonshroud",
+    "blocks": 1774,
+    "uniqueBlocks": 16,
+    "url": "structures/fabled_roots/fabled_roots/shelter/moonshroud/index.html",
+    "previews": [
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/moonshroud/north.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/moonshroud/east.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/moonshroud/south.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/moonshroud/west.png"
+    ]
+  },
+  {
+    "datapack": "Fabled Roots",
+    "datapackSlug": "fabled_roots",
+    "namespace": "fabled_roots",
+    "structure": "shelter/netherian",
+    "id": "fabled_roots:shelter/netherian",
+    "displayName": "Netherian",
+    "structureId": "fabled_roots:shelter/netherian",
+    "blocks": 932,
+    "uniqueBlocks": 19,
+    "url": "structures/fabled_roots/fabled_roots/shelter/netherian/index.html",
+    "previews": [
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/netherian/north.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/netherian/east.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/netherian/south.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/netherian/west.png"
+    ]
+  },
+  {
+    "datapack": "Fabled Roots",
+    "datapackSlug": "fabled_roots",
+    "namespace": "fabled_roots",
+    "structure": "shelter/oakhearted",
+    "id": "fabled_roots:shelter/oakhearted",
+    "displayName": "Oakhearted",
+    "structureId": "fabled_roots:shelter/oakhearted",
+    "blocks": 1958,
+    "uniqueBlocks": 27,
+    "url": "structures/fabled_roots/fabled_roots/shelter/oakhearted/index.html",
+    "previews": [
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/oakhearted/north.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/oakhearted/east.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/oakhearted/south.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/oakhearted/west.png"
+    ]
+  },
+  {
+    "datapack": "Fabled Roots",
+    "datapackSlug": "fabled_roots",
+    "namespace": "fabled_roots",
+    "structure": "shelter/orebringer",
+    "id": "fabled_roots:shelter/orebringer",
+    "displayName": "Orebringer",
+    "structureId": "fabled_roots:shelter/orebringer",
+    "blocks": 5334,
+    "uniqueBlocks": 22,
+    "url": "structures/fabled_roots/fabled_roots/shelter/orebringer/index.html",
+    "previews": [
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/orebringer/north.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/orebringer/east.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/orebringer/south.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/orebringer/west.png"
+    ]
+  },
+  {
+    "datapack": "Fabled Roots",
+    "datapackSlug": "fabled_roots",
+    "namespace": "fabled_roots",
+    "structure": "shelter/palehearted",
+    "id": "fabled_roots:shelter/palehearted",
+    "displayName": "Palehearted",
+    "structureId": "fabled_roots:shelter/palehearted",
+    "blocks": 5884,
+    "uniqueBlocks": 29,
+    "url": "structures/fabled_roots/fabled_roots/shelter/palehearted/index.html",
+    "previews": [
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/palehearted/north.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/palehearted/east.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/palehearted/south.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/palehearted/west.png"
+    ]
+  },
+  {
+    "datapack": "Fabled Roots",
+    "datapackSlug": "fabled_roots",
+    "namespace": "fabled_roots",
+    "structure": "shelter/turtlekin",
+    "id": "fabled_roots:shelter/turtlekin",
+    "displayName": "Turtlekin",
+    "structureId": "fabled_roots:shelter/turtlekin",
+    "blocks": 1583,
+    "uniqueBlocks": 21,
+    "url": "structures/fabled_roots/fabled_roots/shelter/turtlekin/index.html",
+    "previews": [
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/turtlekin/north.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/turtlekin/east.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/turtlekin/south.png",
+      "/wiki/fabled_roots/images/structures/fabled_roots/shelter/turtlekin/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "armory",
+    "id": "kattersstructures:armory",
+    "displayName": "Armory",
+    "structureId": "kattersstructures:armory",
+    "blocks": 10291,
+    "uniqueBlocks": 38,
+    "url": "structures/katters_structures/kattersstructures/armory/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/armory/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/armory/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/armory/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/armory/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_01",
+    "id": "kattersstructures:better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_01",
+    "displayName": "Better Vanilla Dungeon Room (01)",
+    "structureId": "kattersstructures:better_vanilla_dungeon",
+    "blocks": 31771,
+    "uniqueBlocks": 41,
+    "url": "structures/katters_structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_01/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_01/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_01/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_01/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_01/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_02",
+    "id": "kattersstructures:better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_02",
+    "displayName": "Better Vanilla Dungeon Room (02)",
+    "structureId": "kattersstructures:better_vanilla_dungeon",
+    "blocks": 22194,
+    "uniqueBlocks": 40,
+    "url": "structures/katters_structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_02/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_02/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_02/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_02/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_02/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_03",
+    "id": "kattersstructures:better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_03",
+    "displayName": "Better Vanilla Dungeon Room (03)",
+    "structureId": "kattersstructures:better_vanilla_dungeon",
+    "blocks": 18640,
+    "uniqueBlocks": 41,
+    "url": "structures/katters_structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_03/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_03/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_03/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_03/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_03/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_04",
+    "id": "kattersstructures:better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_04",
+    "displayName": "Better Vanilla Dungeon Room (04)",
+    "structureId": "kattersstructures:better_vanilla_dungeon",
+    "blocks": 19078,
+    "uniqueBlocks": 41,
+    "url": "structures/katters_structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_04/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_04/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_04/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_04/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_04/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_05",
+    "id": "kattersstructures:better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_05",
+    "displayName": "Better Vanilla Dungeon Room (05)",
+    "structureId": "kattersstructures:better_vanilla_dungeon",
+    "blocks": 18860,
+    "uniqueBlocks": 41,
+    "url": "structures/katters_structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_05/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_05/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_05/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_05/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_05/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_06",
+    "id": "kattersstructures:better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_06",
+    "displayName": "Better Vanilla Dungeon Room (06)",
+    "structureId": "kattersstructures:better_vanilla_dungeon",
+    "blocks": 23052,
+    "uniqueBlocks": 41,
+    "url": "structures/katters_structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_06/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_06/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_06/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_06/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_06/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_07",
+    "id": "kattersstructures:better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_07",
+    "displayName": "Better Vanilla Dungeon Room (07)",
+    "structureId": "kattersstructures:better_vanilla_dungeon",
+    "blocks": 26920,
+    "uniqueBlocks": 41,
+    "url": "structures/katters_structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_07/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_07/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_07/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_07/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_07/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_08",
+    "id": "kattersstructures:better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_08",
+    "displayName": "Better Vanilla Dungeon Room (08)",
+    "structureId": "kattersstructures:better_vanilla_dungeon",
+    "blocks": 31689,
+    "uniqueBlocks": 41,
+    "url": "structures/katters_structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_08/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_08/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_08/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_08/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/better_vanilla_dungeon/better_vanilla_dungeon/room/better_vanilla_dungeon_room_08/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "birch_tree",
+    "id": "kattersstructures:birch_tree",
+    "displayName": "Birch Tree",
+    "structureId": "kattersstructures:birch_tree",
+    "blocks": 1979,
+    "uniqueBlocks": 26,
+    "url": "structures/katters_structures/kattersstructures/birch_tree/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/birch_tree/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/birch_tree/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/birch_tree/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/birch_tree/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "cherry_tree",
+    "id": "kattersstructures:cherry_tree",
+    "displayName": "Cherry Tree",
+    "structureId": "kattersstructures:cherry_tree",
+    "blocks": 1093,
+    "uniqueBlocks": 21,
+    "url": "structures/katters_structures/kattersstructures/cherry_tree/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/cherry_tree/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/cherry_tree/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/cherry_tree/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/cherry_tree/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "dark_tree",
+    "id": "kattersstructures:dark_tree",
+    "displayName": "Dark Tree",
+    "structureId": "kattersstructures:dark_tree",
+    "blocks": 4825,
+    "uniqueBlocks": 21,
+    "url": "structures/katters_structures/kattersstructures/dark_tree/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/dark_tree/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/dark_tree/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/dark_tree/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/dark_tree/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "deep_blue_city",
+    "id": "kattersstructures:deep_blue_city",
+    "displayName": "Deep Blue City",
+    "structureId": "kattersstructures:deep_blue_city",
+    "blocks": 82255,
+    "uniqueBlocks": 92,
+    "url": "structures/katters_structures/kattersstructures/deep_blue_city/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/deep_blue_city/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/deep_blue_city/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/deep_blue_city/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/deep_blue_city/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "deep_blue_lab_ruin",
+    "id": "kattersstructures:deep_blue_lab_ruin",
+    "displayName": "Deep Blue Lab Ruin",
+    "structureId": "kattersstructures:deep_blue_lab_ruin",
+    "blocks": 572,
+    "uniqueBlocks": 17,
+    "url": "structures/katters_structures/kattersstructures/deep_blue_lab_ruin/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/deep_blue_lab_ruin/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/deep_blue_lab_ruin/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/deep_blue_lab_ruin/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/deep_blue_lab_ruin/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "deep_blue_labs",
+    "id": "kattersstructures:deep_blue_labs",
+    "displayName": "Deep Blue Labs",
+    "structureId": "kattersstructures:deep_blue_labs",
+    "blocks": 215,
+    "uniqueBlocks": 9,
+    "url": "structures/katters_structures/kattersstructures/deep_blue_labs/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/deep_blue_labs/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/deep_blue_labs/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/deep_blue_labs/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/deep_blue_labs/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "desert_dungeon",
+    "id": "kattersstructures:desert_dungeon",
+    "displayName": "Desert Dungeon",
+    "structureId": "kattersstructures:desert_dungeon",
+    "blocks": 37528,
+    "uniqueBlocks": 46,
+    "url": "structures/katters_structures/kattersstructures/desert_dungeon/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/desert_dungeon/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/desert_dungeon/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/desert_dungeon/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/desert_dungeon/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "far_watch",
+    "id": "kattersstructures:far_watch",
+    "displayName": "Far Watch",
+    "structureId": "kattersstructures:far_watch",
+    "blocks": 323283,
+    "uniqueBlocks": 57,
+    "url": "structures/katters_structures/kattersstructures/far_watch/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/far_watch/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/far_watch/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/far_watch/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/far_watch/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "fossils",
+    "id": "kattersstructures:fossils",
+    "displayName": "Fossils",
+    "structureId": "kattersstructures:fossils",
+    "blocks": 381,
+    "uniqueBlocks": 4,
+    "url": "structures/katters_structures/kattersstructures/fossils/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/fossils/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/fossils/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/fossils/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/fossils/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "graveyard",
+    "id": "kattersstructures:graveyard",
+    "displayName": "Graveyard",
+    "structureId": "kattersstructures:graveyard",
+    "blocks": 4046,
+    "uniqueBlocks": 69,
+    "url": "structures/katters_structures/kattersstructures/graveyard/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/graveyard/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/graveyard/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/graveyard/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/graveyard/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "magic_tower",
+    "id": "kattersstructures:magic_tower",
+    "displayName": "Magic Tower",
+    "structureId": "kattersstructures:magic_tower",
+    "blocks": 20709,
+    "uniqueBlocks": 57,
+    "url": "structures/katters_structures/kattersstructures/magic_tower/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/magic_tower/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/magic_tower/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/magic_tower/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/magic_tower/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "mini_dungeon_rugged_shack",
+    "id": "kattersstructures:mini_dungeon_rugged_shack",
+    "displayName": "Mini Dungeon Rugged Shack",
+    "structureId": "kattersstructures:mini_dungeon_rugged_shack",
+    "blocks": 320,
+    "uniqueBlocks": 26,
+    "url": "structures/katters_structures/kattersstructures/mini_dungeon_rugged_shack/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/mini_dungeon_rugged_shack/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/mini_dungeon_rugged_shack/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/mini_dungeon_rugged_shack/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/mini_dungeon_rugged_shack/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "mini_dungeon_ruin",
+    "id": "kattersstructures:mini_dungeon_ruin",
+    "displayName": "Mini Dungeon Ruin",
+    "structureId": "kattersstructures:mini_dungeon_ruin",
+    "blocks": 96,
+    "uniqueBlocks": 9,
+    "url": "structures/katters_structures/kattersstructures/mini_dungeon_ruin/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/mini_dungeon_ruin/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/mini_dungeon_ruin/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/mini_dungeon_ruin/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/mini_dungeon_ruin/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "mini_dungeon_stone",
+    "id": "kattersstructures:mini_dungeon_stone",
+    "displayName": "Mini Dungeon Stone",
+    "structureId": "kattersstructures:mini_dungeon_stone",
+    "blocks": 386,
+    "uniqueBlocks": 10,
+    "url": "structures/katters_structures/kattersstructures/mini_dungeon_stone/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/mini_dungeon_stone/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/mini_dungeon_stone/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/mini_dungeon_stone/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/mini_dungeon_stone/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "mini_dungeon_tuff",
+    "id": "kattersstructures:mini_dungeon_tuff",
+    "displayName": "Mini Dungeon Tuff",
+    "structureId": "kattersstructures:mini_dungeon_tuff",
+    "blocks": 143,
+    "uniqueBlocks": 15,
+    "url": "structures/katters_structures/kattersstructures/mini_dungeon_tuff/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/mini_dungeon_tuff/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/mini_dungeon_tuff/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/mini_dungeon_tuff/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/mini_dungeon_tuff/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "ocean_ships",
+    "id": "kattersstructures:ocean_ships",
+    "displayName": "Ocean Ships",
+    "structureId": "kattersstructures:ocean_ships",
+    "blocks": 172,
+    "uniqueBlocks": 27,
+    "url": "structures/katters_structures/kattersstructures/ocean_ships/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/ocean_ships/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/ocean_ships/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/ocean_ships/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/ocean_ships/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "pillager_village",
+    "id": "kattersstructures:pillager_village",
+    "displayName": "Pillager Village",
+    "structureId": "kattersstructures:pillager_village",
+    "blocks": 9430,
+    "uniqueBlocks": 56,
+    "url": "structures/katters_structures/kattersstructures/pillager_village/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/pillager_village/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/pillager_village/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/pillager_village/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/pillager_village/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "red_coral/deep_blue/red_coral/red_coral_01",
+    "id": "kattersstructures:red_coral/deep_blue/red_coral/red_coral_01",
+    "displayName": "Red Coral (01)",
+    "structureId": "kattersstructures:red_coral",
+    "blocks": 562,
+    "uniqueBlocks": 6,
+    "url": "structures/katters_structures/kattersstructures/red_coral/deep_blue/red_coral/red_coral_01/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/red_coral/deep_blue/red_coral/red_coral_01/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/red_coral/deep_blue/red_coral/red_coral_01/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/red_coral/deep_blue/red_coral/red_coral_01/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/red_coral/deep_blue/red_coral/red_coral_01/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "red_coral/deep_blue/red_coral/red_coral_02",
+    "id": "kattersstructures:red_coral/deep_blue/red_coral/red_coral_02",
+    "displayName": "Red Coral (02)",
+    "structureId": "kattersstructures:red_coral",
+    "blocks": 788,
+    "uniqueBlocks": 6,
+    "url": "structures/katters_structures/kattersstructures/red_coral/deep_blue/red_coral/red_coral_02/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/red_coral/deep_blue/red_coral/red_coral_02/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/red_coral/deep_blue/red_coral/red_coral_02/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/red_coral/deep_blue/red_coral/red_coral_02/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/red_coral/deep_blue/red_coral/red_coral_02/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "red_coral/deep_blue/red_coral/red_coral_03",
+    "id": "kattersstructures:red_coral/deep_blue/red_coral/red_coral_03",
+    "displayName": "Red Coral (03)",
+    "structureId": "kattersstructures:red_coral",
+    "blocks": 637,
+    "uniqueBlocks": 5,
+    "url": "structures/katters_structures/kattersstructures/red_coral/deep_blue/red_coral/red_coral_03/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/red_coral/deep_blue/red_coral/red_coral_03/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/red_coral/deep_blue/red_coral/red_coral_03/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/red_coral/deep_blue/red_coral/red_coral_03/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/red_coral/deep_blue/red_coral/red_coral_03/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "red_coral/deep_blue/red_coral/red_coral_04",
+    "id": "kattersstructures:red_coral/deep_blue/red_coral/red_coral_04",
+    "displayName": "Red Coral (04)",
+    "structureId": "kattersstructures:red_coral",
+    "blocks": 2735,
+    "uniqueBlocks": 6,
+    "url": "structures/katters_structures/kattersstructures/red_coral/deep_blue/red_coral/red_coral_04/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/red_coral/deep_blue/red_coral/red_coral_04/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/red_coral/deep_blue/red_coral/red_coral_04/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/red_coral/deep_blue/red_coral/red_coral_04/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/red_coral/deep_blue/red_coral/red_coral_04/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "ruined_village",
+    "id": "kattersstructures:ruined_village",
+    "displayName": "Ruined Village",
+    "structureId": "kattersstructures:ruined_village",
+    "blocks": 3976,
+    "uniqueBlocks": 38,
+    "url": "structures/katters_structures/kattersstructures/ruined_village/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/ruined_village/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/ruined_village/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/ruined_village/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/ruined_village/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "shroom_cave",
+    "id": "kattersstructures:shroom_cave",
+    "displayName": "Shroom Cave",
+    "structureId": "kattersstructures:shroom_cave",
+    "blocks": 4344,
+    "uniqueBlocks": 8,
+    "url": "structures/katters_structures/kattersstructures/shroom_cave/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/shroom_cave/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/shroom_cave/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/shroom_cave/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/shroom_cave/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "sky_decor/sky_decor/sky_decor_01",
+    "id": "kattersstructures:sky_decor/sky_decor/sky_decor_01",
+    "displayName": "Sky Decor (01)",
+    "structureId": "kattersstructures:sky_decor",
+    "blocks": 596,
+    "uniqueBlocks": 18,
+    "url": "structures/katters_structures/kattersstructures/sky_decor/sky_decor/sky_decor_01/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/sky_decor/sky_decor/sky_decor_01/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/sky_decor/sky_decor/sky_decor_01/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/sky_decor/sky_decor/sky_decor_01/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/sky_decor/sky_decor/sky_decor_01/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "sky_decor/sky_decor/sky_decor_02",
+    "id": "kattersstructures:sky_decor/sky_decor/sky_decor_02",
+    "displayName": "Sky Decor (02)",
+    "structureId": "kattersstructures:sky_decor",
+    "blocks": 596,
+    "uniqueBlocks": 20,
+    "url": "structures/katters_structures/kattersstructures/sky_decor/sky_decor/sky_decor_02/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/sky_decor/sky_decor/sky_decor_02/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/sky_decor/sky_decor/sky_decor_02/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/sky_decor/sky_decor/sky_decor_02/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/sky_decor/sky_decor/sky_decor_02/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "sky_decor/sky_decor/sky_decor_03",
+    "id": "kattersstructures:sky_decor/sky_decor/sky_decor_03",
+    "displayName": "Sky Decor (03)",
+    "structureId": "kattersstructures:sky_decor",
+    "blocks": 596,
+    "uniqueBlocks": 19,
+    "url": "structures/katters_structures/kattersstructures/sky_decor/sky_decor/sky_decor_03/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/sky_decor/sky_decor/sky_decor_03/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/sky_decor/sky_decor/sky_decor_03/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/sky_decor/sky_decor/sky_decor_03/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/sky_decor/sky_decor/sky_decor_03/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "sky_decor/sky_decor/sky_decor_04",
+    "id": "kattersstructures:sky_decor/sky_decor/sky_decor_04",
+    "displayName": "Sky Decor (04)",
+    "structureId": "kattersstructures:sky_decor",
+    "blocks": 540,
+    "uniqueBlocks": 13,
+    "url": "structures/katters_structures/kattersstructures/sky_decor/sky_decor/sky_decor_04/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/sky_decor/sky_decor/sky_decor_04/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/sky_decor/sky_decor/sky_decor_04/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/sky_decor/sky_decor/sky_decor_04/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/sky_decor/sky_decor/sky_decor_04/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "sky_decor/sky_decor/sky_decor_05",
+    "id": "kattersstructures:sky_decor/sky_decor/sky_decor_05",
+    "displayName": "Sky Decor (05)",
+    "structureId": "kattersstructures:sky_decor",
+    "blocks": 540,
+    "uniqueBlocks": 14,
+    "url": "structures/katters_structures/kattersstructures/sky_decor/sky_decor/sky_decor_05/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/sky_decor/sky_decor/sky_decor_05/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/sky_decor/sky_decor/sky_decor_05/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/sky_decor/sky_decor/sky_decor_05/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/sky_decor/sky_decor/sky_decor_05/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "sky_decor/sky_decor/sky_decor_06",
+    "id": "kattersstructures:sky_decor/sky_decor/sky_decor_06",
+    "displayName": "Sky Decor (06)",
+    "structureId": "kattersstructures:sky_decor",
+    "blocks": 540,
+    "uniqueBlocks": 15,
+    "url": "structures/katters_structures/kattersstructures/sky_decor/sky_decor/sky_decor_06/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/sky_decor/sky_decor/sky_decor_06/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/sky_decor/sky_decor/sky_decor_06/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/sky_decor/sky_decor/sky_decor_06/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/sky_decor/sky_decor/sky_decor_06/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "sky_decor/sky_decor/sky_decor_pillager_01",
+    "id": "kattersstructures:sky_decor/sky_decor/sky_decor_pillager_01",
+    "displayName": "Sky Decor Pillager (01)",
+    "structureId": "kattersstructures:sky_decor",
+    "blocks": 3751,
+    "uniqueBlocks": 36,
+    "url": "structures/katters_structures/kattersstructures/sky_decor/sky_decor/sky_decor_pillager_01/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/sky_decor/sky_decor/sky_decor_pillager_01/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/sky_decor/sky_decor/sky_decor_pillager_01/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/sky_decor/sky_decor/sky_decor_pillager_01/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/sky_decor/sky_decor/sky_decor_pillager_01/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "sky_dungeon",
+    "id": "kattersstructures:sky_dungeon",
+    "displayName": "Sky Dungeon",
+    "structureId": "kattersstructures:sky_dungeon",
+    "blocks": 34319,
+    "uniqueBlocks": 68,
+    "url": "structures/katters_structures/kattersstructures/sky_dungeon/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/sky_dungeon/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/sky_dungeon/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/sky_dungeon/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/sky_dungeon/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "skyhold",
+    "id": "kattersstructures:skyhold",
+    "displayName": "Skyhold",
+    "structureId": "kattersstructures:skyhold",
+    "blocks": 248872,
+    "uniqueBlocks": 85,
+    "url": "structures/katters_structures/kattersstructures/skyhold/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/skyhold/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/skyhold/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/skyhold/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/skyhold/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "skyrtle",
+    "id": "kattersstructures:skyrtle",
+    "displayName": "Skyrtle",
+    "structureId": "kattersstructures:skyrtle",
+    "blocks": 58149,
+    "uniqueBlocks": 29,
+    "url": "structures/katters_structures/kattersstructures/skyrtle/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/skyrtle/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/skyrtle/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/skyrtle/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/skyrtle/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "spider_den",
+    "id": "kattersstructures:spider_den",
+    "displayName": "Spider Den",
+    "structureId": "kattersstructures:spider_den",
+    "blocks": 16320,
+    "uniqueBlocks": 7,
+    "url": "structures/katters_structures/kattersstructures/spider_den/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/spider_den/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/spider_den/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/spider_den/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/spider_den/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "trader_outposts",
+    "id": "kattersstructures:trader_outposts",
+    "displayName": "Trader Outposts",
+    "structureId": "kattersstructures:trader_outposts",
+    "blocks": 837,
+    "uniqueBlocks": 40,
+    "url": "structures/katters_structures/kattersstructures/trader_outposts/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/trader_outposts/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/trader_outposts/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/trader_outposts/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/trader_outposts/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "village_birch",
+    "id": "kattersstructures:village_birch",
+    "displayName": "Village Birch",
+    "structureId": "kattersstructures:village_birch",
+    "blocks": 31429,
+    "uniqueBlocks": 66,
+    "url": "structures/katters_structures/kattersstructures/village_birch/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/village_birch/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/village_birch/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/village_birch/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/village_birch/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "village_cherry",
+    "id": "kattersstructures:village_cherry",
+    "displayName": "Village Cherry",
+    "structureId": "kattersstructures:village_cherry",
+    "blocks": 8752,
+    "uniqueBlocks": 63,
+    "url": "structures/katters_structures/kattersstructures/village_cherry/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/village_cherry/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/village_cherry/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/village_cherry/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/village_cherry/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "village_jungle",
+    "id": "kattersstructures:village_jungle",
+    "displayName": "Village Jungle",
+    "structureId": "kattersstructures:village_jungle",
+    "blocks": 14622,
+    "uniqueBlocks": 52,
+    "url": "structures/katters_structures/kattersstructures/village_jungle/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/village_jungle/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/village_jungle/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/village_jungle/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/village_jungle/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "village_mesa",
+    "id": "kattersstructures:village_mesa",
+    "displayName": "Village Mesa",
+    "structureId": "kattersstructures:village_mesa",
+    "blocks": 14070,
+    "uniqueBlocks": 124,
+    "url": "structures/katters_structures/kattersstructures/village_mesa/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/village_mesa/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/village_mesa/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/village_mesa/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/village_mesa/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "village_ocean",
+    "id": "kattersstructures:village_ocean",
+    "displayName": "Village Ocean",
+    "structureId": "kattersstructures:village_ocean",
+    "blocks": 8044,
+    "uniqueBlocks": 90,
+    "url": "structures/katters_structures/kattersstructures/village_ocean/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/village_ocean/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/village_ocean/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/village_ocean/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/village_ocean/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "village_sky",
+    "id": "kattersstructures:village_sky",
+    "displayName": "Village Sky",
+    "structureId": "kattersstructures:village_sky",
+    "blocks": 8865,
+    "uniqueBlocks": 58,
+    "url": "structures/katters_structures/kattersstructures/village_sky/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/village_sky/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/village_sky/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/village_sky/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/village_sky/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "village_swamp",
+    "id": "kattersstructures:village_swamp",
+    "displayName": "Village Swamp",
+    "structureId": "kattersstructures:village_swamp",
+    "blocks": 6723,
+    "uniqueBlocks": 67,
+    "url": "structures/katters_structures/kattersstructures/village_swamp/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/village_swamp/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/village_swamp/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/village_swamp/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/village_swamp/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "village_underground",
+    "id": "kattersstructures:village_underground",
+    "displayName": "Village Underground",
+    "structureId": "kattersstructures:village_underground",
+    "blocks": 4537,
+    "uniqueBlocks": 43,
+    "url": "structures/katters_structures/kattersstructures/village_underground/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/village_underground/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/village_underground/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/village_underground/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/village_underground/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "villager_desert",
+    "id": "kattersstructures:villager_desert",
+    "displayName": "Villager Desert",
+    "structureId": "kattersstructures:villager_desert",
+    "blocks": 101,
+    "uniqueBlocks": 7,
+    "url": "structures/katters_structures/kattersstructures/villager_desert/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/villager_desert/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/villager_desert/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/villager_desert/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/villager_desert/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "villager_mountain",
+    "id": "kattersstructures:villager_mountain",
+    "displayName": "Villager Mountain",
+    "structureId": "kattersstructures:villager_mountain",
+    "blocks": 182,
+    "uniqueBlocks": 10,
+    "url": "structures/katters_structures/kattersstructures/villager_mountain/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/villager_mountain/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/villager_mountain/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/villager_mountain/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/villager_mountain/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "villager_ocean",
+    "id": "kattersstructures:villager_ocean",
+    "displayName": "Villager Ocean",
+    "structureId": "kattersstructures:villager_ocean",
+    "blocks": 102,
+    "uniqueBlocks": 9,
+    "url": "structures/katters_structures/kattersstructures/villager_ocean/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/villager_ocean/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/villager_ocean/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/villager_ocean/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/villager_ocean/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "windmill",
+    "id": "kattersstructures:windmill",
+    "displayName": "Windmill",
+    "structureId": "kattersstructures:windmill",
+    "blocks": 6113,
+    "uniqueBlocks": 76,
+    "url": "structures/katters_structures/kattersstructures/windmill/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/windmill/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/windmill/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/windmill/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/windmill/west.png"
+    ]
+  },
+  {
+    "datapack": "Katters Structures",
+    "datapackSlug": "katters_structures",
+    "namespace": "kattersstructures",
+    "structure": "witch_circle",
+    "id": "kattersstructures:witch_circle",
+    "displayName": "Witch Circle",
+    "structureId": "kattersstructures:witch_circle",
+    "blocks": 939,
+    "uniqueBlocks": 15,
+    "url": "structures/katters_structures/kattersstructures/witch_circle/index.html",
+    "previews": [
+      "/wiki/katters_structures/images/structures/kattersstructures/witch_circle/north.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/witch_circle/east.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/witch_circle/south.png",
+      "/wiki/katters_structures/images/structures/kattersstructures/witch_circle/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Mob Variants",
+    "datapackSlug": "nice_mob_variants",
+    "namespace": "nice_mob_variants",
+    "structure": "archaeological_site",
+    "id": "nice_mob_variants:archaeological_site",
+    "displayName": "Archaeological Site",
+    "structureId": "nice_mob_variants:archaeological_site",
+    "blocks": 1582,
+    "uniqueBlocks": 22,
+    "url": "structures/nice_mob_variants/nice_mob_variants/archaeological_site/index.html",
+    "previews": [
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/archaeological_site/north.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/archaeological_site/east.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/archaeological_site/south.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/archaeological_site/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Mob Variants",
+    "datapackSlug": "nice_mob_variants",
+    "namespace": "nice_mob_variants",
+    "structure": "barn/barn/building_1",
+    "id": "nice_mob_variants:barn/barn/building_1",
+    "displayName": "Building (1)",
+    "structureId": "nice_mob_variants:barn",
+    "blocks": 628,
+    "uniqueBlocks": 42,
+    "url": "structures/nice_mob_variants/nice_mob_variants/barn/barn/building_1/index.html",
+    "previews": [
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/barn/barn/building_1/north.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/barn/barn/building_1/east.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/barn/barn/building_1/south.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/barn/barn/building_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Mob Variants",
+    "datapackSlug": "nice_mob_variants",
+    "namespace": "nice_mob_variants",
+    "structure": "barn/barn/building_2",
+    "id": "nice_mob_variants:barn/barn/building_2",
+    "displayName": "Building (2)",
+    "structureId": "nice_mob_variants:barn",
+    "blocks": 625,
+    "uniqueBlocks": 42,
+    "url": "structures/nice_mob_variants/nice_mob_variants/barn/barn/building_2/index.html",
+    "previews": [
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/barn/barn/building_2/north.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/barn/barn/building_2/east.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/barn/barn/building_2/south.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/barn/barn/building_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Mob Variants",
+    "datapackSlug": "nice_mob_variants",
+    "namespace": "nice_mob_variants",
+    "structure": "barn/barn/building_3",
+    "id": "nice_mob_variants:barn/barn/building_3",
+    "displayName": "Building (3)",
+    "structureId": "nice_mob_variants:barn",
+    "blocks": 623,
+    "uniqueBlocks": 37,
+    "url": "structures/nice_mob_variants/nice_mob_variants/barn/barn/building_3/index.html",
+    "previews": [
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/barn/barn/building_3/north.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/barn/barn/building_3/east.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/barn/barn/building_3/south.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/barn/barn/building_3/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Mob Variants",
+    "datapackSlug": "nice_mob_variants",
+    "namespace": "nice_mob_variants",
+    "structure": "coop_bamboo",
+    "id": "nice_mob_variants:coop_bamboo",
+    "displayName": "Coop Bamboo",
+    "structureId": "nice_mob_variants:coop_bamboo",
+    "blocks": 296,
+    "uniqueBlocks": 18,
+    "url": "structures/nice_mob_variants/nice_mob_variants/coop_bamboo/index.html",
+    "previews": [
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/coop_bamboo/north.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/coop_bamboo/east.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/coop_bamboo/south.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/coop_bamboo/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Mob Variants",
+    "datapackSlug": "nice_mob_variants",
+    "namespace": "nice_mob_variants",
+    "structure": "coop_cold",
+    "id": "nice_mob_variants:coop_cold",
+    "displayName": "Coop Cold",
+    "structureId": "nice_mob_variants:coop_cold",
+    "blocks": 458,
+    "uniqueBlocks": 18,
+    "url": "structures/nice_mob_variants/nice_mob_variants/coop_cold/index.html",
+    "previews": [
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/coop_cold/north.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/coop_cold/east.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/coop_cold/south.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/coop_cold/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Mob Variants",
+    "datapackSlug": "nice_mob_variants",
+    "namespace": "nice_mob_variants",
+    "structure": "coop_shroom",
+    "id": "nice_mob_variants:coop_shroom",
+    "displayName": "Coop Shroom",
+    "structureId": "nice_mob_variants:coop_shroom",
+    "blocks": 143,
+    "uniqueBlocks": 10,
+    "url": "structures/nice_mob_variants/nice_mob_variants/coop_shroom/index.html",
+    "previews": [
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/coop_shroom/north.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/coop_shroom/east.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/coop_shroom/south.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/coop_shroom/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Mob Variants",
+    "datapackSlug": "nice_mob_variants",
+    "namespace": "nice_mob_variants",
+    "structure": "coop_wood",
+    "id": "nice_mob_variants:coop_wood",
+    "displayName": "Coop Wood",
+    "structureId": "nice_mob_variants:coop_wood",
+    "blocks": 266,
+    "uniqueBlocks": 18,
+    "url": "structures/nice_mob_variants/nice_mob_variants/coop_wood/index.html",
+    "previews": [
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/coop_wood/north.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/coop_wood/east.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/coop_wood/south.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/coop_wood/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Mob Variants",
+    "datapackSlug": "nice_mob_variants",
+    "namespace": "nice_mob_variants",
+    "structure": "end_farm",
+    "id": "nice_mob_variants:end_farm",
+    "displayName": "End Farm",
+    "structureId": "nice_mob_variants:end_farm",
+    "blocks": 3285,
+    "uniqueBlocks": 20,
+    "url": "structures/nice_mob_variants/nice_mob_variants/end_farm/index.html",
+    "previews": [
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/end_farm/north.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/end_farm/east.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/end_farm/south.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/end_farm/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Mob Variants",
+    "datapackSlug": "nice_mob_variants",
+    "namespace": "nice_mob_variants",
+    "structure": "fallen_mushroom/fallen_mushroom/type_1",
+    "id": "nice_mob_variants:fallen_mushroom/fallen_mushroom/type_1",
+    "displayName": "Type (1)",
+    "structureId": "nice_mob_variants:fallen_mushroom",
+    "blocks": 53,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_mob_variants/nice_mob_variants/fallen_mushroom/fallen_mushroom/type_1/index.html",
+    "previews": [
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/fallen_mushroom/fallen_mushroom/type_1/north.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/fallen_mushroom/fallen_mushroom/type_1/east.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/fallen_mushroom/fallen_mushroom/type_1/south.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/fallen_mushroom/fallen_mushroom/type_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Mob Variants",
+    "datapackSlug": "nice_mob_variants",
+    "namespace": "nice_mob_variants",
+    "structure": "fallen_mushroom/fallen_mushroom/type_2",
+    "id": "nice_mob_variants:fallen_mushroom/fallen_mushroom/type_2",
+    "displayName": "Type (2)",
+    "structureId": "nice_mob_variants:fallen_mushroom",
+    "blocks": 61,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_mob_variants/nice_mob_variants/fallen_mushroom/fallen_mushroom/type_2/index.html",
+    "previews": [
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/fallen_mushroom/fallen_mushroom/type_2/north.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/fallen_mushroom/fallen_mushroom/type_2/east.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/fallen_mushroom/fallen_mushroom/type_2/south.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/fallen_mushroom/fallen_mushroom/type_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Mob Variants",
+    "datapackSlug": "nice_mob_variants",
+    "namespace": "nice_mob_variants",
+    "structure": "graveyard",
+    "id": "nice_mob_variants:graveyard",
+    "displayName": "Graveyard",
+    "structureId": "nice_mob_variants:graveyard",
+    "blocks": 573,
+    "uniqueBlocks": 23,
+    "url": "structures/nice_mob_variants/nice_mob_variants/graveyard/index.html",
+    "previews": [
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/graveyard/north.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/graveyard/east.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/graveyard/south.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/graveyard/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Mob Variants",
+    "datapackSlug": "nice_mob_variants",
+    "namespace": "nice_mob_variants",
+    "structure": "hot_spring/hot_spring/type_1",
+    "id": "nice_mob_variants:hot_spring/hot_spring/type_1",
+    "displayName": "Type (1)",
+    "structureId": "nice_mob_variants:hot_spring",
+    "blocks": 108,
+    "uniqueBlocks": 9,
+    "url": "structures/nice_mob_variants/nice_mob_variants/hot_spring/hot_spring/type_1/index.html",
+    "previews": [
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/hot_spring/hot_spring/type_1/north.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/hot_spring/hot_spring/type_1/east.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/hot_spring/hot_spring/type_1/south.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/hot_spring/hot_spring/type_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Mob Variants",
+    "datapackSlug": "nice_mob_variants",
+    "namespace": "nice_mob_variants",
+    "structure": "hot_spring/hot_spring/type_2",
+    "id": "nice_mob_variants:hot_spring/hot_spring/type_2",
+    "displayName": "Type (2)",
+    "structureId": "nice_mob_variants:hot_spring",
+    "blocks": 81,
+    "uniqueBlocks": 7,
+    "url": "structures/nice_mob_variants/nice_mob_variants/hot_spring/hot_spring/type_2/index.html",
+    "previews": [
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/hot_spring/hot_spring/type_2/north.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/hot_spring/hot_spring/type_2/east.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/hot_spring/hot_spring/type_2/south.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/hot_spring/hot_spring/type_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Mob Variants",
+    "datapackSlug": "nice_mob_variants",
+    "namespace": "nice_mob_variants",
+    "structure": "hot_spring/hot_spring/type_3",
+    "id": "nice_mob_variants:hot_spring/hot_spring/type_3",
+    "displayName": "Type (3)",
+    "structureId": "nice_mob_variants:hot_spring",
+    "blocks": 81,
+    "uniqueBlocks": 7,
+    "url": "structures/nice_mob_variants/nice_mob_variants/hot_spring/hot_spring/type_3/index.html",
+    "previews": [
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/hot_spring/hot_spring/type_3/north.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/hot_spring/hot_spring/type_3/east.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/hot_spring/hot_spring/type_3/south.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/hot_spring/hot_spring/type_3/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Mob Variants",
+    "datapackSlug": "nice_mob_variants",
+    "namespace": "nice_mob_variants",
+    "structure": "hot_spring/hot_spring/type_4",
+    "id": "nice_mob_variants:hot_spring/hot_spring/type_4",
+    "displayName": "Type (4)",
+    "structureId": "nice_mob_variants:hot_spring",
+    "blocks": 108,
+    "uniqueBlocks": 9,
+    "url": "structures/nice_mob_variants/nice_mob_variants/hot_spring/hot_spring/type_4/index.html",
+    "previews": [
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/hot_spring/hot_spring/type_4/north.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/hot_spring/hot_spring/type_4/east.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/hot_spring/hot_spring/type_4/south.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/hot_spring/hot_spring/type_4/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Mob Variants",
+    "datapackSlug": "nice_mob_variants",
+    "namespace": "nice_mob_variants",
+    "structure": "hot_spring/hot_spring/type_5",
+    "id": "nice_mob_variants:hot_spring/hot_spring/type_5",
+    "displayName": "Type (5)",
+    "structureId": "nice_mob_variants:hot_spring",
+    "blocks": 108,
+    "uniqueBlocks": 9,
+    "url": "structures/nice_mob_variants/nice_mob_variants/hot_spring/hot_spring/type_5/index.html",
+    "previews": [
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/hot_spring/hot_spring/type_5/north.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/hot_spring/hot_spring/type_5/east.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/hot_spring/hot_spring/type_5/south.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/hot_spring/hot_spring/type_5/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Mob Variants",
+    "datapackSlug": "nice_mob_variants",
+    "namespace": "nice_mob_variants",
+    "structure": "hot_spring/hot_spring/type_6",
+    "id": "nice_mob_variants:hot_spring/hot_spring/type_6",
+    "displayName": "Type (6)",
+    "structureId": "nice_mob_variants:hot_spring",
+    "blocks": 81,
+    "uniqueBlocks": 7,
+    "url": "structures/nice_mob_variants/nice_mob_variants/hot_spring/hot_spring/type_6/index.html",
+    "previews": [
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/hot_spring/hot_spring/type_6/north.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/hot_spring/hot_spring/type_6/east.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/hot_spring/hot_spring/type_6/south.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/hot_spring/hot_spring/type_6/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Mob Variants",
+    "datapackSlug": "nice_mob_variants",
+    "namespace": "nice_mob_variants",
+    "structure": "monolith",
+    "id": "nice_mob_variants:monolith",
+    "displayName": "Monolith",
+    "structureId": "nice_mob_variants:monolith",
+    "blocks": 235,
+    "uniqueBlocks": 7,
+    "url": "structures/nice_mob_variants/nice_mob_variants/monolith/index.html",
+    "previews": [
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/monolith/north.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/monolith/east.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/monolith/south.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/monolith/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Mob Variants",
+    "datapackSlug": "nice_mob_variants",
+    "namespace": "nice_mob_variants",
+    "structure": "nether_well/nether_well/type_1",
+    "id": "nice_mob_variants:nether_well/nether_well/type_1",
+    "displayName": "Type (1)",
+    "structureId": "nice_mob_variants:nether_well",
+    "blocks": 44,
+    "uniqueBlocks": 7,
+    "url": "structures/nice_mob_variants/nice_mob_variants/nether_well/nether_well/type_1/index.html",
+    "previews": [
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/nether_well/nether_well/type_1/north.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/nether_well/nether_well/type_1/east.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/nether_well/nether_well/type_1/south.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/nether_well/nether_well/type_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Mob Variants",
+    "datapackSlug": "nice_mob_variants",
+    "namespace": "nice_mob_variants",
+    "structure": "nether_well/nether_well/type_2",
+    "id": "nice_mob_variants:nether_well/nether_well/type_2",
+    "displayName": "Type (2)",
+    "structureId": "nice_mob_variants:nether_well",
+    "blocks": 44,
+    "uniqueBlocks": 7,
+    "url": "structures/nice_mob_variants/nice_mob_variants/nether_well/nether_well/type_2/index.html",
+    "previews": [
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/nether_well/nether_well/type_2/north.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/nether_well/nether_well/type_2/east.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/nether_well/nether_well/type_2/south.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/nether_well/nether_well/type_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Mob Variants",
+    "datapackSlug": "nice_mob_variants",
+    "namespace": "nice_mob_variants",
+    "structure": "nether_well/nether_well/type_3",
+    "id": "nice_mob_variants:nether_well/nether_well/type_3",
+    "displayName": "Type (3)",
+    "structureId": "nice_mob_variants:nether_well",
+    "blocks": 44,
+    "uniqueBlocks": 7,
+    "url": "structures/nice_mob_variants/nice_mob_variants/nether_well/nether_well/type_3/index.html",
+    "previews": [
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/nether_well/nether_well/type_3/north.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/nether_well/nether_well/type_3/east.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/nether_well/nether_well/type_3/south.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/nether_well/nether_well/type_3/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Mob Variants",
+    "datapackSlug": "nice_mob_variants",
+    "namespace": "nice_mob_variants",
+    "structure": "nether_well/nether_well/type_4",
+    "id": "nice_mob_variants:nether_well/nether_well/type_4",
+    "displayName": "Type (4)",
+    "structureId": "nice_mob_variants:nether_well",
+    "blocks": 44,
+    "uniqueBlocks": 7,
+    "url": "structures/nice_mob_variants/nice_mob_variants/nether_well/nether_well/type_4/index.html",
+    "previews": [
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/nether_well/nether_well/type_4/north.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/nether_well/nether_well/type_4/east.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/nether_well/nether_well/type_4/south.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/nether_well/nether_well/type_4/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Mob Variants",
+    "datapackSlug": "nice_mob_variants",
+    "namespace": "nice_mob_variants",
+    "structure": "pale_oak_tree/pale_oak_tree/type_1",
+    "id": "nice_mob_variants:pale_oak_tree/pale_oak_tree/type_1",
+    "displayName": "Type (1)",
+    "structureId": "nice_mob_variants:pale_oak_tree",
+    "blocks": 64,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_mob_variants/nice_mob_variants/pale_oak_tree/pale_oak_tree/type_1/index.html",
+    "previews": [
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/pale_oak_tree/pale_oak_tree/type_1/north.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/pale_oak_tree/pale_oak_tree/type_1/east.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/pale_oak_tree/pale_oak_tree/type_1/south.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/pale_oak_tree/pale_oak_tree/type_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Mob Variants",
+    "datapackSlug": "nice_mob_variants",
+    "namespace": "nice_mob_variants",
+    "structure": "pale_oak_tree/pale_oak_tree/type_2",
+    "id": "nice_mob_variants:pale_oak_tree/pale_oak_tree/type_2",
+    "displayName": "Type (2)",
+    "structureId": "nice_mob_variants:pale_oak_tree",
+    "blocks": 78,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_mob_variants/nice_mob_variants/pale_oak_tree/pale_oak_tree/type_2/index.html",
+    "previews": [
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/pale_oak_tree/pale_oak_tree/type_2/north.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/pale_oak_tree/pale_oak_tree/type_2/east.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/pale_oak_tree/pale_oak_tree/type_2/south.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/pale_oak_tree/pale_oak_tree/type_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Mob Variants",
+    "datapackSlug": "nice_mob_variants",
+    "namespace": "nice_mob_variants",
+    "structure": "pen_cold",
+    "id": "nice_mob_variants:pen_cold",
+    "displayName": "Pen Cold",
+    "structureId": "nice_mob_variants:pen_cold",
+    "blocks": 160,
+    "uniqueBlocks": 17,
+    "url": "structures/nice_mob_variants/nice_mob_variants/pen_cold/index.html",
+    "previews": [
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/pen_cold/north.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/pen_cold/east.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/pen_cold/south.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/pen_cold/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Mob Variants",
+    "datapackSlug": "nice_mob_variants",
+    "namespace": "nice_mob_variants",
+    "structure": "pen_jungle",
+    "id": "nice_mob_variants:pen_jungle",
+    "displayName": "Pen Jungle",
+    "structureId": "nice_mob_variants:pen_jungle",
+    "blocks": 178,
+    "uniqueBlocks": 17,
+    "url": "structures/nice_mob_variants/nice_mob_variants/pen_jungle/index.html",
+    "previews": [
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/pen_jungle/north.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/pen_jungle/east.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/pen_jungle/south.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/pen_jungle/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Mob Variants",
+    "datapackSlug": "nice_mob_variants",
+    "namespace": "nice_mob_variants",
+    "structure": "pen_wild",
+    "id": "nice_mob_variants:pen_wild",
+    "displayName": "Pen Wild",
+    "structureId": "nice_mob_variants:pen_wild",
+    "blocks": 102,
+    "uniqueBlocks": 17,
+    "url": "structures/nice_mob_variants/nice_mob_variants/pen_wild/index.html",
+    "previews": [
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/pen_wild/north.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/pen_wild/east.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/pen_wild/south.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/pen_wild/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Mob Variants",
+    "datapackSlug": "nice_mob_variants",
+    "namespace": "nice_mob_variants",
+    "structure": "pen_wood",
+    "id": "nice_mob_variants:pen_wood",
+    "displayName": "Pen Wood",
+    "structureId": "nice_mob_variants:pen_wood",
+    "blocks": 218,
+    "uniqueBlocks": 17,
+    "url": "structures/nice_mob_variants/nice_mob_variants/pen_wood/index.html",
+    "previews": [
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/pen_wood/north.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/pen_wood/east.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/pen_wood/south.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/pen_wood/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Mob Variants",
+    "datapackSlug": "nice_mob_variants",
+    "namespace": "nice_mob_variants",
+    "structure": "potato_farm",
+    "id": "nice_mob_variants:potato_farm",
+    "displayName": "Potato Farm",
+    "structureId": "nice_mob_variants:potato_farm",
+    "blocks": 821,
+    "uniqueBlocks": 19,
+    "url": "structures/nice_mob_variants/nice_mob_variants/potato_farm/index.html",
+    "previews": [
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/potato_farm/north.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/potato_farm/east.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/potato_farm/south.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/potato_farm/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Mob Variants",
+    "datapackSlug": "nice_mob_variants",
+    "namespace": "nice_mob_variants",
+    "structure": "slime_dungeon",
+    "id": "nice_mob_variants:slime_dungeon",
+    "displayName": "Slime Dungeon",
+    "structureId": "nice_mob_variants:slime_dungeon",
+    "blocks": 1281,
+    "uniqueBlocks": 7,
+    "url": "structures/nice_mob_variants/nice_mob_variants/slime_dungeon/index.html",
+    "previews": [
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/slime_dungeon/north.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/slime_dungeon/east.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/slime_dungeon/south.png",
+      "/wiki/nice_mob_variants/images/structures/nice_mob_variants/slime_dungeon/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "desert_decorations/desert_decorations/statue_1",
+    "id": "nice_things:desert_decorations/desert_decorations/statue_1",
+    "displayName": "Statue (1)",
+    "structureId": "nice_things:desert_decorations",
+    "blocks": 51,
+    "uniqueBlocks": 10,
+    "url": "structures/nice_things/nice_things/desert_decorations/desert_decorations/statue_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/statue_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/statue_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/statue_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/statue_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "desert_decorations/desert_decorations/statue_2",
+    "id": "nice_things:desert_decorations/desert_decorations/statue_2",
+    "displayName": "Statue (2)",
+    "structureId": "nice_things:desert_decorations",
+    "blocks": 51,
+    "uniqueBlocks": 9,
+    "url": "structures/nice_things/nice_things/desert_decorations/desert_decorations/statue_2/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/statue_2/north.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/statue_2/east.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/statue_2/south.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/statue_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "desert_decorations/desert_decorations/statue_3",
+    "id": "nice_things:desert_decorations/desert_decorations/statue_3",
+    "displayName": "Statue (3)",
+    "structureId": "nice_things:desert_decorations",
+    "blocks": 51,
+    "uniqueBlocks": 9,
+    "url": "structures/nice_things/nice_things/desert_decorations/desert_decorations/statue_3/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/statue_3/north.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/statue_3/east.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/statue_3/south.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/statue_3/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "desert_decorations/desert_decorations/lamp_1",
+    "id": "nice_things:desert_decorations/desert_decorations/lamp_1",
+    "displayName": "Lamp (1)",
+    "structureId": "nice_things:desert_decorations",
+    "blocks": 20,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/desert_decorations/desert_decorations/lamp_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/lamp_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/lamp_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/lamp_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/lamp_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "desert_decorations/desert_decorations/lamp_2",
+    "id": "nice_things:desert_decorations/desert_decorations/lamp_2",
+    "displayName": "Lamp (2)",
+    "structureId": "nice_things:desert_decorations",
+    "blocks": 20,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/desert_decorations/desert_decorations/lamp_2/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/lamp_2/north.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/lamp_2/east.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/lamp_2/south.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/lamp_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "desert_decorations/desert_decorations/lamp_3",
+    "id": "nice_things:desert_decorations/desert_decorations/lamp_3",
+    "displayName": "Lamp (3)",
+    "structureId": "nice_things:desert_decorations",
+    "blocks": 20,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/desert_decorations/desert_decorations/lamp_3/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/lamp_3/north.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/lamp_3/east.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/lamp_3/south.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/lamp_3/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "desert_decorations/desert_decorations/lamp_4",
+    "id": "nice_things:desert_decorations/desert_decorations/lamp_4",
+    "displayName": "Lamp (4)",
+    "structureId": "nice_things:desert_decorations",
+    "blocks": 20,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/desert_decorations/desert_decorations/lamp_4/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/lamp_4/north.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/lamp_4/east.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/lamp_4/south.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/lamp_4/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "end_ship_crashed/end_ship/09",
+    "id": "nice_things:end_ship_crashed/end_ship/09",
+    "displayName": "09",
+    "structureId": "nice_things:end_ship_crashed",
+    "blocks": 164,
+    "uniqueBlocks": 7,
+    "url": "structures/nice_things/nice_things/end_ship_crashed/end_ship/09/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/end_ship_crashed/end_ship/09/north.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_crashed/end_ship/09/east.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_crashed/end_ship/09/south.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_crashed/end_ship/09/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "end_ship_crashed/end_ship/10",
+    "id": "nice_things:end_ship_crashed/end_ship/10",
+    "displayName": "10",
+    "structureId": "nice_things:end_ship_crashed",
+    "blocks": 435,
+    "uniqueBlocks": 9,
+    "url": "structures/nice_things/nice_things/end_ship_crashed/end_ship/10/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/end_ship_crashed/end_ship/10/north.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_crashed/end_ship/10/east.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_crashed/end_ship/10/south.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_crashed/end_ship/10/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "end_ship_flying/end_ship/01",
+    "id": "nice_things:end_ship_flying/end_ship/01",
+    "displayName": "01",
+    "structureId": "nice_things:end_ship_flying",
+    "blocks": 313,
+    "uniqueBlocks": 8,
+    "url": "structures/nice_things/nice_things/end_ship_flying/end_ship/01/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/01/north.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/01/east.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/01/south.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/01/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "end_ship_flying/end_ship/02",
+    "id": "nice_things:end_ship_flying/end_ship/02",
+    "displayName": "02",
+    "structureId": "nice_things:end_ship_flying",
+    "blocks": 940,
+    "uniqueBlocks": 12,
+    "url": "structures/nice_things/nice_things/end_ship_flying/end_ship/02/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/02/north.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/02/east.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/02/south.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/02/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "end_ship_flying/end_ship/03",
+    "id": "nice_things:end_ship_flying/end_ship/03",
+    "displayName": "03",
+    "structureId": "nice_things:end_ship_flying",
+    "blocks": 1118,
+    "uniqueBlocks": 16,
+    "url": "structures/nice_things/nice_things/end_ship_flying/end_ship/03/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/03/north.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/03/east.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/03/south.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/03/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "end_ship_flying/end_ship/04",
+    "id": "nice_things:end_ship_flying/end_ship/04",
+    "displayName": "04",
+    "structureId": "nice_things:end_ship_flying",
+    "blocks": 583,
+    "uniqueBlocks": 14,
+    "url": "structures/nice_things/nice_things/end_ship_flying/end_ship/04/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/04/north.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/04/east.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/04/south.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/04/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "end_ship_flying/end_ship/05",
+    "id": "nice_things:end_ship_flying/end_ship/05",
+    "displayName": "05",
+    "structureId": "nice_things:end_ship_flying",
+    "blocks": 1475,
+    "uniqueBlocks": 24,
+    "url": "structures/nice_things/nice_things/end_ship_flying/end_ship/05/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/05/north.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/05/east.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/05/south.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/05/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "end_ship_flying/end_ship/06",
+    "id": "nice_things:end_ship_flying/end_ship/06",
+    "displayName": "06",
+    "structureId": "nice_things:end_ship_flying",
+    "blocks": 211,
+    "uniqueBlocks": 7,
+    "url": "structures/nice_things/nice_things/end_ship_flying/end_ship/06/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/06/north.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/06/east.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/06/south.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/06/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "end_ship_flying/end_ship/07",
+    "id": "nice_things:end_ship_flying/end_ship/07",
+    "displayName": "07",
+    "structureId": "nice_things:end_ship_flying",
+    "blocks": 1617,
+    "uniqueBlocks": 16,
+    "url": "structures/nice_things/nice_things/end_ship_flying/end_ship/07/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/07/north.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/07/east.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/07/south.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/07/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "end_ship_flying/end_ship/08",
+    "id": "nice_things:end_ship_flying/end_ship/08",
+    "displayName": "08",
+    "structureId": "nice_things:end_ship_flying",
+    "blocks": 3820,
+    "uniqueBlocks": 22,
+    "url": "structures/nice_things/nice_things/end_ship_flying/end_ship/08/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/08/north.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/08/east.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/08/south.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/08/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "jungle_decorations/jungle_decorations/bamboo_farm_1",
+    "id": "nice_things:jungle_decorations/jungle_decorations/bamboo_farm_1",
+    "displayName": "Bamboo Farm (1)",
+    "structureId": "nice_things:jungle_decorations",
+    "blocks": 68,
+    "uniqueBlocks": 10,
+    "url": "structures/nice_things/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "jungle_decorations/jungle_decorations/bamboo_farm_2",
+    "id": "nice_things:jungle_decorations/jungle_decorations/bamboo_farm_2",
+    "displayName": "Bamboo Farm (2)",
+    "structureId": "nice_things:jungle_decorations",
+    "blocks": 62,
+    "uniqueBlocks": 10,
+    "url": "structures/nice_things/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_2/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_2/north.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_2/east.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_2/south.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "jungle_decorations/jungle_decorations/bamboo_farm_3",
+    "id": "nice_things:jungle_decorations/jungle_decorations/bamboo_farm_3",
+    "displayName": "Bamboo Farm (3)",
+    "structureId": "nice_things:jungle_decorations",
+    "blocks": 57,
+    "uniqueBlocks": 10,
+    "url": "structures/nice_things/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_3/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_3/north.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_3/east.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_3/south.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_3/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "jungle_decorations/jungle_decorations/bamboo_farm_4",
+    "id": "nice_things:jungle_decorations/jungle_decorations/bamboo_farm_4",
+    "displayName": "Bamboo Farm (4)",
+    "structureId": "nice_things:jungle_decorations",
+    "blocks": 48,
+    "uniqueBlocks": 10,
+    "url": "structures/nice_things/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_4/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_4/north.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_4/east.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_4/south.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_4/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "jungle_decorations/jungle_decorations/cookie_farm_1",
+    "id": "nice_things:jungle_decorations/jungle_decorations/cookie_farm_1",
+    "displayName": "Cookie Farm (1)",
+    "structureId": "nice_things:jungle_decorations",
+    "blocks": 43,
+    "uniqueBlocks": 8,
+    "url": "structures/nice_things/nice_things/jungle_decorations/jungle_decorations/cookie_farm_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/cookie_farm_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/cookie_farm_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/cookie_farm_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/cookie_farm_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "jungle_decorations/jungle_decorations/cookie_farm_2",
+    "id": "nice_things:jungle_decorations/jungle_decorations/cookie_farm_2",
+    "displayName": "Cookie Farm (2)",
+    "structureId": "nice_things:jungle_decorations",
+    "blocks": 33,
+    "uniqueBlocks": 8,
+    "url": "structures/nice_things/nice_things/jungle_decorations/jungle_decorations/cookie_farm_2/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/cookie_farm_2/north.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/cookie_farm_2/east.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/cookie_farm_2/south.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/cookie_farm_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "jungle_decorations/jungle_decorations/cookie_farm_3",
+    "id": "nice_things:jungle_decorations/jungle_decorations/cookie_farm_3",
+    "displayName": "Cookie Farm (3)",
+    "structureId": "nice_things:jungle_decorations",
+    "blocks": 29,
+    "uniqueBlocks": 8,
+    "url": "structures/nice_things/nice_things/jungle_decorations/jungle_decorations/cookie_farm_3/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/cookie_farm_3/north.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/cookie_farm_3/east.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/cookie_farm_3/south.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/cookie_farm_3/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "jungle_decorations/jungle_decorations/temple_1",
+    "id": "nice_things:jungle_decorations/jungle_decorations/temple_1",
+    "displayName": "Temple (1)",
+    "structureId": "nice_things:jungle_decorations",
+    "blocks": 339,
+    "uniqueBlocks": 15,
+    "url": "structures/nice_things/nice_things/jungle_decorations/jungle_decorations/temple_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/temple_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/temple_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/temple_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/temple_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "jungle_decorations/jungle_decorations/temple_2",
+    "id": "nice_things:jungle_decorations/jungle_decorations/temple_2",
+    "displayName": "Temple (2)",
+    "structureId": "nice_things:jungle_decorations",
+    "blocks": 326,
+    "uniqueBlocks": 11,
+    "url": "structures/nice_things/nice_things/jungle_decorations/jungle_decorations/temple_2/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/temple_2/north.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/temple_2/east.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/temple_2/south.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/temple_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "jungle_decorations/jungle_decorations/temple_3",
+    "id": "nice_things:jungle_decorations/jungle_decorations/temple_3",
+    "displayName": "Temple (3)",
+    "structureId": "nice_things:jungle_decorations",
+    "blocks": 326,
+    "uniqueBlocks": 11,
+    "url": "structures/nice_things/nice_things/jungle_decorations/jungle_decorations/temple_3/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/temple_3/north.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/temple_3/east.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/temple_3/south.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/temple_3/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "jungle_decorations/jungle_decorations/temple_4",
+    "id": "nice_things:jungle_decorations/jungle_decorations/temple_4",
+    "displayName": "Temple (4)",
+    "structureId": "nice_things:jungle_decorations",
+    "blocks": 335,
+    "uniqueBlocks": 16,
+    "url": "structures/nice_things/nice_things/jungle_decorations/jungle_decorations/temple_4/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/temple_4/north.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/temple_4/east.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/temple_4/south.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/temple_4/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "jungle_decorations/jungle_decorations/torch_1",
+    "id": "nice_things:jungle_decorations/jungle_decorations/torch_1",
+    "displayName": "Torch (1)",
+    "structureId": "nice_things:jungle_decorations",
+    "blocks": 16,
+    "uniqueBlocks": 6,
+    "url": "structures/nice_things/nice_things/jungle_decorations/jungle_decorations/torch_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/torch_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/torch_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/torch_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/torch_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "jungle_decorations/jungle_decorations/torch_2",
+    "id": "nice_things:jungle_decorations/jungle_decorations/torch_2",
+    "displayName": "Torch (2)",
+    "structureId": "nice_things:jungle_decorations",
+    "blocks": 16,
+    "uniqueBlocks": 5,
+    "url": "structures/nice_things/nice_things/jungle_decorations/jungle_decorations/torch_2/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/torch_2/north.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/torch_2/east.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/torch_2/south.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/torch_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "jungle_decorations/jungle_decorations/torch_3",
+    "id": "nice_things:jungle_decorations/jungle_decorations/torch_3",
+    "displayName": "Torch (3)",
+    "structureId": "nice_things:jungle_decorations",
+    "blocks": 16,
+    "uniqueBlocks": 5,
+    "url": "structures/nice_things/nice_things/jungle_decorations/jungle_decorations/torch_3/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/torch_3/north.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/torch_3/east.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/torch_3/south.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/torch_3/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "jungle_decorations/jungle_decorations/torch_4",
+    "id": "nice_things:jungle_decorations/jungle_decorations/torch_4",
+    "displayName": "Torch (4)",
+    "structureId": "nice_things:jungle_decorations",
+    "blocks": 16,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/jungle_decorations/jungle_decorations/torch_4/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/torch_4/north.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/torch_4/east.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/torch_4/south.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/torch_4/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "jungle_decorations/jungle_decorations/statue_1",
+    "id": "nice_things:jungle_decorations/jungle_decorations/statue_1",
+    "displayName": "Statue (1)",
+    "structureId": "nice_things:jungle_decorations",
+    "blocks": 154,
+    "uniqueBlocks": 13,
+    "url": "structures/nice_things/nice_things/jungle_decorations/jungle_decorations/statue_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/statue_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/statue_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/statue_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/statue_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "ocean_underground_decorations/ocean_underground_decorations/seamines_1",
+    "id": "nice_things:ocean_underground_decorations/ocean_underground_decorations/seamines_1",
+    "displayName": "Seamines (1)",
+    "structureId": "nice_things:ocean_underground_decorations",
+    "blocks": 30,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "ocean_underground_decorations/ocean_underground_decorations/seamines_2",
+    "id": "nice_things:ocean_underground_decorations/ocean_underground_decorations/seamines_2",
+    "displayName": "Seamines (2)",
+    "structureId": "nice_things:ocean_underground_decorations",
+    "blocks": 29,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_2/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_2/north.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_2/east.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_2/south.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "ocean_underground_decorations/ocean_underground_decorations/seamines_3",
+    "id": "nice_things:ocean_underground_decorations/ocean_underground_decorations/seamines_3",
+    "displayName": "Seamines (3)",
+    "structureId": "nice_things:ocean_underground_decorations",
+    "blocks": 30,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_3/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_3/north.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_3/east.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_3/south.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_3/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "ocean_underground_decorations/ocean_underground_decorations/seamines_4",
+    "id": "nice_things:ocean_underground_decorations/ocean_underground_decorations/seamines_4",
+    "displayName": "Seamines (4)",
+    "structureId": "nice_things:ocean_underground_decorations",
+    "blocks": 29,
+    "uniqueBlocks": 12,
+    "url": "structures/nice_things/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_4/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_4/north.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_4/east.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_4/south.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_4/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "ocean_underground_decorations/ocean_underground_decorations/seamines_5",
+    "id": "nice_things:ocean_underground_decorations/ocean_underground_decorations/seamines_5",
+    "displayName": "Seamines (5)",
+    "structureId": "nice_things:ocean_underground_decorations",
+    "blocks": 29,
+    "uniqueBlocks": 12,
+    "url": "structures/nice_things/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_5/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_5/north.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_5/east.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_5/south.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_5/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "ocean_underground_decorations/ocean_underground_decorations/seamines_6",
+    "id": "nice_things:ocean_underground_decorations/ocean_underground_decorations/seamines_6",
+    "displayName": "Seamines (6)",
+    "structureId": "nice_things:ocean_underground_decorations",
+    "blocks": 27,
+    "uniqueBlocks": 12,
+    "url": "structures/nice_things/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_6/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_6/north.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_6/east.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_6/south.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_6/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "ocean_underground_decorations/ocean_underground_decorations/airpocket_1",
+    "id": "nice_things:ocean_underground_decorations/ocean_underground_decorations/airpocket_1",
+    "displayName": "Airpocket (1)",
+    "structureId": "nice_things:ocean_underground_decorations",
+    "blocks": 35,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/ocean_underground_decorations/ocean_underground_decorations/airpocket_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/airpocket_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/airpocket_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/airpocket_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/airpocket_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "ocean_underground_decorations/ocean_underground_decorations/airpocket_2",
+    "id": "nice_things:ocean_underground_decorations/ocean_underground_decorations/airpocket_2",
+    "displayName": "Airpocket (2)",
+    "structureId": "nice_things:ocean_underground_decorations",
+    "blocks": 48,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/ocean_underground_decorations/ocean_underground_decorations/airpocket_2/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/airpocket_2/north.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/airpocket_2/east.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/airpocket_2/south.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/airpocket_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "snow_decorations/snow_decorations/cage_1",
+    "id": "nice_things:snow_decorations/snow_decorations/cage_1",
+    "displayName": "Cage (1)",
+    "structureId": "nice_things:snow_decorations",
+    "blocks": 56,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/snow_decorations/snow_decorations/cage_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/cage_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/cage_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/cage_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/cage_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "snow_decorations/snow_decorations/campfire_1",
+    "id": "nice_things:snow_decorations/snow_decorations/campfire_1",
+    "displayName": "Campfire (1)",
+    "structureId": "nice_things:snow_decorations",
+    "blocks": 14,
+    "uniqueBlocks": 8,
+    "url": "structures/nice_things/nice_things/snow_decorations/snow_decorations/campfire_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/campfire_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/campfire_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/campfire_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/campfire_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "snow_decorations/snow_decorations/candy_cane_1",
+    "id": "nice_things:snow_decorations/snow_decorations/candy_cane_1",
+    "displayName": "Candy Cane (1)",
+    "structureId": "nice_things:snow_decorations",
+    "blocks": 7,
+    "uniqueBlocks": 3,
+    "url": "structures/nice_things/nice_things/snow_decorations/snow_decorations/candy_cane_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/candy_cane_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/candy_cane_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/candy_cane_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/candy_cane_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "snow_decorations/snow_decorations/candy_cane_2",
+    "id": "nice_things:snow_decorations/snow_decorations/candy_cane_2",
+    "displayName": "Candy Cane (2)",
+    "structureId": "nice_things:snow_decorations",
+    "blocks": 9,
+    "uniqueBlocks": 3,
+    "url": "structures/nice_things/nice_things/snow_decorations/snow_decorations/candy_cane_2/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/candy_cane_2/north.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/candy_cane_2/east.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/candy_cane_2/south.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/candy_cane_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "snow_decorations/snow_decorations/candy_cane_3",
+    "id": "nice_things:snow_decorations/snow_decorations/candy_cane_3",
+    "displayName": "Candy Cane (3)",
+    "structureId": "nice_things:snow_decorations",
+    "blocks": 16,
+    "uniqueBlocks": 3,
+    "url": "structures/nice_things/nice_things/snow_decorations/snow_decorations/candy_cane_3/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/candy_cane_3/north.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/candy_cane_3/east.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/candy_cane_3/south.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/candy_cane_3/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "snow_decorations/snow_decorations/hot_tub_1",
+    "id": "nice_things:snow_decorations/snow_decorations/hot_tub_1",
+    "displayName": "Hot Tub (1)",
+    "structureId": "nice_things:snow_decorations",
+    "blocks": 36,
+    "uniqueBlocks": 9,
+    "url": "structures/nice_things/nice_things/snow_decorations/snow_decorations/hot_tub_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/hot_tub_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/hot_tub_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/hot_tub_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/hot_tub_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "snow_decorations/snow_decorations/sled_1",
+    "id": "nice_things:snow_decorations/snow_decorations/sled_1",
+    "displayName": "Sled (1)",
+    "structureId": "nice_things:snow_decorations",
+    "blocks": 8,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/snow_decorations/snow_decorations/sled_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/sled_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/sled_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/sled_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/sled_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "snow_decorations/snow_decorations/snowman_1",
+    "id": "nice_things:snow_decorations/snow_decorations/snowman_1",
+    "displayName": "Snowman (1)",
+    "structureId": "nice_things:snow_decorations",
+    "blocks": 8,
+    "uniqueBlocks": 6,
+    "url": "structures/nice_things/nice_things/snow_decorations/snow_decorations/snowman_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "snow_decorations/snow_decorations/snowman_2",
+    "id": "nice_things:snow_decorations/snow_decorations/snowman_2",
+    "displayName": "Snowman (2)",
+    "structureId": "nice_things:snow_decorations",
+    "blocks": 7,
+    "uniqueBlocks": 6,
+    "url": "structures/nice_things/nice_things/snow_decorations/snow_decorations/snowman_2/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_2/north.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_2/east.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_2/south.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "snow_decorations/snow_decorations/snowman_3",
+    "id": "nice_things:snow_decorations/snow_decorations/snowman_3",
+    "displayName": "Snowman (3)",
+    "structureId": "nice_things:snow_decorations",
+    "blocks": 6,
+    "uniqueBlocks": 5,
+    "url": "structures/nice_things/nice_things/snow_decorations/snow_decorations/snowman_3/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_3/north.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_3/east.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_3/south.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_3/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "snow_decorations/snow_decorations/snowman_4",
+    "id": "nice_things:snow_decorations/snow_decorations/snowman_4",
+    "displayName": "Snowman (4)",
+    "structureId": "nice_things:snow_decorations",
+    "blocks": 5,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/snow_decorations/snow_decorations/snowman_4/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_4/north.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_4/east.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_4/south.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_4/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "snow_decorations/snow_decorations/snowman_5",
+    "id": "nice_things:snow_decorations/snow_decorations/snowman_5",
+    "displayName": "Snowman (5)",
+    "structureId": "nice_things:snow_decorations",
+    "blocks": 3,
+    "uniqueBlocks": 3,
+    "url": "structures/nice_things/nice_things/snow_decorations/snow_decorations/snowman_5/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_5/north.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_5/east.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_5/south.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_5/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "snow_decorations/snow_decorations/cauldrons_1",
+    "id": "nice_things:snow_decorations/snow_decorations/cauldrons_1",
+    "displayName": "Cauldrons (1)",
+    "structureId": "nice_things:snow_decorations",
+    "blocks": 9,
+    "uniqueBlocks": 6,
+    "url": "structures/nice_things/nice_things/snow_decorations/snow_decorations/cauldrons_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/cauldrons_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/cauldrons_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/cauldrons_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/cauldrons_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/fallen_tree_1",
+    "id": "nice_things:taiga_decorations/taiga_decorations/fallen_tree_1",
+    "displayName": "Fallen Tree (1)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 16,
+    "uniqueBlocks": 2,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/fallen_tree_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/fallen_tree_2",
+    "id": "nice_things:taiga_decorations/taiga_decorations/fallen_tree_2",
+    "displayName": "Fallen Tree (2)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 32,
+    "uniqueBlocks": 2,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/fallen_tree_2/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_2/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_2/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_2/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/fallen_tree_3",
+    "id": "nice_things:taiga_decorations/taiga_decorations/fallen_tree_3",
+    "displayName": "Fallen Tree (3)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 17,
+    "uniqueBlocks": 2,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/fallen_tree_3/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_3/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_3/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_3/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_3/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/fallen_tree_4",
+    "id": "nice_things:taiga_decorations/taiga_decorations/fallen_tree_4",
+    "displayName": "Fallen Tree (4)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 31,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/fallen_tree_4/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_4/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_4/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_4/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_4/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/fallen_tree_5",
+    "id": "nice_things:taiga_decorations/taiga_decorations/fallen_tree_5",
+    "displayName": "Fallen Tree (5)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 21,
+    "uniqueBlocks": 3,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/fallen_tree_5/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_5/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_5/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_5/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_5/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/fallen_tree_6",
+    "id": "nice_things:taiga_decorations/taiga_decorations/fallen_tree_6",
+    "displayName": "Fallen Tree (6)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 15,
+    "uniqueBlocks": 3,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/fallen_tree_6/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_6/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_6/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_6/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_6/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/fallen_tree_7",
+    "id": "nice_things:taiga_decorations/taiga_decorations/fallen_tree_7",
+    "displayName": "Fallen Tree (7)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 74,
+    "uniqueBlocks": 2,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/fallen_tree_7/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_7/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_7/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_7/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_7/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/fox_trap_1",
+    "id": "nice_things:taiga_decorations/taiga_decorations/fox_trap_1",
+    "displayName": "Fox Trap (1)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 57,
+    "uniqueBlocks": 7,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/fox_trap_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fox_trap_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fox_trap_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fox_trap_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fox_trap_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/fox_trap_2",
+    "id": "nice_things:taiga_decorations/taiga_decorations/fox_trap_2",
+    "displayName": "Fox Trap (2)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 56,
+    "uniqueBlocks": 7,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/fox_trap_2/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fox_trap_2/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fox_trap_2/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fox_trap_2/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fox_trap_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/house_1",
+    "id": "nice_things:taiga_decorations/taiga_decorations/house_1",
+    "displayName": "House (1)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 280,
+    "uniqueBlocks": 20,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/house_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/house_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/house_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/house_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/house_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/house_2",
+    "id": "nice_things:taiga_decorations/taiga_decorations/house_2",
+    "displayName": "House (2)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 255,
+    "uniqueBlocks": 17,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/house_2/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/house_2/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/house_2/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/house_2/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/house_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/house_3",
+    "id": "nice_things:taiga_decorations/taiga_decorations/house_3",
+    "displayName": "House (3)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 358,
+    "uniqueBlocks": 23,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/house_3/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/house_3/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/house_3/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/house_3/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/house_3/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/sweet_berry_farm_1",
+    "id": "nice_things:taiga_decorations/taiga_decorations/sweet_berry_farm_1",
+    "displayName": "Sweet Berry Farm (1)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 19,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/sweet_berry_farm_2",
+    "id": "nice_things:taiga_decorations/taiga_decorations/sweet_berry_farm_2",
+    "displayName": "Sweet Berry Farm (2)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 13,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_2/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_2/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_2/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_2/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/sweet_berry_farm_3",
+    "id": "nice_things:taiga_decorations/taiga_decorations/sweet_berry_farm_3",
+    "displayName": "Sweet Berry Farm (3)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 16,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_3/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_3/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_3/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_3/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_3/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/sweet_berry_farm_4",
+    "id": "nice_things:taiga_decorations/taiga_decorations/sweet_berry_farm_4",
+    "displayName": "Sweet Berry Farm (4)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 10,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_4/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_4/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_4/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_4/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_4/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/tent_1",
+    "id": "nice_things:taiga_decorations/taiga_decorations/tent_1",
+    "displayName": "Tent (1)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 50,
+    "uniqueBlocks": 8,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/tent_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/tent_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/tent_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/tent_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/tent_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/tent_2",
+    "id": "nice_things:taiga_decorations/taiga_decorations/tent_2",
+    "displayName": "Tent (2)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 49,
+    "uniqueBlocks": 6,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/tent_2/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/tent_2/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/tent_2/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/tent_2/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/tent_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/tent_3",
+    "id": "nice_things:taiga_decorations/taiga_decorations/tent_3",
+    "displayName": "Tent (3)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 49,
+    "uniqueBlocks": 7,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/tent_3/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/tent_3/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/tent_3/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/tent_3/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/tent_3/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/trunks_1",
+    "id": "nice_things:taiga_decorations/taiga_decorations/trunks_1",
+    "displayName": "Trunks (1)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 22,
+    "uniqueBlocks": 2,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/trunks_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/trunks_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/trunks_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/trunks_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/trunks_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/trunks_2",
+    "id": "nice_things:taiga_decorations/taiga_decorations/trunks_2",
+    "displayName": "Trunks (2)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 23,
+    "uniqueBlocks": 2,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/trunks_2/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/trunks_2/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/trunks_2/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/trunks_2/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/trunks_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/trunks_3",
+    "id": "nice_things:taiga_decorations/taiga_decorations/trunks_3",
+    "displayName": "Trunks (3)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 26,
+    "uniqueBlocks": 2,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/trunks_3/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/trunks_3/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/trunks_3/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/trunks_3/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/trunks_3/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/wagon_1",
+    "id": "nice_things:taiga_decorations/taiga_decorations/wagon_1",
+    "displayName": "Wagon (1)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 15,
+    "uniqueBlocks": 9,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/wagon_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/wagon_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/wagon_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/wagon_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/wagon_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/well_1",
+    "id": "nice_things:taiga_decorations/taiga_decorations/well_1",
+    "displayName": "Well (1)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 31,
+    "uniqueBlocks": 9,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/well_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/well_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/well_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/well_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/well_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/well_2",
+    "id": "nice_things:taiga_decorations/taiga_decorations/well_2",
+    "displayName": "Well (2)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 31,
+    "uniqueBlocks": 9,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/well_2/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/well_2/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/well_2/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/well_2/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/well_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/well_3",
+    "id": "nice_things:taiga_decorations/taiga_decorations/well_3",
+    "displayName": "Well (3)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 31,
+    "uniqueBlocks": 9,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/well_3/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/well_3/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/well_3/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/well_3/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/well_3/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/well_4",
+    "id": "nice_things:taiga_decorations/taiga_decorations/well_4",
+    "displayName": "Well (4)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 31,
+    "uniqueBlocks": 9,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/well_4/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/well_4/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/well_4/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/well_4/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/well_4/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "villager_outpost/desert",
+    "id": "nice_things:villager_outpost/desert",
+    "displayName": "Desert",
+    "structureId": "nice_things:villager_outpost/desert",
+    "blocks": 763,
+    "uniqueBlocks": 37,
+    "url": "structures/nice_things/nice_things/villager_outpost/desert/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/desert/north.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/desert/east.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/desert/south.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/desert/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "villager_outpost/jungle",
+    "id": "nice_things:villager_outpost/jungle",
+    "displayName": "Jungle",
+    "structureId": "nice_things:villager_outpost/jungle",
+    "blocks": 1075,
+    "uniqueBlocks": 25,
+    "url": "structures/nice_things/nice_things/villager_outpost/jungle/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/jungle/north.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/jungle/east.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/jungle/south.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/jungle/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "villager_outpost/plains",
+    "id": "nice_things:villager_outpost/plains",
+    "displayName": "Plains",
+    "structureId": "nice_things:villager_outpost/plains",
+    "blocks": 773,
+    "uniqueBlocks": 40,
+    "url": "structures/nice_things/nice_things/villager_outpost/plains/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/plains/north.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/plains/east.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/plains/south.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/plains/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "villager_outpost/savanna",
+    "id": "nice_things:villager_outpost/savanna",
+    "displayName": "Savanna",
+    "structureId": "nice_things:villager_outpost/savanna",
+    "blocks": 677,
+    "uniqueBlocks": 30,
+    "url": "structures/nice_things/nice_things/villager_outpost/savanna/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/savanna/north.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/savanna/east.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/savanna/south.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/savanna/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "villager_outpost/snow",
+    "id": "nice_things:villager_outpost/snow",
+    "displayName": "Snow",
+    "structureId": "nice_things:villager_outpost/snow",
+    "blocks": 635,
+    "uniqueBlocks": 22,
+    "url": "structures/nice_things/nice_things/villager_outpost/snow/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/snow/north.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/snow/east.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/snow/south.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/snow/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "villager_outpost/swamp",
+    "id": "nice_things:villager_outpost/swamp",
+    "displayName": "Swamp",
+    "structureId": "nice_things:villager_outpost/swamp",
+    "blocks": 1087,
+    "uniqueBlocks": 38,
+    "url": "structures/nice_things/nice_things/villager_outpost/swamp/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/swamp/north.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/swamp/east.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/swamp/south.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/swamp/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "villager_outpost/taiga",
+    "id": "nice_things:villager_outpost/taiga",
+    "displayName": "Taiga",
+    "structureId": "nice_things:villager_outpost/taiga",
+    "blocks": 781,
+    "uniqueBlocks": 41,
+    "url": "structures/nice_things/nice_things/villager_outpost/taiga/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/taiga/north.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/taiga/east.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/taiga/south.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/taiga/west.png"
+    ]
+  }
+]

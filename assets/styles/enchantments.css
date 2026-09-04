@@ -1,0 +1,338 @@
+:root {
+  --bg: #0b1018;
+  --text: #f7fbff;
+  --muted: #cfd7e6;
+  --line: rgba(255,255,255,.14);
+  --accent: #b6c8ff;
+  --accent-2: #ffd18b;
+  --card-a: rgba(10, 12, 22, .62);
+  --card-b: rgba(3, 5, 10, .70);
+  --glass: rgba(5, 7, 13, .48);
+}
+
+* { box-sizing: border-box; scrollbar-width: thin; scrollbar-color: rgba(255,255,255,.25) transparent; }
+html { scroll-behavior: smooth; min-height: 100%; }
+body { min-height: 100vh; margin: 0; color: var(--text); font-family: Montserrat, Arial, Helvetica, sans-serif; background: var(--bg); overflow-x: hidden; display: flex; flex-direction: column; }
+a { color: inherit; text-decoration: none; }
+img { max-width: 100%; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+
+.site-bg { position: fixed; inset: 0; z-index: -3; background: var(--bg) center / cover no-repeat; transition: background-image 450ms ease; }
+.site-bg::before {
+  content: ""; position: absolute; inset: 0; pointer-events: none; opacity: .62;
+  background-image:
+    radial-gradient(circle, rgba(255,255,255,.86) 0 1px, transparent 1.8px),
+    radial-gradient(circle, rgba(182,200,255,.74) 0 1px, transparent 1.9px),
+    radial-gradient(circle, rgba(255,209,139,.52) 0 1px, transparent 1.8px);
+  background-size: 190px 190px, 270px 270px, 340px 340px;
+  background-position: 22px 38px, 110px 78px, 190px 24px;
+  animation: twinkle-stars 5.4s ease-in-out infinite alternate;
+}
+.site-bg::after {
+  content: ""; position: absolute; inset: 0;
+  background:
+    radial-gradient(ellipse at center, rgba(4,7,13,.18) 0%, rgba(4,7,13,.50) 52%, rgba(0,0,0,.88) 100%),
+    linear-gradient(180deg, rgba(4,7,13,.55), rgba(4,7,13,.78) 46%, rgba(2,3,6,.94)),
+    radial-gradient(circle at 50% 16%, rgba(182,200,255,.15), transparent 35%);
+}
+@keyframes twinkle-stars { 0% { opacity: .36; transform: translate3d(0,0,0); filter: brightness(.88); } 45% { opacity: .72; filter: brightness(1.24); } 100% { opacity: .48; transform: translate3d(10px,-8px,0); filter: brightness(1); } }
+
+.starfield { position: fixed; inset: 0; z-index: -1; pointer-events: none; overflow: hidden; }
+.starfield span { position: absolute; width: 3px; height: 3px; border-radius: 999px; background: rgba(235,247,255,.95); box-shadow: 0 0 8px rgba(186,217,255,.9), 0 0 18px rgba(255,255,255,.34); animation: star-drift var(--dur,7s) ease-in-out infinite alternate, star-twinkle var(--blink,2.8s) ease-in-out infinite; opacity: .75; }
+.starfield span:nth-child(3n){ width:2px; height:2px; background:rgba(190,220,255,.95); }
+.starfield span:nth-child(4n){ width:4px; height:4px; background:rgba(255,226,166,.92); }
+@keyframes star-twinkle { 0%,100% { opacity:.28; transform:scale(.72); filter:brightness(.85); } 45% { opacity:1; transform:scale(1.22); filter:brightness(1.45); } 70% { opacity:.52; transform:scale(.92); } }
+@keyframes star-drift { from { translate: 0 0; } to { translate: 18px -24px; } }
+.starfield span:nth-child(1){left:37%;top:59%;--dur:5.8s;--blink:2.5s;animation-delay:-.35s,-.18s}.starfield span:nth-child(2){left:74%;top:30%;--dur:6.6s;--blink:2.9s;animation-delay:-.7s,-.35s}.starfield span:nth-child(3){left:10%;top:83%;--dur:7.4s;--blink:3.4s;animation-delay:-1.05s,-.52s}.starfield span:nth-child(4){left:47%;top:54%;--dur:8.2s;--blink:3.8s;animation-delay:-1.4s,-.7s}.starfield span:nth-child(5){left:84%;top:25%;--dur:9s;--blink:2s;animation-delay:-1.75s,-.88s}.starfield span:nth-child(6){left:20%;top:78%;--dur:9.8s;--blink:2.5s;animation-delay:-2.1s,-1.05s}.starfield span:nth-child(7){left:57%;top:49%;--dur:5s;--blink:2.9s;animation-delay:-2.45s,-1.22s}.starfield span:nth-child(8){left:94%;top:20%;--dur:5.8s;--blink:3.4s;animation-delay:-2.8s,-1.4s}.starfield span:nth-child(9){left:30%;top:73%;--dur:6.6s;--blink:3.8s}.starfield span:nth-child(10){left:67%;top:44%;--dur:7.4s;--blink:2s}.starfield span:nth-child(11){left:3%;top:15%;--dur:8.2s;--blink:2.5s}.starfield span:nth-child(12){left:40%;top:68%;--dur:9s;--blink:2.9s}.starfield span:nth-child(13){left:77%;top:39%;--dur:9.8s;--blink:3.4s}.starfield span:nth-child(14){left:13%;top:10%;--dur:5s;--blink:3.8s}.starfield span:nth-child(15){left:50%;top:63%;--dur:5.8s;--blink:2s}.starfield span:nth-child(16){left:87%;top:34%;--dur:6.6s;--blink:2.5s}.starfield span:nth-child(17){left:23%;top:87%;--dur:7.4s;--blink:2.9s}.starfield span:nth-child(18){left:60%;top:58%;--dur:8.2s;--blink:3.4s}.starfield span:nth-child(19){left:97%;top:29%;--dur:9s;--blink:3.8s}.starfield span:nth-child(20){left:33%;top:82%;--dur:9.8s;--blink:2s}.starfield span:nth-child(21){left:70%;top:53%;--dur:5s;--blink:2.5s}.starfield span:nth-child(22){left:6%;top:24%;--dur:5.8s;--blink:2.9s}.starfield span:nth-child(23){left:43%;top:77%;--dur:6.6s;--blink:3.4s}.starfield span:nth-child(24){left:80%;top:48%;--dur:7.4s;--blink:3.8s}.starfield span:nth-child(25){left:16%;top:19%;--dur:8.2s;--blink:2s}.starfield span:nth-child(26){left:53%;top:72%;--dur:9s;--blink:2.5s}.starfield span:nth-child(27){left:90%;top:43%;--dur:9.8s;--blink:2.9s}.starfield span:nth-child(28){left:26%;top:14%;--dur:5s;--blink:3.4s}.starfield span:nth-child(29){left:63%;top:67%;--dur:5.8s;--blink:3.8s}.starfield span:nth-child(30){left:100%;top:38%;--dur:6.6s;--blink:2s}.starfield span:nth-child(31){left:36%;top:91%;--dur:7.4s;--blink:2.5s}.starfield span:nth-child(32){left:73%;top:62%;--dur:8.2s;--blink:2.9s}.starfield span:nth-child(33){left:9%;top:33%;--dur:9s;--blink:3.4s}.starfield span:nth-child(34){left:46%;top:86%;--dur:9.8s;--blink:3.8s}.starfield span:nth-child(35){left:83%;top:57%;--dur:5s;--blink:2s}.starfield span:nth-child(36){left:19%;top:28%;--dur:5.8s;--blink:2.5s}.starfield span:nth-child(37){left:56%;top:81%;--dur:6.6s;--blink:2.9s}.starfield span:nth-child(38){left:93%;top:52%;--dur:7.4s;--blink:3.4s}.starfield span:nth-child(39){left:29%;top:23%;--dur:8.2s;--blink:3.8s}.starfield span:nth-child(40){left:66%;top:76%;--dur:9s;--blink:2s}.starfield span:nth-child(41){left:2%;top:47%;--dur:9.8s;--blink:2.5s}.starfield span:nth-child(42){left:39%;top:18%;--dur:5s;--blink:2.9s}.starfield span:nth-child(43){left:76%;top:71%;--dur:5.8s;--blink:3.4s}.starfield span:nth-child(44){left:12%;top:42%;--dur:6.6s;--blink:3.8s}
+
+/* ── Enchantments page shell ────────────────────────────────────────────────── */
+
+.brand { display: inline-flex; align-items: center; justify-content: center; flex: 0 0 auto; }
+.brand img { width: clamp(155px,16vw,245px); max-height:42px; object-fit:contain; display:block; filter: drop-shadow(0 10px 18px rgba(0,0,0,.55)); }
+.header-tools { display:flex; align-items:center; justify-content:flex-end; gap:9px; min-width:0; }
+.search-wrap { position: relative; flex: 1 1 320px; min-width: 220px; max-width: 480px; }
+.search-wrap .bi-search { position:absolute; left:14px; top:50%; transform:translateY(-50%); color:var(--accent); pointer-events:none; }
+.search-wrap input { width:100%; padding: 10px 38px 10px 38px; border:1px solid rgba(255,255,255,.16); border-radius:16px; color:#fff; background:rgba(5,7,13,.58); box-shadow:0 10px 24px rgba(0,0,0,.18), inset 0 1px 0 rgba(255,255,255,.12); backdrop-filter:blur(10px); font: inherit; font-size: 13px; font-weight: 750; outline:none; }
+.search-wrap input:focus { border-color: color-mix(in srgb, var(--accent) 56%, transparent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 18%, transparent), 0 12px 28px rgba(0,0,0,.28); }
+#clear-search { position:absolute; right:7px; top:50%; transform:translateY(-50%); width:28px; height:28px; border:0; border-radius:999px; cursor:pointer; color:#fff; background:rgba(255,255,255,.10); font-size:20px; line-height:1; }
+#clear-search:hover { background:rgba(255,255,255,.18); }
+.quick-filters { display:flex; align-items:center; gap:7px; overflow-x:auto; padding:2px 0; max-width:min(44vw, 680px); }
+.filter-chip, .nav-menu summary, .nav-menu__panel a { display:inline-flex; align-items:center; gap:7px; border:1px solid rgba(255,255,255,.16); border-radius:16px; color:rgba(255,255,255,.94); background:rgba(5,7,13,.58); box-shadow:0 10px 24px rgba(0,0,0,.18), inset 0 1px 0 rgba(255,255,255,.12); backdrop-filter:blur(10px); font-weight:850; font-size:12px; white-space:nowrap; }
+.filter-chip { border-radius:999px; padding:8px 11px; cursor:pointer; font-family:inherit; }
+.filter-chip:hover, .filter-chip.is-active { transform:translateY(-1px); background: color-mix(in srgb, var(--accent) 18%, rgba(10,28,40,.68)); border-color: color-mix(in srgb, var(--accent) 48%, transparent); }
+.results-count { margin:0; white-space:nowrap; color:rgba(255,255,255,.82); font-size:12px; font-weight:900; padding:8px 10px; border-radius:999px; background:rgba(5,7,13,.38); border:1px solid rgba(255,255,255,.11); }
+.nav-menu { position: relative; }
+.nav-menu summary { list-style:none; padding:9px 13px; cursor:pointer; }
+.nav-menu summary::-webkit-details-marker { display:none; }
+.nav-menu summary i, .nav-menu__panel i { color: var(--accent); }
+.nav-menu__panel { position:absolute; top:calc(100% + 10px); right:0; min-width:190px; display:grid; gap:8px; padding:10px; border:1px solid rgba(255,255,255,.14); border-radius:22px; background:rgba(5,7,13,.90); box-shadow:0 18px 44px rgba(0,0,0,.40); backdrop-filter: blur(14px); }
+.nav-menu__panel a { padding:10px 12px; }
+.nav-menu__panel a:hover, .nav-menu summary:hover { background: color-mix(in srgb, var(--accent) 18%, rgba(10,28,40,.68)); border-color: color-mix(in srgb, var(--accent) 48%, transparent); }
+
+.page-shell { width:min(1500px, calc(100% - 28px)); margin:0 auto; padding:22px 0 32px; flex: 1 0 auto; }
+.hero { text-align:center; padding:22px 0 24px; }
+.hero__title { width:min(660px, 88vw); height:auto; filter: drop-shadow(0 18px 24px rgba(0,0,0,.62)); }
+.hero__subtitle { width:min(780px, 100%); margin:4px auto 0; color:rgba(228,241,246,.86); line-height:1.6; font-weight:700; font-size:14px; }
+
+.table-card { border:1px solid rgba(255,255,255,.11); border-radius:30px; background: linear-gradient(135deg,var(--card-a),var(--card-b)), var(--glass); box-shadow:0 18px 44px rgba(0,0,0,.34), inset 0 1px 0 rgba(255,255,255,.075); backdrop-filter: blur(14px) saturate(1.08); overflow:hidden; position:relative; }
+.table-card::before { content:""; position:absolute; inset:0; pointer-events:none; background: radial-gradient(circle at 12% 18%, color-mix(in srgb, var(--accent) 10%, transparent), transparent 34%), linear-gradient(180deg, rgba(255,255,255,.045), transparent 44%); }
+.table-scroll { overflow:auto; max-width:100%; position:relative; z-index:1; }
+.enchantments-table { width:100%; min-width:1120px; border-collapse:separate; border-spacing:0; table-layout:fixed; }
+.enchantments-table thead tr { background: rgba(0,0,0,.45); }
+.enchantments-table tbody tr { background: rgba(10,12,22,.50); transition: background .16s ease; }
+.enchantments-table tbody tr:hover { background: color-mix(in srgb, var(--accent) 12%, rgba(10,12,22,.62)); }
+.enchantments-table th, .enchantments-table td { border-right: 1px solid rgba(255,255,255,.07); border-bottom: 1px solid rgba(255,255,255,.07); padding: 13px 13px; text-align: left; vertical-align: top; overflow-wrap: anywhere; }
+.enchantments-table th:first-child, .enchantments-table td:first-child { border-left: 1px solid rgba(255,255,255,.07); }
+.enchantments-table thead th { position: sticky; top: 0; z-index: 2; font-size: 11px; font-weight: 900; letter-spacing: .07em; text-transform: uppercase; color: var(--accent, #b6c8ff); border-bottom: 1px solid rgba(255,255,255,.14); backdrop-filter: blur(12px); }
+.enchantments-table thead th:nth-child(1){width:13%}.enchantments-table thead th:nth-child(2){width:27%}.enchantments-table thead th:nth-child(3){width:8%;text-align:center}.enchantments-table thead th:nth-child(4){width:16%}.enchantments-table thead th:nth-child(5){width:13%}.enchantments-table thead th:nth-child(6){width:14%}.enchantments-table thead th:nth-child(7){width:9%}
+.enchantments-table td { font-size: .84rem; line-height: 1.55; color: rgba(247,251,255,.92); font-weight: 650; }
+.enchantments-table td.level-cell { text-align: center; }
+.enchantments-table td.level-cell span { display: inline-flex; align-items: center; justify-content: center; min-width: 32px; padding: 4px 11px; border-radius: 999px; background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.18); font-family: 'Cinzel', Georgia, 'Times New Roman', serif; font-weight: 700; font-size: 13px; color: rgba(255,255,255,.92); letter-spacing: .12em; text-shadow: 0 1px 3px rgba(0,0,0,.7); box-shadow: inset 0 1px 0 rgba(255,255,255,.10), 0 2px 8px rgba(0,0,0,.22); }
+.enchantments-table td.name-cell { font-weight: 900; color: #fff; }
+.sort-button { border: 0; background: transparent; color: inherit; font: inherit; font-weight: inherit; cursor: pointer; padding: 0; display: inline-flex; align-items: center; gap: 6px; transition: color .15s; }
+.sort-button .bi { opacity: .55; transition: opacity .15s; }
+.sort-button:hover { color: #fff; }
+.sort-button:hover .bi { opacity: 1; }
+.inline-list { margin:0; padding-left:18px; }
+.applicable-cell { display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
+.applicable-item { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; padding: 4px 10px; border-radius: 999px; background: rgba(5,7,13,.38); border: 1px solid rgba(255,255,255,.10); backdrop-filter: blur(8px); }
+.applicable-item--any { color: var(--accent-2); }
+.applicable-cell img { width: 22px; height: 22px; object-fit: contain; vertical-align: middle; filter: drop-shadow(0 3px 6px rgba(0,0,0,.4)); }
+.applicable-cell span { font-size: 11px; font-weight: 850; }
+.data-pack-link { color: var(--accent, #b6c8ff); font-weight: 900; text-decoration: none; }
+.data-pack-link:hover { color: #fff; text-decoration: underline; }
+.site-footer { flex-shrink:0; position:relative; z-index:10; padding:11px 16px; text-align:center; color:rgba(228,241,246,.82); background:rgba(5,7,13,.86); border-top:1px solid rgba(255,255,255,.12); box-shadow:0 -12px 30px rgba(0,0,0,.22); backdrop-filter:blur(10px); font-size:12px; font-weight:700; letter-spacing:.01em; margin-top: auto; }
+
+@media (max-width:1180px){
+  .header-tools{width:100%; justify-content:center; flex-wrap:wrap;}
+  .quick-filters{max-width:100%;}
+  .nav-menu{position:absolute; right:14px; top:12px;}
+  .brand img{width:min(66vw,280px); max-height:48px;}
+}
+@media (max-width:680px){
+  .page-shell{width:min(100% - 18px, 1500px); padding-top:14px;}
+  .search-wrap{min-width:100%;}
+  .header-tools{gap:7px;}
+  .results-count{order:3;}
+  .hero__subtitle{font-size:12px;}
+  .table-card{border-radius:22px;}
+}
+
+/* ── Enchantments page integration ──────────────────────────────────────────── */
+
+.enchantments-page .hero { min-height: 0; width: 100%; padding: 10px 0 16px; }
+.enchantments-page .hero__title { width: min(720px,92vw); display: block; margin: 0 auto 10px; filter: drop-shadow(0 18px 24px rgba(0,0,0,.62)); }
+.enchantments-controls { width: min(1160px,100%); margin: 0 auto 18px; display: grid; gap: 12px; justify-items: center; }
+.enchantments-controls .header-tools { width: 100%; display: grid; gap: 10px; justify-items: center; background: transparent; border: 0; box-shadow: none; padding: 0; }
+.enchantments-controls .quick-filters { justify-content: center; }
+.enchantments-controls .results-count { margin: 0; color: var(--muted); font-weight: 900; }
+.enchantments-page .navbar .brand img { width: clamp(155px,16vw,245px); max-height: 42px; }
+
+@media (max-width:980px) {
+  .enchantments-page .page-shell { padding-top: 22px; }
+  .enchantments-controls { justify-items: stretch; }
+  .enchantments-controls .header-tools { justify-items: stretch; }
+  .enchantments-controls .quick-filters { justify-content: flex-start; }
+}
+
+/* ── Enchantments layout (final) ────────────────────────────────────────────── */
+
+.enchantments-page .page-shell {
+  width: min(1680px, calc(100% - 32px));
+  padding: 72px 0 32px;
+}
+
+.enchantments-overview {
+  width: min(1500px, 100%);
+  margin: 0 auto 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  text-align: center;
+}
+
+.enchantments-overview__logo {
+  width: min(760px, 92vw);
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  filter: drop-shadow(0 22px 28px rgba(0,0,0,.68));
+}
+
+.enchantments-overview__tools {
+  width: min(1500px, 100%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  min-width: 0;
+}
+
+.enchantments-overview__tools .search-wrap {
+  flex: 0 1 430px;
+  width: min(430px, 100%);
+  min-width: min(430px, 100%);
+  max-width: 430px;
+}
+
+.enchantments-overview__tools .results-count {
+  display: none;
+}
+
+.enchantments-overview__tools .quick-filters {
+  flex: 0 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: min(980px, 100%);
+  width: auto;
+}
+
+.enchantments-overview__tools .filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid rgba(255,255,255,.14);
+  border-radius: 999px;
+  background: rgba(6,8,16,.56);
+  color: rgba(255,255,255,.9);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.08), 0 10px 22px rgba(0,0,0,.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 8px 12px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.enchantments-overview__tools .filter-chip:hover,
+.enchantments-overview__tools .filter-chip.is-active {
+  color: #fff;
+  border-color: rgba(255,255,255,.28);
+  background: rgba(255,255,255,.11);
+}
+
+.enchantments-overview__tools .filter-chip.is-empty {
+  opacity: .45;
+  cursor: not-allowed;
+}
+
+.enchantments-overview__tools .filter-chip strong {
+  min-width: 24px;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.14);
+  color: #fff;
+  font-size: 11px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.enchantments-page .table-card {
+  width: min(1680px, 100%);
+  margin: 0 auto;
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,.08);
+  background: rgba(8,10,18,.55);
+  box-shadow: none;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.enchantments-page .table-scroll {
+  max-height: none;
+}
+
+/* suppress the gradient shimmer from the generic .table-card::before */
+.enchantments-page .table-card::before {
+  display: none;
+}
+
+.enchantments-page table {
+  background: transparent;
+}
+
+/* reset stacking row backgrounds — cell-level overrides control it */
+.enchantments-page .enchantments-table thead tr,
+.enchantments-page .enchantments-table tbody tr {
+  background: transparent;
+}
+
+/* header: muted text + subtle bg, softer divider — matches configurator */
+.enchantments-page .enchantments-table thead th {
+  background: rgba(5, 7, 13, .48);
+  color: var(--muted);
+  border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+/* body cells: fully transparent, only horizontal row separators */
+.enchantments-page .enchantments-table tbody td {
+  background: transparent;
+  border-bottom: 1px solid rgba(255,255,255,.06);
+}
+
+/* last row: no orphan bottom border */
+.enchantments-page .enchantments-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+/* vertical column separators — same opacity as horizontal row lines */
+.enchantments-page .enchantments-table th,
+.enchantments-page .enchantments-table td {
+  border-right: 1px solid rgba(255,255,255,.06);
+}
+.enchantments-page .enchantments-table th:first-child,
+.enchantments-page .enchantments-table td:first-child {
+  border-left: 1px solid rgba(255,255,255,.06);
+}
+
+/* hover: clean accent tint, no heavy opaque bg */
+.enchantments-page .enchantments-table tbody tr:hover td {
+  background: color-mix(in srgb, var(--accent) 7%, transparent);
+}
+
+@media (max-width:980px) {
+  .enchantments-overview__tools {
+    flex-direction: column;
+  }
+
+  .enchantments-overview__tools .search-wrap {
+    flex: 0 1 auto;
+    width: min(560px, 100%);
+    min-width: 0;
+    max-width: 560px;
+  }
+
+  .enchantments-overview__tools .quick-filters {
+    width: 100%;
+  }
+}
+
+@media (max-width:680px) {
+  .enchantments-page .page-shell {
+    width: min(100% - 18px, 1680px);
+    padding-top: 36px;
+  }
+
+  .enchantments-overview__logo {
+    width: min(620px, 100%);
+  }
+
+  .enchantments-overview__tools .quick-filters {
+    justify-content: flex-start;
+  }
+}
+
+/* ── Flex layout ────────────────────────────────────────────────────────────── */
+
+body > main,
+body > .hero,
+body > .page-shell,
+body > .structures-shell {
+  flex: 1 0 auto;
+}

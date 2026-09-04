@@ -1,0 +1,39 @@
+# Cache strategy: every response must be revalidated with the server before
+# the browser uses a cached copy. Apache still emits ETag + Last-Modified, so
+# unchanged files return 304 (no payload), but a new deploy is reflected
+# immediately — no more "some things updated, others stuck on old cache".
+#
+# We deliberately do NOT use `no-store` (which would suppress caching entirely)
+# because the per-deploy revalidation handshake is plenty cheap and a fully
+# disabled cache hurts repeat visits without benefit.
+
+<IfModule mod_headers.c>
+  # Default for everything: revalidate every request.
+  Header set Cache-Control "no-cache, must-revalidate"
+
+  # PHP-rendered pages should never be cached client-side, even with revalidation,
+  # because the rendered body can change without the underlying file changing.
+  <FilesMatch "\.php$">
+    Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+    Header set Pragma "no-cache"
+  </FilesMatch>
+
+  # version.txt is the deploy probe — never cache it so `curl /version.txt`
+  # is always truthful.
+  <FilesMatch "^version\.txt$">
+    Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+  </FilesMatch>
+</IfModule>
+
+# Ensure mod_rewrite is active for the index.php router (the workflow already
+# enables the module; the rewrite block below is the one bit that needs the
+# .htaccess to be honoured).
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Don't rewrite real files or directories — let them serve directly so the
+  # cache-control headers above still apply.
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+</IfModule>

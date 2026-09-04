@@ -1,0 +1,251 @@
+{
+  "discordId": "1128715592325668874",
+  "uuid": "f4de0433-ab4d-474d-9f3f-ae98e817d612",
+  "name": "Bratek101",
+  "skinIcon": "/assets/images/generated/player-skins/f4de0433-ab4d-474d-9f3f-ae98e817d612.png",
+  "headIcon": "/assets/images/generated/player-heads/f4de0433-ab4d-474d-9f3f-ae98e817d612.png",
+  "race": "Frostborne",
+  "class": "Scout",
+  "advancementsCompleted": 3,
+  "advancementsDetailed": [
+    {
+      "category": "Adventure",
+      "items": [
+        {
+          "label": "Adventuring Time",
+          "description": "Discover every biome",
+          "done": false
+        }
+      ],
+      "doneCount": 0
+    },
+    {
+      "category": "Husbandry",
+      "items": [
+        {
+          "label": "A Balanced Diet",
+          "description": "Eat everything that is edible, even if it's not good for you",
+          "done": false
+        },
+        {
+          "label": "Husbandry",
+          "description": "The world is full of friends and food",
+          "done": true
+        }
+      ],
+      "doneCount": 1
+    },
+    {
+      "category": "Katters Structures (Ambient)",
+      "items": [
+        {
+          "label": "Skyhold's Ruins",
+          "description": "Explore the shattered remnants of Skyhold, a once-great villager city, now scarred by Theron's wrath.",
+          "done": true
+        }
+      ],
+      "doneCount": 1
+    },
+    {
+      "category": "Katters Structures (General)",
+      "items": [
+        {
+          "label": "Katters Structures",
+          "description": "Brand new vanilla like structures!",
+          "done": true
+        }
+      ],
+      "doneCount": 1
+    }
+  ],
+  "stats": {
+    "playtimeHours": 0.3,
+    "deaths": 0,
+    "mobKillsTotal": 0,
+    "blocksMinedTotal": 20
+  },
+  "statsDetailed": [
+    {
+      "category": "General",
+      "items": [
+        {
+          "label": "Fly",
+          "value": "715 blocks",
+          "raw": 71529
+        },
+        {
+          "label": "Sprint",
+          "value": "609 blocks",
+          "raw": 60913
+        },
+        {
+          "label": "Walk",
+          "value": "449 blocks",
+          "raw": 44927
+        },
+        {
+          "label": "Time Since Rest",
+          "value": "18 min",
+          "raw": 21993
+        },
+        {
+          "label": "Play Time",
+          "value": "18 min",
+          "raw": 21993
+        },
+        {
+          "label": "Time Since Death",
+          "value": "18 min",
+          "raw": 21993
+        },
+        {
+          "label": "Total World Time",
+          "value": "18 min",
+          "raw": 21993
+        },
+        {
+          "label": "Fall",
+          "value": "136 blocks",
+          "raw": 13604
+        },
+        {
+          "label": "Swim",
+          "value": "102 blocks",
+          "raw": 10191
+        },
+        {
+          "label": "Walk On Water",
+          "value": "37 blocks",
+          "raw": 3709
+        },
+        {
+          "label": "Walk Under Water",
+          "value": "21 blocks",
+          "raw": 2147
+        },
+        {
+          "label": "Crouch",
+          "value": "18 blocks",
+          "raw": 1816
+        },
+        {
+          "label": "Climb",
+          "value": "17 blocks",
+          "raw": 1685
+        },
+        {
+          "label": "Sneak Time",
+          "value": "1 min",
+          "raw": 864
+        },
+        {
+          "label": "Jump",
+          "value": "400",
+          "raw": 400
+        },
+        {
+          "label": "Damage Taken",
+          "value": "285",
+          "raw": 285
+        },
+        {
+          "label": "Damage Dealt",
+          "value": "44",
+          "raw": 44
+        },
+        {
+          "label": "Talked To Villager",
+          "value": "4",
+          "raw": 4
+        },
+        {
+          "label": "Interact With Crafting Table",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Interact With Cartography Table",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Open Chest",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Leave Game",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Blocks Mined",
+      "items": [
+        {
+          "label": "Fire",
+          "value": "16",
+          "raw": 16
+        },
+        {
+          "label": "Stripped Oak Log",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Pale Oak Leaves",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Sculk Shrieker",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Items Crafted",
+      "items": [
+        {
+          "label": "Oak Planks",
+          "value": "8",
+          "raw": 8
+        }
+      ]
+    },
+    {
+      "category": "Items Used",
+      "items": [
+        {
+          "label": "Spyglass",
+          "value": "22",
+          "raw": 22
+        },
+        {
+          "label": "Oak Planks",
+          "value": "7",
+          "raw": 7
+        },
+        {
+          "label": "Bread",
+          "value": "4",
+          "raw": 4
+        }
+      ]
+    },
+    {
+      "category": "Items Picked Up",
+      "items": [
+        {
+          "label": "Stripped Oak Log",
+          "value": "2",
+          "raw": 2
+        }
+      ]
+    }
+  ],
+  "claims": [],
+  "waypoints": []
+}

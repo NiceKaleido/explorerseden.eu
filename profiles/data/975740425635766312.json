@@ -1,0 +1,594 @@
+{
+  "discordId": "975740425635766312",
+  "uuid": "8194e508-d330-4852-bde3-08616f5aefc6",
+  "name": "BBQHot",
+  "skinIcon": "/assets/images/generated/player-skins/8194e508-d330-4852-bde3-08616f5aefc6.png",
+  "headIcon": "/assets/images/generated/player-heads/8194e508-d330-4852-bde3-08616f5aefc6.png",
+  "race": "Aetherian",
+  "class": "Builder",
+  "advancementsCompleted": 6,
+  "advancementsDetailed": [
+    {
+      "category": "Adventure",
+      "items": [
+        {
+          "label": "Adventure",
+          "description": "Adventure, exploration and combat",
+          "done": true
+        },
+        {
+          "label": "Adventuring Time",
+          "description": "Discover every biome",
+          "done": false
+        },
+        {
+          "label": "Monster Hunter",
+          "description": "Kill any hostile monster",
+          "done": true
+        },
+        {
+          "label": "Monsters Hunted",
+          "description": "Kill one of every hostile monster",
+          "done": false
+        }
+      ],
+      "doneCount": 2
+    },
+    {
+      "category": "Katters Structures (General)",
+      "items": [
+        {
+          "label": "Katters Structures",
+          "description": "Brand new vanilla like structures!",
+          "done": true
+        }
+      ],
+      "doneCount": 1
+    },
+    {
+      "category": "Story",
+      "items": [
+        {
+          "label": "Getting an Upgrade",
+          "description": "Construct a better Pickaxe",
+          "done": true
+        },
+        {
+          "label": "Minecraft",
+          "description": "The heart and story of the game",
+          "done": true
+        },
+        {
+          "label": "Stone Age",
+          "description": "Mine Stone with your new Pickaxe",
+          "done": true
+        }
+      ],
+      "doneCount": 3
+    }
+  ],
+  "stats": {
+    "playtimeHours": 0.4,
+    "deaths": 0,
+    "mobKillsTotal": 2,
+    "blocksMinedTotal": 178
+  },
+  "statsDetailed": [
+    {
+      "category": "General",
+      "items": [
+        {
+          "label": "Fly",
+          "value": "1,249 blocks",
+          "raw": 124912
+        },
+        {
+          "label": "Walk",
+          "value": "469 blocks",
+          "raw": 46918
+        },
+        {
+          "label": "Time Since Rest",
+          "value": "23 min",
+          "raw": 28121
+        },
+        {
+          "label": "Play Time",
+          "value": "23 min",
+          "raw": 28121
+        },
+        {
+          "label": "Time Since Death",
+          "value": "23 min",
+          "raw": 28121
+        },
+        {
+          "label": "Total World Time",
+          "value": "23 min",
+          "raw": 28121
+        },
+        {
+          "label": "Sprint",
+          "value": "264 blocks",
+          "raw": 26364
+        },
+        {
+          "label": "Fall",
+          "value": "191 blocks",
+          "raw": 19139
+        },
+        {
+          "label": "Crouch",
+          "value": "30 blocks",
+          "raw": 3027
+        },
+        {
+          "label": "Sneak Time",
+          "value": "1 min",
+          "raw": 1447
+        },
+        {
+          "label": "Walk On Water",
+          "value": "5 blocks",
+          "raw": 549
+        },
+        {
+          "label": "Damage Dealt",
+          "value": "344",
+          "raw": 344
+        },
+        {
+          "label": "Damage Taken",
+          "value": "242",
+          "raw": 242
+        },
+        {
+          "label": "Jump",
+          "value": "149",
+          "raw": 149
+        },
+        {
+          "label": "Interact With Crafting Table",
+          "value": "14",
+          "raw": 14
+        },
+        {
+          "label": "Interact With Furnace",
+          "value": "8",
+          "raw": 8
+        },
+        {
+          "label": "Drop",
+          "value": "5",
+          "raw": 5
+        },
+        {
+          "label": "Open Chest",
+          "value": "4",
+          "raw": 4
+        },
+        {
+          "label": "Mob Kills",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Talked To Villager",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Leave Game",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Open Shulker Box",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Blocks Mined",
+      "items": [
+        {
+          "label": "Short Grass",
+          "value": "27",
+          "raw": 27
+        },
+        {
+          "label": "Stone",
+          "value": "25",
+          "raw": 25
+        },
+        {
+          "label": "Grass Block",
+          "value": "24",
+          "raw": 24
+        },
+        {
+          "label": "Fern",
+          "value": "23",
+          "raw": 23
+        },
+        {
+          "label": "Coal Ore",
+          "value": "20",
+          "raw": 20
+        },
+        {
+          "label": "Oak Log",
+          "value": "17",
+          "raw": 17
+        },
+        {
+          "label": "Dirt",
+          "value": "9",
+          "raw": 9
+        },
+        {
+          "label": "Sugar Cane",
+          "value": "9",
+          "raw": 9
+        },
+        {
+          "label": "Cactus",
+          "value": "6",
+          "raw": 6
+        },
+        {
+          "label": "Copper Ore",
+          "value": "5",
+          "raw": 5
+        },
+        {
+          "label": "Cactus Flower",
+          "value": "4",
+          "raw": 4
+        },
+        {
+          "label": "Pumpkin",
+          "value": "4",
+          "raw": 4
+        },
+        {
+          "label": "Tall Grass",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Torch",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Light Blue Shulker Box",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Oak Leaves",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Dead Bush",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Items Crafted",
+      "items": [
+        {
+          "label": "Oak Planks",
+          "value": "36",
+          "raw": 36
+        },
+        {
+          "label": "Stick",
+          "value": "20",
+          "raw": 20
+        },
+        {
+          "label": "Copper Ingot",
+          "value": "18",
+          "raw": 18
+        },
+        {
+          "label": "Torch",
+          "value": "8",
+          "raw": 8
+        },
+        {
+          "label": "Chest",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Furnace",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Stone Sword",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Stone Pickaxe",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Crafting Table",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Copper Axe",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Wooden Pickaxe",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Stone Axe",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Copper Sword",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Copper Pickaxe",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Copper Hoe",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Copper Shovel",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Items Used",
+      "items": [
+        {
+          "label": "Stone Pickaxe",
+          "value": "40",
+          "raw": 40
+        },
+        {
+          "label": "Copper Shovel",
+          "value": "23",
+          "raw": 23
+        },
+        {
+          "label": "Wooden Pickaxe",
+          "value": "14",
+          "raw": 14
+        },
+        {
+          "label": "Stone Axe",
+          "value": "10",
+          "raw": 10
+        },
+        {
+          "label": "Torch",
+          "value": "7",
+          "raw": 7
+        },
+        {
+          "label": "Oak Log",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Chest",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Makeshift Claim Anchor",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Leather Boots",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Goggles",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Light Blue Shulker Box",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Golden Leggings",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Crafting Table",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Oak Sapling",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Furnace",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Dirt",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Items Picked Up",
+      "items": [
+        {
+          "label": "Dirt",
+          "value": "33",
+          "raw": 33
+        },
+        {
+          "label": "Cobblestone",
+          "value": "25",
+          "raw": 25
+        },
+        {
+          "label": "Sugar Cane",
+          "value": "20",
+          "raw": 20
+        },
+        {
+          "label": "Coal",
+          "value": "20",
+          "raw": 20
+        },
+        {
+          "label": "Raw Copper",
+          "value": "18",
+          "raw": 18
+        },
+        {
+          "label": "Oak Log",
+          "value": "17",
+          "raw": 17
+        },
+        {
+          "label": "Cactus",
+          "value": "12",
+          "raw": 12
+        },
+        {
+          "label": "Wheat Seeds",
+          "value": "10",
+          "raw": 10
+        },
+        {
+          "label": "Cactus Flower",
+          "value": "6",
+          "raw": 6
+        },
+        {
+          "label": "Stick",
+          "value": "4",
+          "raw": 4
+        },
+        {
+          "label": "Pumpkin",
+          "value": "4",
+          "raw": 4
+        },
+        {
+          "label": "Player Head",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Light Blue Shulker Box",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Wooden Pickaxe",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Torch",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Oak Sapling",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Spider Eye",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Items Dropped",
+      "items": [
+        {
+          "label": "Wooden Pickaxe",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Stone Sword",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Stone Axe",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Stone Pickaxe",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Mobs Killed",
+      "items": [
+        {
+          "label": "Zombie",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Spider",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "dimension": "Overworld",
+      "x": -454,
+      "y": 66,
+      "z": -1941,
+      "anchorType": "Makeshift Claim Anchor",
+      "trusted": []
+    }
+  ],
+  "waypoints": []
+}

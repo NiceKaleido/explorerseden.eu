@@ -1,0 +1,350 @@
+{
+  "discordId": "836490681190842409",
+  "uuid": "db4c824b-36cb-4f65-b1ec-4588c9057bf6",
+  "name": "KaipeX_",
+  "skinIcon": "/assets/images/generated/player-skins/db4c824b-36cb-4f65-b1ec-4588c9057bf6.png",
+  "headIcon": "/assets/images/generated/player-heads/db4c824b-36cb-4f65-b1ec-4588c9057bf6.png",
+  "race": "Orebringer",
+  "class": null,
+  "advancementsCompleted": 5,
+  "advancementsDetailed": [
+    {
+      "category": "Adventure",
+      "items": [
+        {
+          "label": "Adventuring Time",
+          "description": "Discover every biome",
+          "done": false
+        }
+      ],
+      "doneCount": 0
+    },
+    {
+      "category": "Katters Structures (Ambient)",
+      "items": [
+        {
+          "label": "Skyhold's Ruins",
+          "description": "Explore the shattered remnants of Skyhold, a once-great villager city, now scarred by Theron's wrath.",
+          "done": true
+        }
+      ],
+      "doneCount": 1
+    },
+    {
+      "category": "Katters Structures (General)",
+      "items": [
+        {
+          "label": "Katters Structures",
+          "description": "Brand new vanilla like structures!",
+          "done": true
+        }
+      ],
+      "doneCount": 1
+    },
+    {
+      "category": "Story",
+      "items": [
+        {
+          "label": "Getting an Upgrade",
+          "description": "Construct a better Pickaxe",
+          "done": true
+        },
+        {
+          "label": "Minecraft",
+          "description": "The heart and story of the game",
+          "done": true
+        },
+        {
+          "label": "Stone Age",
+          "description": "Mine Stone with your new Pickaxe",
+          "done": true
+        }
+      ],
+      "doneCount": 3
+    }
+  ],
+  "stats": {
+    "playtimeHours": 0.2,
+    "deaths": 0,
+    "mobKillsTotal": 0,
+    "blocksMinedTotal": 48
+  },
+  "statsDetailed": [
+    {
+      "category": "General",
+      "items": [
+        {
+          "label": "Walk",
+          "value": "450 blocks",
+          "raw": 45002
+        },
+        {
+          "label": "Swim",
+          "value": "283 blocks",
+          "raw": 28322
+        },
+        {
+          "label": "Time Since Rest",
+          "value": "12 min",
+          "raw": 14168
+        },
+        {
+          "label": "Play Time",
+          "value": "12 min",
+          "raw": 14168
+        },
+        {
+          "label": "Time Since Death",
+          "value": "12 min",
+          "raw": 14168
+        },
+        {
+          "label": "Total World Time",
+          "value": "12 min",
+          "raw": 14168
+        },
+        {
+          "label": "Sprint",
+          "value": "139 blocks",
+          "raw": 13867
+        },
+        {
+          "label": "Fly",
+          "value": "89 blocks",
+          "raw": 8918
+        },
+        {
+          "label": "Fall",
+          "value": "31 blocks",
+          "raw": 3101
+        },
+        {
+          "label": "Walk On Water",
+          "value": "24 blocks",
+          "raw": 2375
+        },
+        {
+          "label": "Crouch",
+          "value": "16 blocks",
+          "raw": 1617
+        },
+        {
+          "label": "Sneak Time",
+          "value": "1 min",
+          "raw": 791
+        },
+        {
+          "label": "Climb",
+          "value": "5 blocks",
+          "raw": 501
+        },
+        {
+          "label": "Walk Under Water",
+          "value": "4 blocks",
+          "raw": 435
+        },
+        {
+          "label": "Jump",
+          "value": "114",
+          "raw": 114
+        },
+        {
+          "label": "Damage Taken",
+          "value": "20",
+          "raw": 20
+        },
+        {
+          "label": "Interact With Crafting Table",
+          "value": "4",
+          "raw": 4
+        },
+        {
+          "label": "Leave Game",
+          "value": "2",
+          "raw": 2
+        }
+      ]
+    },
+    {
+      "category": "Blocks Mined",
+      "items": [
+        {
+          "label": "Raw Iron Block",
+          "value": "23",
+          "raw": 23
+        },
+        {
+          "label": "Stone",
+          "value": "16",
+          "raw": 16
+        },
+        {
+          "label": "Coal Ore",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Spruce Log",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Pale Moss Block",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Fire",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Stripped Spruce Log",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Crafting Table",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Items Crafted",
+      "items": [
+        {
+          "label": "Raw Iron",
+          "value": "207",
+          "raw": 207
+        },
+        {
+          "label": "Raw Iron Block",
+          "value": "23",
+          "raw": 23
+        },
+        {
+          "label": "Spruce Planks",
+          "value": "12",
+          "raw": 12
+        },
+        {
+          "label": "Stick",
+          "value": "8",
+          "raw": 8
+        },
+        {
+          "label": "Torch",
+          "value": "4",
+          "raw": 4
+        },
+        {
+          "label": "Wooden Pickaxe",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Stone Pickaxe",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Crafting Table",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Items Used",
+      "items": [
+        {
+          "label": "Stone Pickaxe",
+          "value": "40",
+          "raw": 40
+        },
+        {
+          "label": "Wooden Pickaxe",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Cobblestone",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Pale Moss Block",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Makeshift Claim Anchor",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Crafting Table",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Goggles",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Items Picked Up",
+      "items": [
+        {
+          "label": "Raw Iron Block",
+          "value": "23",
+          "raw": 23
+        },
+        {
+          "label": "Cobblestone",
+          "value": "15",
+          "raw": 15
+        },
+        {
+          "label": "Coal",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Spruce Log",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Stripped Spruce Log",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Pale Moss Block",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Crafting Table",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "dimension": "Overworld",
+      "x": 208,
+      "y": 63,
+      "z": 331,
+      "anchorType": "Makeshift Claim Anchor",
+      "trusted": []
+    }
+  ],
+  "waypoints": []
+}

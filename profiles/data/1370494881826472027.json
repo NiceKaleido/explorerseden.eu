@@ -1,0 +1,417 @@
+{
+  "discordId": "1370494881826472027",
+  "uuid": "58ce2364-0803-45cd-b23c-b86a00fe0b22",
+  "name": "Meowenn",
+  "skinIcon": "/assets/images/generated/player-skins/58ce2364-0803-45cd-b23c-b86a00fe0b22.png",
+  "headIcon": "/assets/images/generated/player-heads/58ce2364-0803-45cd-b23c-b86a00fe0b22.png",
+  "race": "Endling",
+  "class": "Archer",
+  "advancementsCompleted": 8,
+  "advancementsDetailed": [
+    {
+      "category": "Adventure",
+      "items": [
+        {
+          "label": "Adventure",
+          "description": "Adventure, exploration and combat",
+          "done": true
+        },
+        {
+          "label": "Adventuring Time",
+          "description": "Discover every biome",
+          "done": false
+        },
+        {
+          "label": "Monster Hunter",
+          "description": "Kill any hostile monster",
+          "done": true
+        },
+        {
+          "label": "Monsters Hunted",
+          "description": "Kill one of every hostile monster",
+          "done": false
+        },
+        {
+          "label": "Ol' Betsy",
+          "description": "Shoot a Crossbow",
+          "done": true
+        },
+        {
+          "label": "Take Aim",
+          "description": "Shoot something with an Arrow",
+          "done": true
+        }
+      ],
+      "doneCount": 4
+    },
+    {
+      "category": "Husbandry",
+      "items": [
+        {
+          "label": "A Balanced Diet",
+          "description": "Eat everything that is edible, even if it's not good for you",
+          "done": false
+        },
+        {
+          "label": "Husbandry",
+          "description": "The world is full of friends and food",
+          "done": true
+        }
+      ],
+      "doneCount": 1
+    },
+    {
+      "category": "Katters Structures (Ambient)",
+      "items": [
+        {
+          "label": "Skyhold's Ruins",
+          "description": "Explore the shattered remnants of Skyhold, a once-great villager city, now scarred by Theron's wrath.",
+          "done": true
+        }
+      ],
+      "doneCount": 1
+    },
+    {
+      "category": "Katters Structures (General)",
+      "items": [
+        {
+          "label": "Katters Structures",
+          "description": "Brand new vanilla like structures!",
+          "done": true
+        }
+      ],
+      "doneCount": 1
+    },
+    {
+      "category": "Story",
+      "items": [
+        {
+          "label": "Minecraft",
+          "description": "The heart and story of the game",
+          "done": true
+        }
+      ],
+      "doneCount": 1
+    }
+  ],
+  "stats": {
+    "playtimeHours": 2.1,
+    "deaths": 2,
+    "mobKillsTotal": 1,
+    "blocksMinedTotal": 39
+  },
+  "statsDetailed": [
+    {
+      "category": "General",
+      "items": [
+        {
+          "label": "Boat",
+          "value": "2,414 blocks",
+          "raw": 241371
+        },
+        {
+          "label": "Play Time",
+          "value": "2.1 h",
+          "raw": 151977
+        },
+        {
+          "label": "Total World Time",
+          "value": "2.1 h",
+          "raw": 151977
+        },
+        {
+          "label": "Walk",
+          "value": "1,196 blocks",
+          "raw": 119582
+        },
+        {
+          "label": "Swim",
+          "value": "1,069 blocks",
+          "raw": 106881
+        },
+        {
+          "label": "Fly",
+          "value": "796 blocks",
+          "raw": 79583
+        },
+        {
+          "label": "Fall",
+          "value": "672 blocks",
+          "raw": 67191
+        },
+        {
+          "label": "Sprint",
+          "value": "643 blocks",
+          "raw": 64311
+        },
+        {
+          "label": "Walk On Water",
+          "value": "234 blocks",
+          "raw": 23374
+        },
+        {
+          "label": "Time Since Rest",
+          "value": "18 min",
+          "raw": 22053
+        },
+        {
+          "label": "Time Since Death",
+          "value": "16 min",
+          "raw": 19641
+        },
+        {
+          "label": "Walk Under Water",
+          "value": "61 blocks",
+          "raw": 6087
+        },
+        {
+          "label": "Crouch",
+          "value": "22 blocks",
+          "raw": 2196
+        },
+        {
+          "label": "Sneak Time",
+          "value": "2 min",
+          "raw": 2186
+        },
+        {
+          "label": "Damage Taken",
+          "value": "1,550",
+          "raw": 1550
+        },
+        {
+          "label": "Jump",
+          "value": "607",
+          "raw": 607
+        },
+        {
+          "label": "Climb",
+          "value": "1 blocks",
+          "raw": 69
+        },
+        {
+          "label": "Interact With Crafting Table",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Leave Game",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Deaths",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Mob Kills",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Blocks Mined",
+      "items": [
+        {
+          "label": "Sweet Berry Bush",
+          "value": "15",
+          "raw": 15
+        },
+        {
+          "label": "Dirt",
+          "value": "9",
+          "raw": 9
+        },
+        {
+          "label": "Spruce Log",
+          "value": "7",
+          "raw": 7
+        },
+        {
+          "label": "Grass Block",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Short Grass",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Gravel",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Crafting Table",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Packed Ice",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Items Crafted",
+      "items": [
+        {
+          "label": "Spruce Planks",
+          "value": "12",
+          "raw": 12
+        },
+        {
+          "label": "Spruce Boat",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Crafting Table",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Items Used",
+      "items": [
+        {
+          "label": "Sweet Berries",
+          "value": "44",
+          "raw": 44
+        },
+        {
+          "label": "Dirt",
+          "value": "12",
+          "raw": 12
+        },
+        {
+          "label": "Crossbow",
+          "value": "8",
+          "raw": 8
+        },
+        {
+          "label": "Blue Egg",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Spruce Boat",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Crafting Table",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Gravel",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Items Picked Up",
+      "items": [
+        {
+          "label": "Sweet Berries",
+          "value": "43",
+          "raw": 43
+        },
+        {
+          "label": "Dirt",
+          "value": "13",
+          "raw": 13
+        },
+        {
+          "label": "Spruce Log",
+          "value": "11",
+          "raw": 11
+        },
+        {
+          "label": "Moss Carpet",
+          "value": "6",
+          "raw": 6
+        },
+        {
+          "label": "Spruce Planks",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Blue Egg",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Spruce Boat",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Rabbit Hide",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Feather",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Crafting Table",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Red Mushroom",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Brown Mushroom",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Player Head",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Gravel",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Mobs Killed",
+      "items": [
+        {
+          "label": "Zombie",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Killed By",
+      "items": [
+        {
+          "label": "Zombie",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    }
+  ],
+  "claims": [],
+  "waypoints": []
+}

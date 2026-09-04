@@ -1,0 +1,1586 @@
+[
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "desert_decorations/desert_decorations/statue_1",
+    "id": "nice_things:desert_decorations/desert_decorations/statue_1",
+    "displayName": "Statue (1)",
+    "structureId": "nice_things:desert_decorations",
+    "blocks": 51,
+    "uniqueBlocks": 10,
+    "url": "structures/nice_things/nice_things/desert_decorations/desert_decorations/statue_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/statue_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/statue_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/statue_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/statue_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "desert_decorations/desert_decorations/statue_2",
+    "id": "nice_things:desert_decorations/desert_decorations/statue_2",
+    "displayName": "Statue (2)",
+    "structureId": "nice_things:desert_decorations",
+    "blocks": 51,
+    "uniqueBlocks": 9,
+    "url": "structures/nice_things/nice_things/desert_decorations/desert_decorations/statue_2/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/statue_2/north.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/statue_2/east.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/statue_2/south.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/statue_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "desert_decorations/desert_decorations/statue_3",
+    "id": "nice_things:desert_decorations/desert_decorations/statue_3",
+    "displayName": "Statue (3)",
+    "structureId": "nice_things:desert_decorations",
+    "blocks": 51,
+    "uniqueBlocks": 9,
+    "url": "structures/nice_things/nice_things/desert_decorations/desert_decorations/statue_3/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/statue_3/north.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/statue_3/east.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/statue_3/south.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/statue_3/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "desert_decorations/desert_decorations/lamp_1",
+    "id": "nice_things:desert_decorations/desert_decorations/lamp_1",
+    "displayName": "Lamp (1)",
+    "structureId": "nice_things:desert_decorations",
+    "blocks": 20,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/desert_decorations/desert_decorations/lamp_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/lamp_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/lamp_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/lamp_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/lamp_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "desert_decorations/desert_decorations/lamp_2",
+    "id": "nice_things:desert_decorations/desert_decorations/lamp_2",
+    "displayName": "Lamp (2)",
+    "structureId": "nice_things:desert_decorations",
+    "blocks": 20,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/desert_decorations/desert_decorations/lamp_2/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/lamp_2/north.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/lamp_2/east.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/lamp_2/south.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/lamp_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "desert_decorations/desert_decorations/lamp_3",
+    "id": "nice_things:desert_decorations/desert_decorations/lamp_3",
+    "displayName": "Lamp (3)",
+    "structureId": "nice_things:desert_decorations",
+    "blocks": 20,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/desert_decorations/desert_decorations/lamp_3/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/lamp_3/north.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/lamp_3/east.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/lamp_3/south.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/lamp_3/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "desert_decorations/desert_decorations/lamp_4",
+    "id": "nice_things:desert_decorations/desert_decorations/lamp_4",
+    "displayName": "Lamp (4)",
+    "structureId": "nice_things:desert_decorations",
+    "blocks": 20,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/desert_decorations/desert_decorations/lamp_4/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/lamp_4/north.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/lamp_4/east.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/lamp_4/south.png",
+      "/wiki/nice_things/images/structures/nice_things/desert_decorations/desert_decorations/lamp_4/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "end_ship_crashed/end_ship/09",
+    "id": "nice_things:end_ship_crashed/end_ship/09",
+    "displayName": "09",
+    "structureId": "nice_things:end_ship_crashed",
+    "blocks": 164,
+    "uniqueBlocks": 7,
+    "url": "structures/nice_things/nice_things/end_ship_crashed/end_ship/09/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/end_ship_crashed/end_ship/09/north.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_crashed/end_ship/09/east.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_crashed/end_ship/09/south.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_crashed/end_ship/09/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "end_ship_crashed/end_ship/10",
+    "id": "nice_things:end_ship_crashed/end_ship/10",
+    "displayName": "10",
+    "structureId": "nice_things:end_ship_crashed",
+    "blocks": 435,
+    "uniqueBlocks": 9,
+    "url": "structures/nice_things/nice_things/end_ship_crashed/end_ship/10/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/end_ship_crashed/end_ship/10/north.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_crashed/end_ship/10/east.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_crashed/end_ship/10/south.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_crashed/end_ship/10/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "end_ship_flying/end_ship/01",
+    "id": "nice_things:end_ship_flying/end_ship/01",
+    "displayName": "01",
+    "structureId": "nice_things:end_ship_flying",
+    "blocks": 313,
+    "uniqueBlocks": 8,
+    "url": "structures/nice_things/nice_things/end_ship_flying/end_ship/01/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/01/north.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/01/east.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/01/south.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/01/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "end_ship_flying/end_ship/02",
+    "id": "nice_things:end_ship_flying/end_ship/02",
+    "displayName": "02",
+    "structureId": "nice_things:end_ship_flying",
+    "blocks": 940,
+    "uniqueBlocks": 12,
+    "url": "structures/nice_things/nice_things/end_ship_flying/end_ship/02/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/02/north.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/02/east.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/02/south.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/02/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "end_ship_flying/end_ship/03",
+    "id": "nice_things:end_ship_flying/end_ship/03",
+    "displayName": "03",
+    "structureId": "nice_things:end_ship_flying",
+    "blocks": 1118,
+    "uniqueBlocks": 16,
+    "url": "structures/nice_things/nice_things/end_ship_flying/end_ship/03/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/03/north.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/03/east.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/03/south.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/03/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "end_ship_flying/end_ship/04",
+    "id": "nice_things:end_ship_flying/end_ship/04",
+    "displayName": "04",
+    "structureId": "nice_things:end_ship_flying",
+    "blocks": 583,
+    "uniqueBlocks": 14,
+    "url": "structures/nice_things/nice_things/end_ship_flying/end_ship/04/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/04/north.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/04/east.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/04/south.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/04/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "end_ship_flying/end_ship/05",
+    "id": "nice_things:end_ship_flying/end_ship/05",
+    "displayName": "05",
+    "structureId": "nice_things:end_ship_flying",
+    "blocks": 1475,
+    "uniqueBlocks": 24,
+    "url": "structures/nice_things/nice_things/end_ship_flying/end_ship/05/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/05/north.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/05/east.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/05/south.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/05/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "end_ship_flying/end_ship/06",
+    "id": "nice_things:end_ship_flying/end_ship/06",
+    "displayName": "06",
+    "structureId": "nice_things:end_ship_flying",
+    "blocks": 211,
+    "uniqueBlocks": 7,
+    "url": "structures/nice_things/nice_things/end_ship_flying/end_ship/06/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/06/north.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/06/east.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/06/south.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/06/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "end_ship_flying/end_ship/07",
+    "id": "nice_things:end_ship_flying/end_ship/07",
+    "displayName": "07",
+    "structureId": "nice_things:end_ship_flying",
+    "blocks": 1617,
+    "uniqueBlocks": 16,
+    "url": "structures/nice_things/nice_things/end_ship_flying/end_ship/07/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/07/north.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/07/east.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/07/south.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/07/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "end_ship_flying/end_ship/08",
+    "id": "nice_things:end_ship_flying/end_ship/08",
+    "displayName": "08",
+    "structureId": "nice_things:end_ship_flying",
+    "blocks": 3820,
+    "uniqueBlocks": 22,
+    "url": "structures/nice_things/nice_things/end_ship_flying/end_ship/08/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/08/north.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/08/east.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/08/south.png",
+      "/wiki/nice_things/images/structures/nice_things/end_ship_flying/end_ship/08/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "jungle_decorations/jungle_decorations/bamboo_farm_1",
+    "id": "nice_things:jungle_decorations/jungle_decorations/bamboo_farm_1",
+    "displayName": "Bamboo Farm (1)",
+    "structureId": "nice_things:jungle_decorations",
+    "blocks": 68,
+    "uniqueBlocks": 10,
+    "url": "structures/nice_things/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "jungle_decorations/jungle_decorations/bamboo_farm_2",
+    "id": "nice_things:jungle_decorations/jungle_decorations/bamboo_farm_2",
+    "displayName": "Bamboo Farm (2)",
+    "structureId": "nice_things:jungle_decorations",
+    "blocks": 62,
+    "uniqueBlocks": 10,
+    "url": "structures/nice_things/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_2/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_2/north.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_2/east.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_2/south.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "jungle_decorations/jungle_decorations/bamboo_farm_3",
+    "id": "nice_things:jungle_decorations/jungle_decorations/bamboo_farm_3",
+    "displayName": "Bamboo Farm (3)",
+    "structureId": "nice_things:jungle_decorations",
+    "blocks": 57,
+    "uniqueBlocks": 10,
+    "url": "structures/nice_things/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_3/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_3/north.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_3/east.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_3/south.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_3/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "jungle_decorations/jungle_decorations/bamboo_farm_4",
+    "id": "nice_things:jungle_decorations/jungle_decorations/bamboo_farm_4",
+    "displayName": "Bamboo Farm (4)",
+    "structureId": "nice_things:jungle_decorations",
+    "blocks": 48,
+    "uniqueBlocks": 10,
+    "url": "structures/nice_things/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_4/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_4/north.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_4/east.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_4/south.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/bamboo_farm_4/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "jungle_decorations/jungle_decorations/cookie_farm_1",
+    "id": "nice_things:jungle_decorations/jungle_decorations/cookie_farm_1",
+    "displayName": "Cookie Farm (1)",
+    "structureId": "nice_things:jungle_decorations",
+    "blocks": 43,
+    "uniqueBlocks": 8,
+    "url": "structures/nice_things/nice_things/jungle_decorations/jungle_decorations/cookie_farm_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/cookie_farm_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/cookie_farm_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/cookie_farm_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/cookie_farm_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "jungle_decorations/jungle_decorations/cookie_farm_2",
+    "id": "nice_things:jungle_decorations/jungle_decorations/cookie_farm_2",
+    "displayName": "Cookie Farm (2)",
+    "structureId": "nice_things:jungle_decorations",
+    "blocks": 33,
+    "uniqueBlocks": 8,
+    "url": "structures/nice_things/nice_things/jungle_decorations/jungle_decorations/cookie_farm_2/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/cookie_farm_2/north.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/cookie_farm_2/east.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/cookie_farm_2/south.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/cookie_farm_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "jungle_decorations/jungle_decorations/cookie_farm_3",
+    "id": "nice_things:jungle_decorations/jungle_decorations/cookie_farm_3",
+    "displayName": "Cookie Farm (3)",
+    "structureId": "nice_things:jungle_decorations",
+    "blocks": 29,
+    "uniqueBlocks": 8,
+    "url": "structures/nice_things/nice_things/jungle_decorations/jungle_decorations/cookie_farm_3/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/cookie_farm_3/north.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/cookie_farm_3/east.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/cookie_farm_3/south.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/cookie_farm_3/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "jungle_decorations/jungle_decorations/temple_1",
+    "id": "nice_things:jungle_decorations/jungle_decorations/temple_1",
+    "displayName": "Temple (1)",
+    "structureId": "nice_things:jungle_decorations",
+    "blocks": 339,
+    "uniqueBlocks": 15,
+    "url": "structures/nice_things/nice_things/jungle_decorations/jungle_decorations/temple_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/temple_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/temple_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/temple_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/temple_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "jungle_decorations/jungle_decorations/temple_2",
+    "id": "nice_things:jungle_decorations/jungle_decorations/temple_2",
+    "displayName": "Temple (2)",
+    "structureId": "nice_things:jungle_decorations",
+    "blocks": 326,
+    "uniqueBlocks": 11,
+    "url": "structures/nice_things/nice_things/jungle_decorations/jungle_decorations/temple_2/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/temple_2/north.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/temple_2/east.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/temple_2/south.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/temple_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "jungle_decorations/jungle_decorations/temple_3",
+    "id": "nice_things:jungle_decorations/jungle_decorations/temple_3",
+    "displayName": "Temple (3)",
+    "structureId": "nice_things:jungle_decorations",
+    "blocks": 326,
+    "uniqueBlocks": 11,
+    "url": "structures/nice_things/nice_things/jungle_decorations/jungle_decorations/temple_3/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/temple_3/north.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/temple_3/east.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/temple_3/south.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/temple_3/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "jungle_decorations/jungle_decorations/temple_4",
+    "id": "nice_things:jungle_decorations/jungle_decorations/temple_4",
+    "displayName": "Temple (4)",
+    "structureId": "nice_things:jungle_decorations",
+    "blocks": 335,
+    "uniqueBlocks": 16,
+    "url": "structures/nice_things/nice_things/jungle_decorations/jungle_decorations/temple_4/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/temple_4/north.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/temple_4/east.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/temple_4/south.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/temple_4/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "jungle_decorations/jungle_decorations/torch_1",
+    "id": "nice_things:jungle_decorations/jungle_decorations/torch_1",
+    "displayName": "Torch (1)",
+    "structureId": "nice_things:jungle_decorations",
+    "blocks": 16,
+    "uniqueBlocks": 6,
+    "url": "structures/nice_things/nice_things/jungle_decorations/jungle_decorations/torch_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/torch_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/torch_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/torch_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/torch_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "jungle_decorations/jungle_decorations/torch_2",
+    "id": "nice_things:jungle_decorations/jungle_decorations/torch_2",
+    "displayName": "Torch (2)",
+    "structureId": "nice_things:jungle_decorations",
+    "blocks": 16,
+    "uniqueBlocks": 5,
+    "url": "structures/nice_things/nice_things/jungle_decorations/jungle_decorations/torch_2/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/torch_2/north.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/torch_2/east.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/torch_2/south.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/torch_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "jungle_decorations/jungle_decorations/torch_3",
+    "id": "nice_things:jungle_decorations/jungle_decorations/torch_3",
+    "displayName": "Torch (3)",
+    "structureId": "nice_things:jungle_decorations",
+    "blocks": 16,
+    "uniqueBlocks": 5,
+    "url": "structures/nice_things/nice_things/jungle_decorations/jungle_decorations/torch_3/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/torch_3/north.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/torch_3/east.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/torch_3/south.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/torch_3/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "jungle_decorations/jungle_decorations/torch_4",
+    "id": "nice_things:jungle_decorations/jungle_decorations/torch_4",
+    "displayName": "Torch (4)",
+    "structureId": "nice_things:jungle_decorations",
+    "blocks": 16,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/jungle_decorations/jungle_decorations/torch_4/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/torch_4/north.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/torch_4/east.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/torch_4/south.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/torch_4/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "jungle_decorations/jungle_decorations/statue_1",
+    "id": "nice_things:jungle_decorations/jungle_decorations/statue_1",
+    "displayName": "Statue (1)",
+    "structureId": "nice_things:jungle_decorations",
+    "blocks": 154,
+    "uniqueBlocks": 13,
+    "url": "structures/nice_things/nice_things/jungle_decorations/jungle_decorations/statue_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/statue_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/statue_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/statue_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/jungle_decorations/jungle_decorations/statue_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "ocean_underground_decorations/ocean_underground_decorations/seamines_1",
+    "id": "nice_things:ocean_underground_decorations/ocean_underground_decorations/seamines_1",
+    "displayName": "Seamines (1)",
+    "structureId": "nice_things:ocean_underground_decorations",
+    "blocks": 30,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "ocean_underground_decorations/ocean_underground_decorations/seamines_2",
+    "id": "nice_things:ocean_underground_decorations/ocean_underground_decorations/seamines_2",
+    "displayName": "Seamines (2)",
+    "structureId": "nice_things:ocean_underground_decorations",
+    "blocks": 29,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_2/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_2/north.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_2/east.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_2/south.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "ocean_underground_decorations/ocean_underground_decorations/seamines_3",
+    "id": "nice_things:ocean_underground_decorations/ocean_underground_decorations/seamines_3",
+    "displayName": "Seamines (3)",
+    "structureId": "nice_things:ocean_underground_decorations",
+    "blocks": 30,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_3/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_3/north.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_3/east.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_3/south.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_3/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "ocean_underground_decorations/ocean_underground_decorations/seamines_4",
+    "id": "nice_things:ocean_underground_decorations/ocean_underground_decorations/seamines_4",
+    "displayName": "Seamines (4)",
+    "structureId": "nice_things:ocean_underground_decorations",
+    "blocks": 29,
+    "uniqueBlocks": 12,
+    "url": "structures/nice_things/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_4/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_4/north.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_4/east.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_4/south.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_4/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "ocean_underground_decorations/ocean_underground_decorations/seamines_5",
+    "id": "nice_things:ocean_underground_decorations/ocean_underground_decorations/seamines_5",
+    "displayName": "Seamines (5)",
+    "structureId": "nice_things:ocean_underground_decorations",
+    "blocks": 29,
+    "uniqueBlocks": 12,
+    "url": "structures/nice_things/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_5/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_5/north.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_5/east.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_5/south.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_5/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "ocean_underground_decorations/ocean_underground_decorations/seamines_6",
+    "id": "nice_things:ocean_underground_decorations/ocean_underground_decorations/seamines_6",
+    "displayName": "Seamines (6)",
+    "structureId": "nice_things:ocean_underground_decorations",
+    "blocks": 27,
+    "uniqueBlocks": 12,
+    "url": "structures/nice_things/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_6/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_6/north.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_6/east.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_6/south.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/seamines_6/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "ocean_underground_decorations/ocean_underground_decorations/airpocket_1",
+    "id": "nice_things:ocean_underground_decorations/ocean_underground_decorations/airpocket_1",
+    "displayName": "Airpocket (1)",
+    "structureId": "nice_things:ocean_underground_decorations",
+    "blocks": 35,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/ocean_underground_decorations/ocean_underground_decorations/airpocket_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/airpocket_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/airpocket_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/airpocket_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/airpocket_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "ocean_underground_decorations/ocean_underground_decorations/airpocket_2",
+    "id": "nice_things:ocean_underground_decorations/ocean_underground_decorations/airpocket_2",
+    "displayName": "Airpocket (2)",
+    "structureId": "nice_things:ocean_underground_decorations",
+    "blocks": 48,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/ocean_underground_decorations/ocean_underground_decorations/airpocket_2/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/airpocket_2/north.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/airpocket_2/east.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/airpocket_2/south.png",
+      "/wiki/nice_things/images/structures/nice_things/ocean_underground_decorations/ocean_underground_decorations/airpocket_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "snow_decorations/snow_decorations/cage_1",
+    "id": "nice_things:snow_decorations/snow_decorations/cage_1",
+    "displayName": "Cage (1)",
+    "structureId": "nice_things:snow_decorations",
+    "blocks": 56,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/snow_decorations/snow_decorations/cage_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/cage_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/cage_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/cage_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/cage_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "snow_decorations/snow_decorations/campfire_1",
+    "id": "nice_things:snow_decorations/snow_decorations/campfire_1",
+    "displayName": "Campfire (1)",
+    "structureId": "nice_things:snow_decorations",
+    "blocks": 14,
+    "uniqueBlocks": 8,
+    "url": "structures/nice_things/nice_things/snow_decorations/snow_decorations/campfire_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/campfire_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/campfire_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/campfire_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/campfire_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "snow_decorations/snow_decorations/candy_cane_1",
+    "id": "nice_things:snow_decorations/snow_decorations/candy_cane_1",
+    "displayName": "Candy Cane (1)",
+    "structureId": "nice_things:snow_decorations",
+    "blocks": 7,
+    "uniqueBlocks": 3,
+    "url": "structures/nice_things/nice_things/snow_decorations/snow_decorations/candy_cane_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/candy_cane_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/candy_cane_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/candy_cane_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/candy_cane_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "snow_decorations/snow_decorations/candy_cane_2",
+    "id": "nice_things:snow_decorations/snow_decorations/candy_cane_2",
+    "displayName": "Candy Cane (2)",
+    "structureId": "nice_things:snow_decorations",
+    "blocks": 9,
+    "uniqueBlocks": 3,
+    "url": "structures/nice_things/nice_things/snow_decorations/snow_decorations/candy_cane_2/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/candy_cane_2/north.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/candy_cane_2/east.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/candy_cane_2/south.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/candy_cane_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "snow_decorations/snow_decorations/candy_cane_3",
+    "id": "nice_things:snow_decorations/snow_decorations/candy_cane_3",
+    "displayName": "Candy Cane (3)",
+    "structureId": "nice_things:snow_decorations",
+    "blocks": 16,
+    "uniqueBlocks": 3,
+    "url": "structures/nice_things/nice_things/snow_decorations/snow_decorations/candy_cane_3/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/candy_cane_3/north.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/candy_cane_3/east.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/candy_cane_3/south.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/candy_cane_3/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "snow_decorations/snow_decorations/hot_tub_1",
+    "id": "nice_things:snow_decorations/snow_decorations/hot_tub_1",
+    "displayName": "Hot Tub (1)",
+    "structureId": "nice_things:snow_decorations",
+    "blocks": 36,
+    "uniqueBlocks": 9,
+    "url": "structures/nice_things/nice_things/snow_decorations/snow_decorations/hot_tub_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/hot_tub_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/hot_tub_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/hot_tub_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/hot_tub_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "snow_decorations/snow_decorations/sled_1",
+    "id": "nice_things:snow_decorations/snow_decorations/sled_1",
+    "displayName": "Sled (1)",
+    "structureId": "nice_things:snow_decorations",
+    "blocks": 8,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/snow_decorations/snow_decorations/sled_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/sled_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/sled_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/sled_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/sled_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "snow_decorations/snow_decorations/snowman_1",
+    "id": "nice_things:snow_decorations/snow_decorations/snowman_1",
+    "displayName": "Snowman (1)",
+    "structureId": "nice_things:snow_decorations",
+    "blocks": 8,
+    "uniqueBlocks": 6,
+    "url": "structures/nice_things/nice_things/snow_decorations/snow_decorations/snowman_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "snow_decorations/snow_decorations/snowman_2",
+    "id": "nice_things:snow_decorations/snow_decorations/snowman_2",
+    "displayName": "Snowman (2)",
+    "structureId": "nice_things:snow_decorations",
+    "blocks": 7,
+    "uniqueBlocks": 6,
+    "url": "structures/nice_things/nice_things/snow_decorations/snow_decorations/snowman_2/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_2/north.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_2/east.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_2/south.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "snow_decorations/snow_decorations/snowman_3",
+    "id": "nice_things:snow_decorations/snow_decorations/snowman_3",
+    "displayName": "Snowman (3)",
+    "structureId": "nice_things:snow_decorations",
+    "blocks": 6,
+    "uniqueBlocks": 5,
+    "url": "structures/nice_things/nice_things/snow_decorations/snow_decorations/snowman_3/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_3/north.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_3/east.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_3/south.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_3/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "snow_decorations/snow_decorations/snowman_4",
+    "id": "nice_things:snow_decorations/snow_decorations/snowman_4",
+    "displayName": "Snowman (4)",
+    "structureId": "nice_things:snow_decorations",
+    "blocks": 5,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/snow_decorations/snow_decorations/snowman_4/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_4/north.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_4/east.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_4/south.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_4/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "snow_decorations/snow_decorations/snowman_5",
+    "id": "nice_things:snow_decorations/snow_decorations/snowman_5",
+    "displayName": "Snowman (5)",
+    "structureId": "nice_things:snow_decorations",
+    "blocks": 3,
+    "uniqueBlocks": 3,
+    "url": "structures/nice_things/nice_things/snow_decorations/snow_decorations/snowman_5/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_5/north.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_5/east.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_5/south.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/snowman_5/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "snow_decorations/snow_decorations/cauldrons_1",
+    "id": "nice_things:snow_decorations/snow_decorations/cauldrons_1",
+    "displayName": "Cauldrons (1)",
+    "structureId": "nice_things:snow_decorations",
+    "blocks": 9,
+    "uniqueBlocks": 6,
+    "url": "structures/nice_things/nice_things/snow_decorations/snow_decorations/cauldrons_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/cauldrons_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/cauldrons_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/cauldrons_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/snow_decorations/snow_decorations/cauldrons_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/fallen_tree_1",
+    "id": "nice_things:taiga_decorations/taiga_decorations/fallen_tree_1",
+    "displayName": "Fallen Tree (1)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 16,
+    "uniqueBlocks": 2,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/fallen_tree_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/fallen_tree_2",
+    "id": "nice_things:taiga_decorations/taiga_decorations/fallen_tree_2",
+    "displayName": "Fallen Tree (2)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 32,
+    "uniqueBlocks": 2,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/fallen_tree_2/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_2/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_2/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_2/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/fallen_tree_3",
+    "id": "nice_things:taiga_decorations/taiga_decorations/fallen_tree_3",
+    "displayName": "Fallen Tree (3)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 17,
+    "uniqueBlocks": 2,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/fallen_tree_3/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_3/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_3/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_3/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_3/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/fallen_tree_4",
+    "id": "nice_things:taiga_decorations/taiga_decorations/fallen_tree_4",
+    "displayName": "Fallen Tree (4)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 31,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/fallen_tree_4/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_4/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_4/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_4/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_4/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/fallen_tree_5",
+    "id": "nice_things:taiga_decorations/taiga_decorations/fallen_tree_5",
+    "displayName": "Fallen Tree (5)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 21,
+    "uniqueBlocks": 3,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/fallen_tree_5/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_5/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_5/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_5/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_5/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/fallen_tree_6",
+    "id": "nice_things:taiga_decorations/taiga_decorations/fallen_tree_6",
+    "displayName": "Fallen Tree (6)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 15,
+    "uniqueBlocks": 3,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/fallen_tree_6/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_6/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_6/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_6/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_6/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/fallen_tree_7",
+    "id": "nice_things:taiga_decorations/taiga_decorations/fallen_tree_7",
+    "displayName": "Fallen Tree (7)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 74,
+    "uniqueBlocks": 2,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/fallen_tree_7/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_7/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_7/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_7/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fallen_tree_7/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/fox_trap_1",
+    "id": "nice_things:taiga_decorations/taiga_decorations/fox_trap_1",
+    "displayName": "Fox Trap (1)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 57,
+    "uniqueBlocks": 7,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/fox_trap_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fox_trap_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fox_trap_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fox_trap_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fox_trap_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/fox_trap_2",
+    "id": "nice_things:taiga_decorations/taiga_decorations/fox_trap_2",
+    "displayName": "Fox Trap (2)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 56,
+    "uniqueBlocks": 7,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/fox_trap_2/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fox_trap_2/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fox_trap_2/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fox_trap_2/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/fox_trap_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/house_1",
+    "id": "nice_things:taiga_decorations/taiga_decorations/house_1",
+    "displayName": "House (1)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 280,
+    "uniqueBlocks": 20,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/house_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/house_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/house_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/house_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/house_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/house_2",
+    "id": "nice_things:taiga_decorations/taiga_decorations/house_2",
+    "displayName": "House (2)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 255,
+    "uniqueBlocks": 17,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/house_2/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/house_2/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/house_2/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/house_2/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/house_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/house_3",
+    "id": "nice_things:taiga_decorations/taiga_decorations/house_3",
+    "displayName": "House (3)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 358,
+    "uniqueBlocks": 23,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/house_3/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/house_3/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/house_3/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/house_3/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/house_3/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/sweet_berry_farm_1",
+    "id": "nice_things:taiga_decorations/taiga_decorations/sweet_berry_farm_1",
+    "displayName": "Sweet Berry Farm (1)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 19,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/sweet_berry_farm_2",
+    "id": "nice_things:taiga_decorations/taiga_decorations/sweet_berry_farm_2",
+    "displayName": "Sweet Berry Farm (2)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 13,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_2/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_2/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_2/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_2/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/sweet_berry_farm_3",
+    "id": "nice_things:taiga_decorations/taiga_decorations/sweet_berry_farm_3",
+    "displayName": "Sweet Berry Farm (3)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 16,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_3/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_3/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_3/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_3/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_3/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/sweet_berry_farm_4",
+    "id": "nice_things:taiga_decorations/taiga_decorations/sweet_berry_farm_4",
+    "displayName": "Sweet Berry Farm (4)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 10,
+    "uniqueBlocks": 4,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_4/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_4/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_4/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_4/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/sweet_berry_farm_4/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/tent_1",
+    "id": "nice_things:taiga_decorations/taiga_decorations/tent_1",
+    "displayName": "Tent (1)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 50,
+    "uniqueBlocks": 8,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/tent_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/tent_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/tent_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/tent_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/tent_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/tent_2",
+    "id": "nice_things:taiga_decorations/taiga_decorations/tent_2",
+    "displayName": "Tent (2)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 49,
+    "uniqueBlocks": 6,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/tent_2/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/tent_2/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/tent_2/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/tent_2/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/tent_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/tent_3",
+    "id": "nice_things:taiga_decorations/taiga_decorations/tent_3",
+    "displayName": "Tent (3)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 49,
+    "uniqueBlocks": 7,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/tent_3/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/tent_3/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/tent_3/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/tent_3/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/tent_3/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/trunks_1",
+    "id": "nice_things:taiga_decorations/taiga_decorations/trunks_1",
+    "displayName": "Trunks (1)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 22,
+    "uniqueBlocks": 2,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/trunks_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/trunks_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/trunks_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/trunks_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/trunks_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/trunks_2",
+    "id": "nice_things:taiga_decorations/taiga_decorations/trunks_2",
+    "displayName": "Trunks (2)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 23,
+    "uniqueBlocks": 2,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/trunks_2/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/trunks_2/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/trunks_2/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/trunks_2/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/trunks_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/trunks_3",
+    "id": "nice_things:taiga_decorations/taiga_decorations/trunks_3",
+    "displayName": "Trunks (3)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 26,
+    "uniqueBlocks": 2,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/trunks_3/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/trunks_3/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/trunks_3/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/trunks_3/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/trunks_3/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/wagon_1",
+    "id": "nice_things:taiga_decorations/taiga_decorations/wagon_1",
+    "displayName": "Wagon (1)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 15,
+    "uniqueBlocks": 9,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/wagon_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/wagon_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/wagon_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/wagon_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/wagon_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/well_1",
+    "id": "nice_things:taiga_decorations/taiga_decorations/well_1",
+    "displayName": "Well (1)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 31,
+    "uniqueBlocks": 9,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/well_1/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/well_1/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/well_1/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/well_1/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/well_1/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/well_2",
+    "id": "nice_things:taiga_decorations/taiga_decorations/well_2",
+    "displayName": "Well (2)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 31,
+    "uniqueBlocks": 9,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/well_2/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/well_2/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/well_2/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/well_2/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/well_2/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/well_3",
+    "id": "nice_things:taiga_decorations/taiga_decorations/well_3",
+    "displayName": "Well (3)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 31,
+    "uniqueBlocks": 9,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/well_3/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/well_3/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/well_3/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/well_3/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/well_3/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "taiga_decorations/taiga_decorations/well_4",
+    "id": "nice_things:taiga_decorations/taiga_decorations/well_4",
+    "displayName": "Well (4)",
+    "structureId": "nice_things:taiga_decorations",
+    "blocks": 31,
+    "uniqueBlocks": 9,
+    "url": "structures/nice_things/nice_things/taiga_decorations/taiga_decorations/well_4/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/well_4/north.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/well_4/east.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/well_4/south.png",
+      "/wiki/nice_things/images/structures/nice_things/taiga_decorations/taiga_decorations/well_4/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "villager_outpost/desert",
+    "id": "nice_things:villager_outpost/desert",
+    "displayName": "Desert",
+    "structureId": "nice_things:villager_outpost/desert",
+    "blocks": 763,
+    "uniqueBlocks": 37,
+    "url": "structures/nice_things/nice_things/villager_outpost/desert/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/desert/north.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/desert/east.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/desert/south.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/desert/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "villager_outpost/jungle",
+    "id": "nice_things:villager_outpost/jungle",
+    "displayName": "Jungle",
+    "structureId": "nice_things:villager_outpost/jungle",
+    "blocks": 1075,
+    "uniqueBlocks": 25,
+    "url": "structures/nice_things/nice_things/villager_outpost/jungle/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/jungle/north.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/jungle/east.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/jungle/south.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/jungle/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "villager_outpost/plains",
+    "id": "nice_things:villager_outpost/plains",
+    "displayName": "Plains",
+    "structureId": "nice_things:villager_outpost/plains",
+    "blocks": 773,
+    "uniqueBlocks": 40,
+    "url": "structures/nice_things/nice_things/villager_outpost/plains/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/plains/north.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/plains/east.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/plains/south.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/plains/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "villager_outpost/savanna",
+    "id": "nice_things:villager_outpost/savanna",
+    "displayName": "Savanna",
+    "structureId": "nice_things:villager_outpost/savanna",
+    "blocks": 677,
+    "uniqueBlocks": 30,
+    "url": "structures/nice_things/nice_things/villager_outpost/savanna/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/savanna/north.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/savanna/east.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/savanna/south.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/savanna/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "villager_outpost/snow",
+    "id": "nice_things:villager_outpost/snow",
+    "displayName": "Snow",
+    "structureId": "nice_things:villager_outpost/snow",
+    "blocks": 635,
+    "uniqueBlocks": 22,
+    "url": "structures/nice_things/nice_things/villager_outpost/snow/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/snow/north.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/snow/east.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/snow/south.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/snow/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "villager_outpost/swamp",
+    "id": "nice_things:villager_outpost/swamp",
+    "displayName": "Swamp",
+    "structureId": "nice_things:villager_outpost/swamp",
+    "blocks": 1087,
+    "uniqueBlocks": 38,
+    "url": "structures/nice_things/nice_things/villager_outpost/swamp/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/swamp/north.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/swamp/east.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/swamp/south.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/swamp/west.png"
+    ]
+  },
+  {
+    "datapack": "Nice Things",
+    "datapackSlug": "nice_things",
+    "namespace": "nice_things",
+    "structure": "villager_outpost/taiga",
+    "id": "nice_things:villager_outpost/taiga",
+    "displayName": "Taiga",
+    "structureId": "nice_things:villager_outpost/taiga",
+    "blocks": 781,
+    "uniqueBlocks": 41,
+    "url": "structures/nice_things/nice_things/villager_outpost/taiga/index.html",
+    "previews": [
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/taiga/north.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/taiga/east.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/taiga/south.png",
+      "/wiki/nice_things/images/structures/nice_things/villager_outpost/taiga/west.png"
+    ]
+  }
+]

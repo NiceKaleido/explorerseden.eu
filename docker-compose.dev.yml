@@ -1,0 +1,34 @@
+# Optional local dev stack. If you already have Postgres and a local PHP
+# server (e.g. MAMP) set up, you don't need this - just point their env vars
+# at your existing Postgres instead. This exists for testing the export/import
+# scripts or the full Docker image without touching your real database.
+version: "3.9"
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: eden_translate
+      POSTGRES_PASSWORD: dev-only-password
+      POSTGRES_DB: eden_translate
+    ports:
+      - "5433:5432"
+    volumes:
+      - eden_translate_dev_data:/var/lib/postgresql/data
+
+  app:
+    build: .
+    restart: unless-stopped
+    depends_on:
+      - postgres
+    environment:
+      APP_ENV: local
+      DATABASE_URL: postgres://eden_translate:dev-only-password@postgres:5432/eden_translate
+      DISCORD_CLIENT_ID: ${DISCORD_CLIENT_ID}
+      DISCORD_CLIENT_SECRET: ${DISCORD_CLIENT_SECRET}
+      SESSION_SIGNING_KEY: ${SESSION_SIGNING_KEY}
+    ports:
+      - "8080:80"
+
+volumes:
+  eden_translate_dev_data:

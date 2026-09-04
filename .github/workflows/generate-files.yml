@@ -1,0 +1,334 @@
+name: Generate Files and Deploy
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */8 * * *'  # every 2 hours
+
+permissions:
+  contents: write
+
+jobs:
+  prepare-deps:
+    name: Install script dependencies
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+      - name: Install wiki script dependencies
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .cache/wiki-node-deps
+          npm --prefix .cache/wiki-node-deps init -y >/dev/null
+          npm --prefix .cache/wiki-node-deps install --no-save --package-lock=false prismarine-nbt pngjs sharp js-yaml deepslate jszip pg marked ssh2-sftp-client
+      - name: Save node deps cache
+        uses: actions/cache/save@v5
+        with:
+          path: .cache/wiki-node-deps
+          key: wiki-deps-${{ github.run_id }}
+
+  prepare-assets:
+    name: Download vanilla Minecraft assets
+    runs-on: ubuntu-latest
+    needs: prepare-deps
+    env:
+      NODE_PATH: ${{ github.workspace }}/.cache/wiki-node-deps/node_modules
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+      - name: Restore node deps cache
+        uses: actions/cache/restore@v5
+        with:
+          path: .cache/wiki-node-deps
+          key: wiki-deps-${{ github.run_id }}
+          fail-on-cache-miss: true
+      - name: Restore persistent vanilla assets cache
+        uses: actions/cache@v5
+        with:
+          path: .cache/vanilla-assets
+          key: vanilla-assets-versioned-v3
+      - name: Download / extract vanilla Minecraft assets
+        shell: bash
+        run: node tools/scripts/download-vanilla-assets.js
+      - name: Save vanilla assets cache for this run
+        uses: actions/cache/save@v5
+        with:
+          path: .cache/vanilla-assets
+          key: vanilla-assets-run-${{ github.run_id }}
+
+  generate:
+    name: Generate wiki, structure and enchantment files
+    runs-on: ubuntu-latest
+    needs: [prepare-deps, prepare-assets]
+    env:
+      NODE_PATH: ${{ github.workspace }}/.cache/wiki-node-deps/node_modules
+      REPO_TOKEN: ${{ secrets.REPO_TOKEN }}
+      TRANSLATIONS_DATABASE_URL: ${{ secrets.TRANSLATIONS_DATABASE_URL }}
+      SFTP_HOST: ${{ secrets.SFTP_HOST }}
+      SFTP_PORT: ${{ secrets.SFTP_PORT }}
+      SFTP_USER: ${{ secrets.SFTP_USER }}
+      SFTP_PASSWORD: ${{ secrets.SFTP_PASSWORD }}
+      WAYPOINT_SFTP_REMOTE_PATH: ${{ secrets.WAYPOINT_SFTP_REMOTE_PATH }}
+      SMP_WORLD_SFTP_REMOTE_PATH: ${{ secrets.SMP_WORLD_SFTP_REMOTE_PATH }}
+      SMP_CONFIG_SFTP_REMOTE_PATH: ${{ secrets.SMP_CONFIG_SFTP_REMOTE_PATH }}
+      # Single seed used for all phases this run, so jigsaw expansion decisions
+      # made in 'structure-md' are reproduced by 'structure-previews' and
+      # 'structure-viewers'. Varies per workflow run.
+      STRUCTURE_PREVIEW_SEED: ${{ github.run_id }}-${{ github.run_attempt }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+          token: ${{ secrets.REPO_TOKEN }}
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - name: Restore node deps cache
+        uses: actions/cache/restore@v5
+        with:
+          path: .cache/wiki-node-deps
+          key: wiki-deps-${{ github.run_id }}
+          fail-on-cache-miss: true
+      - name: Restore vanilla assets cache
+        uses: actions/cache/restore@v5
+        with:
+          path: .cache/vanilla-assets
+          key: vanilla-assets-run-${{ github.run_id }}
+          fail-on-cache-miss: true
+
+      - name: Clone source data packs
+        shell: bash
+        env:
+          PHASES: clone
+        run: node tools/scripts/run-generate-wiki-for-repositories.js
+
+      - name: Generate enchantment data
+        shell: bash
+        env:
+          PHASES: enchantments
+        run: node tools/scripts/run-generate-wiki-for-repositories.js
+
+      - name: Generate loot-table markdown
+        shell: bash
+        env:
+          PHASES: loot-tables
+        run: node tools/scripts/run-generate-wiki-for-repositories.js
+
+      - name: Generate structure markdown
+        shell: bash
+        env:
+          PHASES: structure-md
+        run: node tools/scripts/run-generate-wiki-for-repositories.js
+
+      - name: Render structure preview images
+        shell: bash
+        env:
+          PHASES: structure-previews
+        run: node tools/scripts/run-generate-wiki-for-repositories.js
+
+      - name: Generate 3D structure web viewers
+        shell: bash
+        env:
+          PHASES: structure-viewers
+        run: node tools/scripts/run-generate-wiki-for-repositories.js
+
+      - name: Render entity variant previews
+        shell: bash
+        env:
+          PHASES: entity-renders
+        run: node tools/scripts/run-generate-wiki-for-repositories.js
+
+      - name: Render player / NPC skin previews
+        shell: bash
+        env:
+          PHASES: player-skins
+        run: node tools/scripts/run-generate-wiki-for-repositories.js
+
+      - name: Generate recipe markdown and images
+        shell: bash
+        env:
+          PHASES: recipes
+        run: node tools/scripts/run-generate-wiki-for-repositories.js
+
+      - name: Render item and block icons
+        shell: bash
+        env:
+          PHASES: item-renders
+        run: node tools/scripts/run-generate-wiki-for-repositories.js
+
+      - name: Generate per-pack overview pages
+        shell: bash
+        env:
+          PHASES: overview
+        run: node tools/scripts/run-generate-wiki-for-repositories.js
+
+      - name: Import translation keys into Postgres
+        shell: bash
+        # A DB outage here should never block the unrelated wiki-generation/deploy pipeline.
+        continue-on-error: true
+        env:
+          PHASES: translations-import
+        run: node tools/scripts/run-generate-wiki-for-repositories.js
+
+      - name: Finalize (hub viewer + enchantment bootstrap + summary)
+        shell: bash
+        env:
+          PHASES: finalize
+        run: node tools/scripts/run-generate-wiki-for-repositories.js
+
+      - name: Fetch configurator pack data (vanilla + external packs)
+        shell: bash
+        run: node tools/scripts/fetch-configurator-pack-data.js
+
+      - name: Fetch resource pack data (EE project versions + asset presence)
+        shell: bash
+        run: node tools/scripts/fetch-resource-pack-data.js
+
+      - name: Fetch A Realm Recrafted README
+        shell: bash
+        run: node tools/scripts/generate-server-readme.js
+
+      - name: Fetch waypoint hub data via SFTP
+        shell: bash
+        run: node tools/scripts/generate-waypoint-hubs.js
+
+      - name: Generate SMP player profile data
+        shell: bash
+        # A Mojang/SFTP hiccup here shouldn't block the rest of the deploy -
+        # profiles just stay stale until the next scheduled run.
+        continue-on-error: true
+        run: node tools/scripts/generate-player-profiles.js
+
+      - name: Upload generated output for downstream jobs
+        uses: actions/upload-artifact@v7
+        with:
+          name: generated-output
+          path: |
+            wiki
+            structures
+            enchantments/data
+            enchantments/assets
+            recipes/data
+            data-pack-configurator/data
+            resource-pack-assembler/data
+            overview/data
+            waypoint-hubs/data
+            profiles/data
+            assets/images/generated/player-skins
+          if-no-files-found: warn
+          retention-days: 7
+
+  commit:
+    name: Commit generated files and tag the deploy SHA
+    runs-on: ubuntu-latest
+    needs: generate
+    outputs:
+      deploy_sha: ${{ steps.commit.outputs.sha }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+          token: ${{ secrets.REPO_TOKEN }}
+      - name: Wipe regen target directories so old files don't survive
+        shell: bash
+        # download-artifact only overlays; it doesn't remove files that were
+        # absent from the artifact. Without wiping, a structure whose new
+        # generation produces fewer chunk files would leave the leftover
+        # chunks from the previous run on disk, get committed, and ship
+        # broken (stale) data to the live site.
+        run: |
+          set -euo pipefail
+          rm -rf wiki structures enchantments/data enchantments/assets recipes/data data-pack-configurator/data resource-pack-assembler/data overview/data waypoint-hubs/data profiles/data assets/images/generated/player-skins
+      - name: Download generated output
+        uses: actions/download-artifact@v8
+        with:
+          name: generated-output
+      - name: Commit and push (or note no-change)
+        id: commit
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if [ ! -d wiki ] && [ ! -d structures ] && [ ! -d enchantments/data ] && [ ! -d recipes/data ]; then
+            echo "No generated output directories exist; skipping commit."
+            echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          [ -d wiki ] && git add -A wiki
+          [ -d structures ] && git add -A structures
+          [ -d enchantments/data ] && git add -A enchantments/data
+          [ -d enchantments/assets ] && git add -A enchantments/assets
+          [ -d recipes/data ] && git add -A recipes/data
+          [ -d data-pack-configurator/data ] && git add -A data-pack-configurator/data
+          [ -d resource-pack-assembler/data ] && git add -A resource-pack-assembler/data
+          [ -d overview/data ] && git add -A overview/data
+          [ -d waypoint-hubs/data ] && git add -A waypoint-hubs/data
+          [ -d profiles/data ] && git add -A profiles/data
+          [ -d assets/images/generated/player-skins ] && git add -A assets/images/generated/player-skins
+
+          if git diff --cached --quiet; then
+            echo "No generated wiki/structure/enchantment changes to commit."
+            echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          # If HEAD is already a generated-files commit, amend it rather than
+          # stacking a new one. This keeps exactly one generated-files commit in
+          # history at all times, preventing unbounded repository growth.
+          if [ "$(git log -1 --format='%s')" = "Generate wiki, structure and enchantment files" ]; then
+            git commit --amend --no-edit
+            git push --force-with-lease
+          else
+            git commit -m "Generate wiki, structure and enchantment files"
+            git push
+          fi
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+  deploy:
+    name: Build and push Docker image
+    runs-on: ubuntu-latest
+    needs: commit
+    steps:
+      - name: Checkout the exact SHA generate produced
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ needs.commit.outputs.deploy_sha }}
+      - name: Login to Docker Hub
+        uses: docker/login-action@v4
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+      - name: Build and Push
+        uses: docker/build-push-action@v7
+        with:
+          # Use the already-checked-out working directory so Docker never has
+          # to re-fetch the commit from GitHub. Without this, buildx defaults
+          # to the git-URL context and races against GitHub replication of a
+          # commit that was pushed just seconds earlier by the commit job.
+          context: .
+          push: true
+          # Disable the build cache. docker/build-push-action otherwise reuses
+          # cached layers across runs, which has caused the "image is fresh
+          # but contents are stale" symptom we keep hitting — Docker can
+          # reuse the COPY . . layer if it thinks the context is unchanged.
+          no-cache: true
+          # Pass the resolved commit SHA into the build so /version.txt
+          # contains exactly what was deployed. Verify a deploy with:
+          #   curl https://explorerseden.eu/version.txt
+          build-args: |
+            GIT_SHA=${{ needs.commit.outputs.deploy_sha }}
+          tags: |
+            niceron/explorerseden:latest
+            niceron/explorerseden:sha-${{ needs.commit.outputs.deploy_sha }}

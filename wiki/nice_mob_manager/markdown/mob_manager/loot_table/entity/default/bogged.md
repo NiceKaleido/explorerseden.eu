@@ -1,0 +1,8 @@
+# Bogged
+
+| Item | Stack Size | Pool | Weight | Chance |
+|:-----|:----------:|:----:|:------:|:------:|
+| <img src="https://explorerseden.eu/wiki/nice_mob_manager/images/items/minecraft/player_head.png" height="16" style="vertical-align:middle; image-rendering:pixelated"> Player Head | 1 | 1 | 1 | 100% |
+| <img src="https://explorerseden.eu/wiki/nice_mob_manager/images/items/minecraft/arrow.png" height="16" style="vertical-align:middle; image-rendering:pixelated"> Arrow | 1 | 2 | 1 | 33.3% |
+| <img src="https://explorerseden.eu/wiki/nice_mob_manager/images/items/minecraft/bone.png" height="16" style="vertical-align:middle; image-rendering:pixelated"> Bone | 1 | 2 | 1 | 33.3% |
+| <img src="https://explorerseden.eu/wiki/nice_mob_manager/images/items/minecraft/tipped_arrow.png" height="16" style="vertical-align:middle; image-rendering:pixelated"> Tipped Arrow | 1 | 2 | 1 | 33.3% |

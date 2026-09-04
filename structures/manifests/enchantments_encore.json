@@ -1,0 +1,38 @@
+[
+  {
+    "datapack": "Enchantments Encore",
+    "datapackSlug": "enchantments_encore",
+    "namespace": "enchantencore",
+    "structure": "rise/rise/rise_big",
+    "id": "enchantencore:rise/rise/rise_big",
+    "displayName": "Rise Big",
+    "structureId": "enchantencore:rise",
+    "blocks": 8298,
+    "uniqueBlocks": 52,
+    "url": "structures/enchantments_encore/enchantencore/rise/rise/rise_big/index.html",
+    "previews": [
+      "/wiki/enchantments_encore/images/structures/enchantencore/rise/rise/rise_big/north.png",
+      "/wiki/enchantments_encore/images/structures/enchantencore/rise/rise/rise_big/east.png",
+      "/wiki/enchantments_encore/images/structures/enchantencore/rise/rise/rise_big/south.png",
+      "/wiki/enchantments_encore/images/structures/enchantencore/rise/rise/rise_big/west.png"
+    ]
+  },
+  {
+    "datapack": "Enchantments Encore",
+    "datapackSlug": "enchantments_encore",
+    "namespace": "enchantencore",
+    "structure": "rise/rise/rise_small",
+    "id": "enchantencore:rise/rise/rise_small",
+    "displayName": "Rise Small",
+    "structureId": "enchantencore:rise",
+    "blocks": 3864,
+    "uniqueBlocks": 47,
+    "url": "structures/enchantments_encore/enchantencore/rise/rise/rise_small/index.html",
+    "previews": [
+      "/wiki/enchantments_encore/images/structures/enchantencore/rise/rise/rise_small/north.png",
+      "/wiki/enchantments_encore/images/structures/enchantencore/rise/rise/rise_small/east.png",
+      "/wiki/enchantments_encore/images/structures/enchantencore/rise/rise/rise_small/south.png",
+      "/wiki/enchantments_encore/images/structures/enchantencore/rise/rise/rise_small/west.png"
+    ]
+  }
+]

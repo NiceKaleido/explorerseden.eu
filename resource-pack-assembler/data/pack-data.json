@@ -1,0 +1,887 @@
+{
+  "generated": "2026-09-07T01:44:03.663Z",
+  "rpFormats": {
+    "1.21": 34,
+    "1.21.1": 34,
+    "1.21.2": 42,
+    "1.21.3": 42,
+    "1.21.4": 46,
+    "1.21.5": 55,
+    "1.21.6": 63,
+    "1.21.7": 64,
+    "1.21.8": 64,
+    "1.21.9": 69,
+    "1.21.10": 69,
+    "1.21.11": 75,
+    "26.1": 84,
+    "26.1.1": 84,
+    "26.1.2": 84,
+    "26.2": 88
+  },
+  "projects": [
+    {
+      "slug": "enchantments-encore",
+      "name": "Enchantments Encore",
+      "byVersion": {
+        "26.2": {
+          "fileUrl": "https://cdn.modrinth.com/data/GD1QoExk/versions/QhiNmOC0/enchantments_encore_4.8.zip",
+          "versionId": "QhiNmOC0",
+          "hasAssets": true,
+          "assetBytes": 2169629
+        },
+        "26.1": {
+          "fileUrl": "https://cdn.modrinth.com/data/GD1QoExk/versions/iCtTXHhf/enchantments_encore_4.4.zip",
+          "versionId": "iCtTXHhf",
+          "hasAssets": true,
+          "assetBytes": 265308
+        },
+        "26.1.1": {
+          "fileUrl": "https://cdn.modrinth.com/data/GD1QoExk/versions/iCtTXHhf/enchantments_encore_4.4.zip",
+          "versionId": "iCtTXHhf",
+          "hasAssets": true,
+          "assetBytes": 265308
+        },
+        "26.1.2": {
+          "fileUrl": "https://cdn.modrinth.com/data/GD1QoExk/versions/iCtTXHhf/enchantments_encore_4.4.zip",
+          "versionId": "iCtTXHhf",
+          "hasAssets": true,
+          "assetBytes": 265308
+        },
+        "1.21.11": {
+          "fileUrl": "https://cdn.modrinth.com/data/GD1QoExk/versions/x8GVguTq/enchantments_encore_v4-1.zip",
+          "versionId": "x8GVguTq",
+          "hasAssets": true,
+          "assetBytes": 263873
+        },
+        "1.21.9": {
+          "fileUrl": "https://cdn.modrinth.com/data/GD1QoExk/versions/KpGkpMAu/enchantencore_v3-71.zip",
+          "versionId": "KpGkpMAu",
+          "hasAssets": true,
+          "assetBytes": 267455
+        },
+        "1.21.10": {
+          "fileUrl": "https://cdn.modrinth.com/data/GD1QoExk/versions/KpGkpMAu/enchantencore_v3-71.zip",
+          "versionId": "KpGkpMAu",
+          "hasAssets": true,
+          "assetBytes": 267455
+        },
+        "1.21.7": {
+          "fileUrl": "https://cdn.modrinth.com/data/GD1QoExk/versions/jDATfdGT/enchantments_encore_v3-2-1.zip",
+          "versionId": "jDATfdGT",
+          "hasAssets": true,
+          "assetBytes": 74780
+        },
+        "1.21.8": {
+          "fileUrl": "https://cdn.modrinth.com/data/GD1QoExk/versions/jDATfdGT/enchantments_encore_v3-2-1.zip",
+          "versionId": "jDATfdGT",
+          "hasAssets": true,
+          "assetBytes": 74780
+        },
+        "1.21.6": {
+          "fileUrl": "https://cdn.modrinth.com/data/GD1QoExk/versions/dYoTF416/enchantments_encore_v3-1.zip",
+          "versionId": "dYoTF416",
+          "hasAssets": true,
+          "assetBytes": 50243
+        },
+        "1.21.5": {
+          "fileUrl": "https://cdn.modrinth.com/data/GD1QoExk/versions/SIQo7xxT/enchantments_encore_v2-9.zip",
+          "versionId": "SIQo7xxT",
+          "hasAssets": true,
+          "assetBytes": 42476
+        },
+        "1.21.4": {
+          "fileUrl": "https://cdn.modrinth.com/data/GD1QoExk/versions/s5gTWh5T/enchantencore_v2-7b.zip",
+          "versionId": "s5gTWh5T",
+          "hasAssets": true,
+          "assetBytes": 60679
+        },
+        "1.21.2": {
+          "fileUrl": "https://cdn.modrinth.com/data/GD1QoExk/versions/Ytt9vrY0/enchantments_encore_v1-9a.zip",
+          "versionId": "Ytt9vrY0",
+          "hasAssets": true,
+          "assetBytes": 25784
+        },
+        "1.21.3": {
+          "fileUrl": "https://cdn.modrinth.com/data/GD1QoExk/versions/Ytt9vrY0/enchantments_encore_v1-9a.zip",
+          "versionId": "Ytt9vrY0",
+          "hasAssets": true,
+          "assetBytes": 25784
+        },
+        "1.21": {
+          "fileUrl": "https://cdn.modrinth.com/data/GD1QoExk/versions/4xUgLOEE/enchantments_encore_v1-8.zip",
+          "versionId": "4xUgLOEE",
+          "hasAssets": true,
+          "assetBytes": 24796
+        },
+        "1.21.1": {
+          "fileUrl": "https://cdn.modrinth.com/data/GD1QoExk/versions/4xUgLOEE/enchantments_encore_v1-8.zip",
+          "versionId": "4xUgLOEE",
+          "hasAssets": true,
+          "assetBytes": 24796
+        },
+        "1.21-pre4": {
+          "fileUrl": "https://cdn.modrinth.com/data/GD1QoExk/versions/f0BerWJi/enchantments_encore_pre4_beta.zip",
+          "versionId": "f0BerWJi",
+          "hasAssets": false,
+          "assetBytes": 0
+        },
+        "1.21-pre3": {
+          "fileUrl": "https://cdn.modrinth.com/data/GD1QoExk/versions/IgXOmo7L/enchantments_encore_pre3_beta.zip",
+          "versionId": "IgXOmo7L",
+          "hasAssets": false,
+          "assetBytes": 0
+        },
+        "1.21-pre2": {
+          "fileUrl": "https://cdn.modrinth.com/data/GD1QoExk/versions/FZiBeZKu/enchantments_encore_beta.zip",
+          "versionId": "FZiBeZKu",
+          "hasAssets": false,
+          "assetBytes": 0
+        },
+        "24w21b": {
+          "fileUrl": "https://cdn.modrinth.com/data/GD1QoExk/versions/nDWrOAnU/enchantments_encore_24w21b_beta2.zip",
+          "versionId": "nDWrOAnU",
+          "hasAssets": false,
+          "assetBytes": 0
+        }
+      }
+    },
+    {
+      "slug": "fabled-roots",
+      "name": "Fabled Roots",
+      "byVersion": {
+        "26.2": {
+          "fileUrl": "https://cdn.modrinth.com/data/xM22oIAv/versions/DVzZjE5x/fabled_roots_2.7.zip",
+          "versionId": "DVzZjE5x",
+          "hasAssets": true,
+          "assetBytes": 20825228
+        },
+        "26.1": {
+          "fileUrl": "https://cdn.modrinth.com/data/xM22oIAv/versions/DkyKSVCo/fabled_roots_2.5.zip",
+          "versionId": "DkyKSVCo",
+          "hasAssets": true,
+          "assetBytes": 12173711
+        },
+        "26.1.1": {
+          "fileUrl": "https://cdn.modrinth.com/data/xM22oIAv/versions/DkyKSVCo/fabled_roots_2.5.zip",
+          "versionId": "DkyKSVCo",
+          "hasAssets": true,
+          "assetBytes": 12173711
+        },
+        "26.1.2": {
+          "fileUrl": "https://cdn.modrinth.com/data/xM22oIAv/versions/DkyKSVCo/fabled_roots_2.5.zip",
+          "versionId": "DkyKSVCo",
+          "hasAssets": true,
+          "assetBytes": 12173711
+        },
+        "1.21.11": {
+          "fileUrl": "https://cdn.modrinth.com/data/xM22oIAv/versions/4rhlWxB2/fabled_roots_v2-3-1.zip",
+          "versionId": "4rhlWxB2",
+          "hasAssets": true,
+          "assetBytes": 12154961
+        },
+        "1.21.9": {
+          "fileUrl": "https://cdn.modrinth.com/data/xM22oIAv/versions/pShfai0O/fabled_roots_v1-71.zip",
+          "versionId": "pShfai0O",
+          "hasAssets": true,
+          "assetBytes": 12153777
+        },
+        "1.21.10": {
+          "fileUrl": "https://cdn.modrinth.com/data/xM22oIAv/versions/pShfai0O/fabled_roots_v1-71.zip",
+          "versionId": "pShfai0O",
+          "hasAssets": true,
+          "assetBytes": 12153777
+        },
+        "1.21.6": {
+          "fileUrl": "https://cdn.modrinth.com/data/xM22oIAv/versions/MMBcCj85/fabled_roots_v1-4.zip",
+          "versionId": "MMBcCj85",
+          "hasAssets": true,
+          "assetBytes": 11143668
+        },
+        "1.21.7": {
+          "fileUrl": "https://cdn.modrinth.com/data/xM22oIAv/versions/MMBcCj85/fabled_roots_v1-4.zip",
+          "versionId": "MMBcCj85",
+          "hasAssets": true,
+          "assetBytes": 11143668
+        },
+        "1.21.8": {
+          "fileUrl": "https://cdn.modrinth.com/data/xM22oIAv/versions/MMBcCj85/fabled_roots_v1-4.zip",
+          "versionId": "MMBcCj85",
+          "hasAssets": true,
+          "assetBytes": 11143668
+        }
+      }
+    },
+    {
+      "slug": "katters-structures",
+      "name": "Katters Structures",
+      "byVersion": {
+        "26.2": {
+          "fileUrl": "https://cdn.modrinth.com/data/V6LLU8Gf/versions/GyDzJkqO/Katters%20Structures%20v2.5.zip",
+          "versionId": "GyDzJkqO",
+          "hasAssets": true,
+          "assetBytes": 1261906
+        },
+        "26.1": {
+          "fileUrl": "https://cdn.modrinth.com/data/V6LLU8Gf/versions/KPmwTD7S/Katters%20Structures.zip",
+          "versionId": "KPmwTD7S",
+          "hasAssets": true,
+          "assetBytes": 124654
+        },
+        "26.1.1": {
+          "fileUrl": "https://cdn.modrinth.com/data/V6LLU8Gf/versions/KPmwTD7S/Katters%20Structures.zip",
+          "versionId": "KPmwTD7S",
+          "hasAssets": true,
+          "assetBytes": 124654
+        },
+        "26.1.2": {
+          "fileUrl": "https://cdn.modrinth.com/data/V6LLU8Gf/versions/KPmwTD7S/Katters%20Structures.zip",
+          "versionId": "KPmwTD7S",
+          "hasAssets": true,
+          "assetBytes": 124654
+        },
+        "1.21.11": {
+          "fileUrl": "https://cdn.modrinth.com/data/V6LLU8Gf/versions/lvYpH6SE/katters_structures_v2-3-1.zip",
+          "versionId": "lvYpH6SE",
+          "hasAssets": true,
+          "assetBytes": 123732
+        },
+        "1.21.9": {
+          "fileUrl": "https://cdn.modrinth.com/data/V6LLU8Gf/versions/E9kvgFoK/Katters%20Structures.zip",
+          "versionId": "E9kvgFoK",
+          "hasAssets": true,
+          "assetBytes": 124447
+        },
+        "1.21.10": {
+          "fileUrl": "https://cdn.modrinth.com/data/V6LLU8Gf/versions/E9kvgFoK/Katters%20Structures.zip",
+          "versionId": "E9kvgFoK",
+          "hasAssets": true,
+          "assetBytes": 124447
+        },
+        "1.21.5": {
+          "fileUrl": "https://cdn.modrinth.com/data/V6LLU8Gf/versions/FMlSmVpg/Katters%20Structures.zip",
+          "versionId": "FMlSmVpg",
+          "hasAssets": true,
+          "assetBytes": 124447
+        },
+        "1.21.6": {
+          "fileUrl": "https://cdn.modrinth.com/data/V6LLU8Gf/versions/FMlSmVpg/Katters%20Structures.zip",
+          "versionId": "FMlSmVpg",
+          "hasAssets": true,
+          "assetBytes": 124447
+        },
+        "1.21.7": {
+          "fileUrl": "https://cdn.modrinth.com/data/V6LLU8Gf/versions/FMlSmVpg/Katters%20Structures.zip",
+          "versionId": "FMlSmVpg",
+          "hasAssets": true,
+          "assetBytes": 124447
+        },
+        "1.21.8": {
+          "fileUrl": "https://cdn.modrinth.com/data/V6LLU8Gf/versions/FMlSmVpg/Katters%20Structures.zip",
+          "versionId": "FMlSmVpg",
+          "hasAssets": true,
+          "assetBytes": 124447
+        },
+        "1.21.4": {
+          "fileUrl": "https://cdn.modrinth.com/data/V6LLU8Gf/versions/YrNQii3z/Katters%20Structures.zip",
+          "versionId": "YrNQii3z",
+          "hasAssets": true,
+          "assetBytes": 67386
+        },
+        "1.21.2": {
+          "fileUrl": "https://cdn.modrinth.com/data/V6LLU8Gf/versions/zBWBEYsC/Katters%20Structures.zip",
+          "versionId": "zBWBEYsC",
+          "hasAssets": false,
+          "assetBytes": 0
+        },
+        "1.21.3": {
+          "fileUrl": "https://cdn.modrinth.com/data/V6LLU8Gf/versions/zBWBEYsC/Katters%20Structures.zip",
+          "versionId": "zBWBEYsC",
+          "hasAssets": false,
+          "assetBytes": 0
+        },
+        "1.21": {
+          "fileUrl": "https://cdn.modrinth.com/data/V6LLU8Gf/versions/EVitFvcX/Katters%20Structures.zip",
+          "versionId": "EVitFvcX",
+          "hasAssets": false,
+          "assetBytes": 0
+        },
+        "1.21.1": {
+          "fileUrl": "https://cdn.modrinth.com/data/V6LLU8Gf/versions/EVitFvcX/Katters%20Structures.zip",
+          "versionId": "EVitFvcX",
+          "hasAssets": false,
+          "assetBytes": 0
+        },
+        "23w31a": {
+          "fileUrl": "https://cdn.modrinth.com/data/V6LLU8Gf/versions/Joa9pJgI/Katters%20Structures.zip",
+          "versionId": "Joa9pJgI",
+          "hasAssets": false,
+          "assetBytes": 0
+        },
+        "1.20.2": {
+          "fileUrl": "https://cdn.modrinth.com/data/V6LLU8Gf/versions/Joa9pJgI/Katters%20Structures.zip",
+          "versionId": "Joa9pJgI",
+          "hasAssets": false,
+          "assetBytes": 0
+        },
+        "1.20.3": {
+          "fileUrl": "https://cdn.modrinth.com/data/V6LLU8Gf/versions/Joa9pJgI/Katters%20Structures.zip",
+          "versionId": "Joa9pJgI",
+          "hasAssets": false,
+          "assetBytes": 0
+        },
+        "1.20.4": {
+          "fileUrl": "https://cdn.modrinth.com/data/V6LLU8Gf/versions/Joa9pJgI/Katters%20Structures.zip",
+          "versionId": "Joa9pJgI",
+          "hasAssets": false,
+          "assetBytes": 0
+        },
+        "1.20.5": {
+          "fileUrl": "https://cdn.modrinth.com/data/V6LLU8Gf/versions/Joa9pJgI/Katters%20Structures.zip",
+          "versionId": "Joa9pJgI",
+          "hasAssets": false,
+          "assetBytes": 0
+        },
+        "1.20.6": {
+          "fileUrl": "https://cdn.modrinth.com/data/V6LLU8Gf/versions/Joa9pJgI/Katters%20Structures.zip",
+          "versionId": "Joa9pJgI",
+          "hasAssets": false,
+          "assetBytes": 0
+        },
+        "1.20.1": {
+          "fileUrl": "https://cdn.modrinth.com/data/V6LLU8Gf/versions/udHMljEk/Katters%20Structures.zip",
+          "versionId": "udHMljEk",
+          "hasAssets": false,
+          "assetBytes": 0
+        },
+        "1.20": {
+          "fileUrl": "https://cdn.modrinth.com/data/V6LLU8Gf/versions/lCfSZxDz/Katters%20Structures.zip",
+          "versionId": "lCfSZxDz",
+          "hasAssets": false,
+          "assetBytes": 0
+        }
+      }
+    },
+    {
+      "slug": "nice-actions",
+      "name": "Nice Actions",
+      "byVersion": {
+        "26.2": {
+          "fileUrl": "https://cdn.modrinth.com/data/8hulzM0y/versions/K9ZMGWuw/nice_actions_2.5.zip",
+          "versionId": "K9ZMGWuw",
+          "hasAssets": true,
+          "assetBytes": 400874
+        },
+        "26.1": {
+          "fileUrl": "https://cdn.modrinth.com/data/8hulzM0y/versions/hvQ9fT6s/nice_actions_v2-4.zip",
+          "versionId": "hvQ9fT6s",
+          "hasAssets": true,
+          "assetBytes": 12208
+        },
+        "26.1.1": {
+          "fileUrl": "https://cdn.modrinth.com/data/8hulzM0y/versions/hvQ9fT6s/nice_actions_v2-4.zip",
+          "versionId": "hvQ9fT6s",
+          "hasAssets": true,
+          "assetBytes": 12208
+        },
+        "26.1.2": {
+          "fileUrl": "https://cdn.modrinth.com/data/8hulzM0y/versions/hvQ9fT6s/nice_actions_v2-4.zip",
+          "versionId": "hvQ9fT6s",
+          "hasAssets": true,
+          "assetBytes": 12208
+        },
+        "1.21.11": {
+          "fileUrl": "https://cdn.modrinth.com/data/8hulzM0y/versions/3CXJboda/nice_actions_v2-3.zip",
+          "versionId": "3CXJboda",
+          "hasAssets": true,
+          "assetBytes": 12228
+        },
+        "1.21.9": {
+          "fileUrl": "https://cdn.modrinth.com/data/8hulzM0y/versions/4tHq1RHb/nice_actions_v1-4.zip",
+          "versionId": "4tHq1RHb",
+          "hasAssets": true,
+          "assetBytes": 10067
+        },
+        "1.21.10": {
+          "fileUrl": "https://cdn.modrinth.com/data/8hulzM0y/versions/4tHq1RHb/nice_actions_v1-4.zip",
+          "versionId": "4tHq1RHb",
+          "hasAssets": true,
+          "assetBytes": 10067
+        },
+        "1.21.6": {
+          "fileUrl": "https://cdn.modrinth.com/data/8hulzM0y/versions/dl0ysn6S/nice_actions_v1-4.zip",
+          "versionId": "dl0ysn6S",
+          "hasAssets": true,
+          "assetBytes": 10067
+        },
+        "1.21.7": {
+          "fileUrl": "https://cdn.modrinth.com/data/8hulzM0y/versions/dl0ysn6S/nice_actions_v1-4.zip",
+          "versionId": "dl0ysn6S",
+          "hasAssets": true,
+          "assetBytes": 10067
+        },
+        "1.21.8": {
+          "fileUrl": "https://cdn.modrinth.com/data/8hulzM0y/versions/dl0ysn6S/nice_actions_v1-4.zip",
+          "versionId": "dl0ysn6S",
+          "hasAssets": true,
+          "assetBytes": 10067
+        }
+      }
+    },
+    {
+      "slug": "nice-admin-tools",
+      "name": "Nice Admin Tools",
+      "byVersion": {
+        "26.2": {
+          "fileUrl": "https://cdn.modrinth.com/data/lGXkbPM6/versions/IZecMJGd/nice_admin_tools_1.2.zip",
+          "versionId": "IZecMJGd",
+          "hasAssets": false,
+          "assetBytes": 0
+        },
+        "26.1": {
+          "fileUrl": "https://cdn.modrinth.com/data/lGXkbPM6/versions/4t2Eah7O/nice_admin_tools_v1-1.zip",
+          "versionId": "4t2Eah7O",
+          "hasAssets": false,
+          "assetBytes": 0
+        },
+        "26.1.1": {
+          "fileUrl": "https://cdn.modrinth.com/data/lGXkbPM6/versions/4t2Eah7O/nice_admin_tools_v1-1.zip",
+          "versionId": "4t2Eah7O",
+          "hasAssets": false,
+          "assetBytes": 0
+        },
+        "26.1.2": {
+          "fileUrl": "https://cdn.modrinth.com/data/lGXkbPM6/versions/4t2Eah7O/nice_admin_tools_v1-1.zip",
+          "versionId": "4t2Eah7O",
+          "hasAssets": false,
+          "assetBytes": 0
+        },
+        "1.21.11": {
+          "fileUrl": "https://cdn.modrinth.com/data/lGXkbPM6/versions/4cHrpxZm/nice_admin_tools_v1-0.zip",
+          "versionId": "4cHrpxZm",
+          "hasAssets": false,
+          "assetBytes": 0
+        }
+      }
+    },
+    {
+      "slug": "nice-keep-inventory",
+      "name": "Nice Keep Inventory",
+      "byVersion": {
+        "26.2": {
+          "fileUrl": "https://cdn.modrinth.com/data/ndCP1ncq/versions/XcehGgxd/nice_keep_inventory_3.4.zip",
+          "versionId": "XcehGgxd",
+          "hasAssets": true,
+          "assetBytes": 159343
+        },
+        "26.1": {
+          "fileUrl": "https://cdn.modrinth.com/data/ndCP1ncq/versions/BLdoqYh9/nice_keep_inventory_3.2.zip",
+          "versionId": "BLdoqYh9",
+          "hasAssets": true,
+          "assetBytes": 7429
+        },
+        "26.1.1": {
+          "fileUrl": "https://cdn.modrinth.com/data/ndCP1ncq/versions/BLdoqYh9/nice_keep_inventory_3.2.zip",
+          "versionId": "BLdoqYh9",
+          "hasAssets": true,
+          "assetBytes": 7429
+        },
+        "26.1.2": {
+          "fileUrl": "https://cdn.modrinth.com/data/ndCP1ncq/versions/BLdoqYh9/nice_keep_inventory_3.2.zip",
+          "versionId": "BLdoqYh9",
+          "hasAssets": true,
+          "assetBytes": 7429
+        },
+        "1.21.11": {
+          "fileUrl": "https://cdn.modrinth.com/data/ndCP1ncq/versions/zzcaEBV4/nice_keep_inventory_v2-9.zip",
+          "versionId": "zzcaEBV4",
+          "hasAssets": true,
+          "assetBytes": 6494
+        },
+        "1.21.10": {
+          "fileUrl": "https://cdn.modrinth.com/data/ndCP1ncq/versions/ojZWZlIL/nice_keep_inventory_v2-6-1.zip",
+          "versionId": "ojZWZlIL",
+          "hasAssets": true,
+          "assetBytes": 5921
+        },
+        "1.21.9": {
+          "fileUrl": "https://cdn.modrinth.com/data/ndCP1ncq/versions/tvIzVTVg/nice_keep_inventory_v2-5.zip",
+          "versionId": "tvIzVTVg",
+          "hasAssets": true,
+          "assetBytes": 4589
+        },
+        "1.21.7": {
+          "fileUrl": "https://cdn.modrinth.com/data/ndCP1ncq/versions/ZObEkMgq/nice_keep_inventory_v2-3.zip",
+          "versionId": "ZObEkMgq",
+          "hasAssets": true,
+          "assetBytes": 1070
+        },
+        "1.21.8": {
+          "fileUrl": "https://cdn.modrinth.com/data/ndCP1ncq/versions/ZObEkMgq/nice_keep_inventory_v2-3.zip",
+          "versionId": "ZObEkMgq",
+          "hasAssets": true,
+          "assetBytes": 1070
+        },
+        "1.21.6": {
+          "fileUrl": "https://cdn.modrinth.com/data/ndCP1ncq/versions/9azYJIQK/nice_keep_inventory_v1-3.zip",
+          "versionId": "9azYJIQK",
+          "hasAssets": true,
+          "assetBytes": 1070
+        },
+        "1.21.5": {
+          "fileUrl": "https://cdn.modrinth.com/data/ndCP1ncq/versions/mxnFgLG7/nice_keep_inventory_v1-2-1.zip",
+          "versionId": "mxnFgLG7",
+          "hasAssets": true,
+          "assetBytes": 1070
+        },
+        "1.21.4": {
+          "fileUrl": "https://cdn.modrinth.com/data/ndCP1ncq/versions/iCNYt0hb/nice_keep_inventory_v1-1.zip",
+          "versionId": "iCNYt0hb",
+          "hasAssets": true,
+          "assetBytes": 1070
+        }
+      }
+    },
+    {
+      "slug": "nice-mob-manager",
+      "name": "Nice Mob Manager",
+      "byVersion": {
+        "26.2": {
+          "fileUrl": "https://cdn.modrinth.com/data/4ykE4GMv/versions/KQQfrgSL/nice_mob_manager_3.3.zip",
+          "versionId": "KQQfrgSL",
+          "hasAssets": true,
+          "assetBytes": 440408
+        },
+        "26.1": {
+          "fileUrl": "https://cdn.modrinth.com/data/4ykE4GMv/versions/tTl8eK0d/nice_mob_manager_3.1.zip",
+          "versionId": "tTl8eK0d",
+          "hasAssets": true,
+          "assetBytes": 40154
+        },
+        "26.1.1": {
+          "fileUrl": "https://cdn.modrinth.com/data/4ykE4GMv/versions/tTl8eK0d/nice_mob_manager_3.1.zip",
+          "versionId": "tTl8eK0d",
+          "hasAssets": true,
+          "assetBytes": 40154
+        },
+        "26.1.2": {
+          "fileUrl": "https://cdn.modrinth.com/data/4ykE4GMv/versions/tTl8eK0d/nice_mob_manager_3.1.zip",
+          "versionId": "tTl8eK0d",
+          "hasAssets": true,
+          "assetBytes": 40154
+        },
+        "1.21.11": {
+          "fileUrl": "https://cdn.modrinth.com/data/4ykE4GMv/versions/fKl7ULro/nice_mob_manager_v2-8.zip",
+          "versionId": "fKl7ULro",
+          "hasAssets": true,
+          "assetBytes": 40154
+        },
+        "1.21.9": {
+          "fileUrl": "https://cdn.modrinth.com/data/4ykE4GMv/versions/gFdHgqNv/nice_mob_manager_v2-21.zip",
+          "versionId": "gFdHgqNv",
+          "hasAssets": true,
+          "assetBytes": 37754
+        },
+        "1.21.10": {
+          "fileUrl": "https://cdn.modrinth.com/data/4ykE4GMv/versions/gFdHgqNv/nice_mob_manager_v2-21.zip",
+          "versionId": "gFdHgqNv",
+          "hasAssets": true,
+          "assetBytes": 37754
+        },
+        "1.21.6": {
+          "fileUrl": "https://cdn.modrinth.com/data/4ykE4GMv/versions/f2ffaNve/nice_mob_manager_v2-0.zip",
+          "versionId": "f2ffaNve",
+          "hasAssets": true,
+          "assetBytes": 37669
+        },
+        "1.21.7": {
+          "fileUrl": "https://cdn.modrinth.com/data/4ykE4GMv/versions/f2ffaNve/nice_mob_manager_v2-0.zip",
+          "versionId": "f2ffaNve",
+          "hasAssets": true,
+          "assetBytes": 37669
+        },
+        "1.21.8": {
+          "fileUrl": "https://cdn.modrinth.com/data/4ykE4GMv/versions/f2ffaNve/nice_mob_manager_v2-0.zip",
+          "versionId": "f2ffaNve",
+          "hasAssets": true,
+          "assetBytes": 37669
+        },
+        "1.21.6-pre4": {
+          "fileUrl": "https://cdn.modrinth.com/data/4ykE4GMv/versions/MJcziTte/nice_mob_manager_v1-1_pre4_beta.zip",
+          "versionId": "MJcziTte",
+          "hasAssets": true,
+          "assetBytes": 25371
+        }
+      }
+    },
+    {
+      "slug": "nice-mob-variants",
+      "name": "Nice Mob Variants",
+      "byVersion": {
+        "26.2": {
+          "fileUrl": "https://cdn.modrinth.com/data/QrVtl1dM/versions/ckYgws2M/nice_mob_variants_1.8.zip",
+          "versionId": "ckYgws2M",
+          "hasAssets": true,
+          "assetBytes": 666018
+        },
+        "26.1": {
+          "fileUrl": "https://cdn.modrinth.com/data/QrVtl1dM/versions/Rribi9U8/nice_mob_variants_1.7.zip",
+          "versionId": "Rribi9U8",
+          "hasAssets": true,
+          "assetBytes": 587600
+        },
+        "26.1.1": {
+          "fileUrl": "https://cdn.modrinth.com/data/QrVtl1dM/versions/Rribi9U8/nice_mob_variants_1.7.zip",
+          "versionId": "Rribi9U8",
+          "hasAssets": true,
+          "assetBytes": 587600
+        },
+        "26.1.2": {
+          "fileUrl": "https://cdn.modrinth.com/data/QrVtl1dM/versions/Rribi9U8/nice_mob_variants_1.7.zip",
+          "versionId": "Rribi9U8",
+          "hasAssets": true,
+          "assetBytes": 587600
+        },
+        "1.21.11": {
+          "fileUrl": "https://cdn.modrinth.com/data/QrVtl1dM/versions/x4AcAaUO/nice_mob_variants_v1-3.zip",
+          "versionId": "x4AcAaUO",
+          "hasAssets": true,
+          "assetBytes": 287430
+        },
+        "25w46a": {
+          "fileUrl": "https://cdn.modrinth.com/data/QrVtl1dM/versions/LMHXun1i/nice_mob_variants_v1-0.zip",
+          "versionId": "LMHXun1i",
+          "hasAssets": true,
+          "assetBytes": 266430
+        },
+        "1.21.9": {
+          "fileUrl": "https://cdn.modrinth.com/data/QrVtl1dM/versions/zICYtdsQ/nice_mobs_variants_v1-0_mc-1-21-9-1-21-10.zip",
+          "versionId": "zICYtdsQ",
+          "hasAssets": true,
+          "assetBytes": 266430
+        },
+        "1.21.10": {
+          "fileUrl": "https://cdn.modrinth.com/data/QrVtl1dM/versions/zICYtdsQ/nice_mobs_variants_v1-0_mc-1-21-9-1-21-10.zip",
+          "versionId": "zICYtdsQ",
+          "hasAssets": true,
+          "assetBytes": 266430
+        },
+        "1.21.5": {
+          "fileUrl": "https://cdn.modrinth.com/data/QrVtl1dM/versions/MD4YmVxJ/nice_mobs_variants_v1-0_mc-1-21-5-1-21-8%2023.24.36.zip",
+          "versionId": "MD4YmVxJ",
+          "hasAssets": true,
+          "assetBytes": 266430
+        },
+        "1.21.6": {
+          "fileUrl": "https://cdn.modrinth.com/data/QrVtl1dM/versions/MD4YmVxJ/nice_mobs_variants_v1-0_mc-1-21-5-1-21-8%2023.24.36.zip",
+          "versionId": "MD4YmVxJ",
+          "hasAssets": true,
+          "assetBytes": 266430
+        },
+        "1.21.7": {
+          "fileUrl": "https://cdn.modrinth.com/data/QrVtl1dM/versions/MD4YmVxJ/nice_mobs_variants_v1-0_mc-1-21-5-1-21-8%2023.24.36.zip",
+          "versionId": "MD4YmVxJ",
+          "hasAssets": true,
+          "assetBytes": 266430
+        },
+        "1.21.8": {
+          "fileUrl": "https://cdn.modrinth.com/data/QrVtl1dM/versions/MD4YmVxJ/nice_mobs_variants_v1-0_mc-1-21-5-1-21-8%2023.24.36.zip",
+          "versionId": "MD4YmVxJ",
+          "hasAssets": true,
+          "assetBytes": 266430
+        }
+      }
+    },
+    {
+      "slug": "nice-name-tags",
+      "name": "Nice Name Tags",
+      "byVersion": {
+        "26.2": {
+          "fileUrl": "https://cdn.modrinth.com/data/9v4Ep7kA/versions/O9Xz5O8G/nice_name_tags_1.3.zip",
+          "versionId": "O9Xz5O8G",
+          "hasAssets": false,
+          "assetBytes": 0
+        },
+        "26.1": {
+          "fileUrl": "https://cdn.modrinth.com/data/9v4Ep7kA/versions/CzVcZk8S/nice_name_tags_v1-2.zip",
+          "versionId": "CzVcZk8S",
+          "hasAssets": false,
+          "assetBytes": 0
+        },
+        "26.1.1": {
+          "fileUrl": "https://cdn.modrinth.com/data/9v4Ep7kA/versions/CzVcZk8S/nice_name_tags_v1-2.zip",
+          "versionId": "CzVcZk8S",
+          "hasAssets": false,
+          "assetBytes": 0
+        },
+        "26.1.2": {
+          "fileUrl": "https://cdn.modrinth.com/data/9v4Ep7kA/versions/CzVcZk8S/nice_name_tags_v1-2.zip",
+          "versionId": "CzVcZk8S",
+          "hasAssets": false,
+          "assetBytes": 0
+        },
+        "1.21.11": {
+          "fileUrl": "https://cdn.modrinth.com/data/9v4Ep7kA/versions/c6cBDKfE/nice_name_tags_v1-1.zip",
+          "versionId": "c6cBDKfE",
+          "hasAssets": false,
+          "assetBytes": 0
+        }
+      }
+    },
+    {
+      "slug": "nice-things-eden",
+      "name": "Nice Things",
+      "byVersion": {
+        "26.2": {
+          "fileUrl": "https://cdn.modrinth.com/data/v2MHzPlD/versions/QK5jfigS/nice_things_2.6.zip",
+          "versionId": "QK5jfigS",
+          "hasAssets": true,
+          "assetBytes": 3364202
+        },
+        "26.1": {
+          "fileUrl": "https://cdn.modrinth.com/data/v2MHzPlD/versions/8PxbHiIF/nice_things_v2-2.zip",
+          "versionId": "8PxbHiIF",
+          "hasAssets": true,
+          "assetBytes": 2154383
+        },
+        "26.1.1": {
+          "fileUrl": "https://cdn.modrinth.com/data/v2MHzPlD/versions/8PxbHiIF/nice_things_v2-2.zip",
+          "versionId": "8PxbHiIF",
+          "hasAssets": true,
+          "assetBytes": 2154383
+        },
+        "26.1.2": {
+          "fileUrl": "https://cdn.modrinth.com/data/v2MHzPlD/versions/8PxbHiIF/nice_things_v2-2.zip",
+          "versionId": "8PxbHiIF",
+          "hasAssets": true,
+          "assetBytes": 2154383
+        },
+        "1.21.11": {
+          "fileUrl": "https://cdn.modrinth.com/data/v2MHzPlD/versions/t4cks6f0/nice_things_v2-1.zip",
+          "versionId": "t4cks6f0",
+          "hasAssets": true,
+          "assetBytes": 2153332
+        },
+        "1.21.9": {
+          "fileUrl": "https://cdn.modrinth.com/data/v2MHzPlD/versions/clplIlFa/nice_things_v1-61.zip",
+          "versionId": "clplIlFa",
+          "hasAssets": true,
+          "assetBytes": 2133150
+        },
+        "1.21.10": {
+          "fileUrl": "https://cdn.modrinth.com/data/v2MHzPlD/versions/clplIlFa/nice_things_v1-61.zip",
+          "versionId": "clplIlFa",
+          "hasAssets": true,
+          "assetBytes": 2133150
+        }
+      }
+    },
+    {
+      "slug": "warping-wonders",
+      "name": "Warping Wonders",
+      "byVersion": {
+        "26.2": {
+          "fileUrl": "https://cdn.modrinth.com/data/8Ti3HhdE/versions/rlKA60I3/warping_wonders_3.7.zip",
+          "versionId": "rlKA60I3",
+          "hasAssets": true,
+          "assetBytes": 1032172
+        },
+        "26.1": {
+          "fileUrl": "https://cdn.modrinth.com/data/8Ti3HhdE/versions/3QHq24lD/warping_wonders_v3-6.zip",
+          "versionId": "3QHq24lD",
+          "hasAssets": true,
+          "assetBytes": 778243
+        },
+        "26.1.1": {
+          "fileUrl": "https://cdn.modrinth.com/data/8Ti3HhdE/versions/3QHq24lD/warping_wonders_v3-6.zip",
+          "versionId": "3QHq24lD",
+          "hasAssets": true,
+          "assetBytes": 778243
+        },
+        "26.1.2": {
+          "fileUrl": "https://cdn.modrinth.com/data/8Ti3HhdE/versions/3QHq24lD/warping_wonders_v3-6.zip",
+          "versionId": "3QHq24lD",
+          "hasAssets": true,
+          "assetBytes": 778243
+        },
+        "1.21.11": {
+          "fileUrl": "https://cdn.modrinth.com/data/8Ti3HhdE/versions/k9EF3FA3/warping_wonders_v3-4.zip",
+          "versionId": "k9EF3FA3",
+          "hasAssets": true,
+          "assetBytes": 778243
+        },
+        "1.21.9": {
+          "fileUrl": "https://cdn.modrinth.com/data/8Ti3HhdE/versions/Sx1ECCrR/warping_wonders_v3-02.zip",
+          "versionId": "Sx1ECCrR",
+          "hasAssets": true,
+          "assetBytes": 778260
+        },
+        "1.21.10": {
+          "fileUrl": "https://cdn.modrinth.com/data/8Ti3HhdE/versions/Sx1ECCrR/warping_wonders_v3-02.zip",
+          "versionId": "Sx1ECCrR",
+          "hasAssets": true,
+          "assetBytes": 778260
+        },
+        "1.21.6": {
+          "fileUrl": "https://cdn.modrinth.com/data/8Ti3HhdE/versions/VQqhM50f/warping_wonders_v2-9.zip",
+          "versionId": "VQqhM50f",
+          "hasAssets": true,
+          "assetBytes": 738744
+        },
+        "1.21.7": {
+          "fileUrl": "https://cdn.modrinth.com/data/8Ti3HhdE/versions/VQqhM50f/warping_wonders_v2-9.zip",
+          "versionId": "VQqhM50f",
+          "hasAssets": true,
+          "assetBytes": 738744
+        },
+        "1.21.8": {
+          "fileUrl": "https://cdn.modrinth.com/data/8Ti3HhdE/versions/VQqhM50f/warping_wonders_v2-9.zip",
+          "versionId": "VQqhM50f",
+          "hasAssets": true,
+          "assetBytes": 738744
+        },
+        "1.21.5": {
+          "fileUrl": "https://cdn.modrinth.com/data/8Ti3HhdE/versions/Ew6DZJ7b/warping_wonders_v2-3.zip",
+          "versionId": "Ew6DZJ7b",
+          "hasAssets": true,
+          "assetBytes": 498151
+        },
+        "1.21.4": {
+          "fileUrl": "https://cdn.modrinth.com/data/8Ti3HhdE/versions/J151oEbJ/warping_Wonders_v2-2.zip",
+          "versionId": "J151oEbJ",
+          "hasAssets": true,
+          "assetBytes": 498151
+        },
+        "1.21.2": {
+          "fileUrl": "https://cdn.modrinth.com/data/8Ti3HhdE/versions/OETjEiGS/warping_wonders_v1-5.zip",
+          "versionId": "OETjEiGS",
+          "hasAssets": true,
+          "assetBytes": 12088
+        },
+        "1.21.3": {
+          "fileUrl": "https://cdn.modrinth.com/data/8Ti3HhdE/versions/OETjEiGS/warping_wonders_v1-5.zip",
+          "versionId": "OETjEiGS",
+          "hasAssets": true,
+          "assetBytes": 12088
+        },
+        "1.21": {
+          "fileUrl": "https://cdn.modrinth.com/data/8Ti3HhdE/versions/EEoPQw7Q/warping_wonder_1.4b.zip",
+          "versionId": "EEoPQw7Q",
+          "hasAssets": false,
+          "assetBytes": 0
+        },
+        "1.21-pre3": {
+          "fileUrl": "https://cdn.modrinth.com/data/8Ti3HhdE/versions/vIgxGhZA/warping_Wonders_pre3_beta.zip",
+          "versionId": "vIgxGhZA",
+          "hasAssets": false,
+          "assetBytes": 0
+        },
+        "1.21-pre2": {
+          "fileUrl": "https://cdn.modrinth.com/data/8Ti3HhdE/versions/jL5JZYhM/warping_wonders_beta.zip",
+          "versionId": "jL5JZYhM",
+          "hasAssets": false,
+          "assetBytes": 0
+        }
+      }
+    }
+  ]
+}

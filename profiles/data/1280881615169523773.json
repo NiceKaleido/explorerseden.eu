@@ -1,0 +1,154 @@
+{
+  "discordId": "1280881615169523773",
+  "uuid": "8d369222-c84f-49fb-bc00-0afbfd0fce8d",
+  "name": "adenophyllous",
+  "skinIcon": "/assets/images/generated/player-skins/8d369222-c84f-49fb-bc00-0afbfd0fce8d.png",
+  "headIcon": "/assets/images/generated/player-heads/8d369222-c84f-49fb-bc00-0afbfd0fce8d.png",
+  "race": "Endling",
+  "class": "Builder",
+  "advancementsCompleted": 1,
+  "advancementsDetailed": [
+    {
+      "category": "Adventure",
+      "items": [
+        {
+          "label": "Adventuring Time",
+          "description": "Discover every biome",
+          "done": false
+        }
+      ],
+      "doneCount": 0
+    },
+    {
+      "category": "Katters Structures (General)",
+      "items": [
+        {
+          "label": "Katters Structures",
+          "description": "Brand new vanilla like structures!",
+          "done": true
+        }
+      ],
+      "doneCount": 1
+    }
+  ],
+  "stats": {
+    "playtimeHours": 0.1,
+    "deaths": 0,
+    "mobKillsTotal": 0,
+    "blocksMinedTotal": 6
+  },
+  "statsDetailed": [
+    {
+      "category": "General",
+      "items": [
+        {
+          "label": "Fly",
+          "value": "363 blocks",
+          "raw": 36269
+        },
+        {
+          "label": "Walk",
+          "value": "192 blocks",
+          "raw": 19169
+        },
+        {
+          "label": "Sprint",
+          "value": "162 blocks",
+          "raw": 16188
+        },
+        {
+          "label": "Fall",
+          "value": "136 blocks",
+          "raw": 13610
+        },
+        {
+          "label": "Time Since Rest",
+          "value": "6 min",
+          "raw": 7399
+        },
+        {
+          "label": "Play Time",
+          "value": "6 min",
+          "raw": 7399
+        },
+        {
+          "label": "Time Since Death",
+          "value": "6 min",
+          "raw": 7399
+        },
+        {
+          "label": "Total World Time",
+          "value": "6 min",
+          "raw": 7399
+        },
+        {
+          "label": "Crouch",
+          "value": "15 blocks",
+          "raw": 1518
+        },
+        {
+          "label": "Sneak Time",
+          "value": "0 min",
+          "raw": 259
+        },
+        {
+          "label": "Damage Taken",
+          "value": "138",
+          "raw": 138
+        },
+        {
+          "label": "Jump",
+          "value": "124",
+          "raw": 124
+        },
+        {
+          "label": "Walk On Water",
+          "value": "0 blocks",
+          "raw": 25
+        },
+        {
+          "label": "Leave Game",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Blocks Mined",
+      "items": [
+        {
+          "label": "Oak Log",
+          "value": "5",
+          "raw": 5
+        },
+        {
+          "label": "Oak Leaves",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Items Used",
+      "items": [
+        {
+          "label": "Goggles",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Items Picked Up",
+      "items": [
+        {
+          "label": "Oak Log",
+          "value": "5",
+          "raw": 5
+        }
+      ]
+    }
+  ],
+  "claims": [],
+  "waypoints": []
+}

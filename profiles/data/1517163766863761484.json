@@ -1,0 +1,154 @@
+{
+  "discordId": "1517163766863761484",
+  "uuid": "668628fa-961a-48b1-a06d-b299e51b4d04",
+  "name": "Jahus_",
+  "skinIcon": "/assets/images/generated/player-skins/668628fa-961a-48b1-a06d-b299e51b4d04.png",
+  "headIcon": "/assets/images/generated/player-heads/668628fa-961a-48b1-a06d-b299e51b4d04.png",
+  "race": "Aetherian",
+  "class": "Cleric",
+  "advancementsCompleted": 1,
+  "advancementsDetailed": [
+    {
+      "category": "Adventure",
+      "items": [
+        {
+          "label": "Adventuring Time",
+          "description": "Discover every biome",
+          "done": false
+        }
+      ],
+      "doneCount": 0
+    },
+    {
+      "category": "Katters Structures (General)",
+      "items": [
+        {
+          "label": "Katters Structures",
+          "description": "Brand new vanilla like structures!",
+          "done": true
+        }
+      ],
+      "doneCount": 1
+    }
+  ],
+  "stats": {
+    "playtimeHours": 0.1,
+    "deaths": 0,
+    "mobKillsTotal": 0,
+    "blocksMinedTotal": 0
+  },
+  "statsDetailed": [
+    {
+      "category": "General",
+      "items": [
+        {
+          "label": "Sprint",
+          "value": "358 blocks",
+          "raw": 35838
+        },
+        {
+          "label": "Fly",
+          "value": "258 blocks",
+          "raw": 25835
+        },
+        {
+          "label": "Swim",
+          "value": "243 blocks",
+          "raw": 24271
+        },
+        {
+          "label": "Time Since Rest",
+          "value": "9 min",
+          "raw": 10757
+        },
+        {
+          "label": "Play Time",
+          "value": "9 min",
+          "raw": 10757
+        },
+        {
+          "label": "Time Since Death",
+          "value": "9 min",
+          "raw": 10757
+        },
+        {
+          "label": "Total World Time",
+          "value": "9 min",
+          "raw": 10757
+        },
+        {
+          "label": "Walk",
+          "value": "101 blocks",
+          "raw": 10092
+        },
+        {
+          "label": "Walk On Water",
+          "value": "92 blocks",
+          "raw": 9204
+        },
+        {
+          "label": "Fall",
+          "value": "29 blocks",
+          "raw": 2850
+        },
+        {
+          "label": "Walk Under Water",
+          "value": "16 blocks",
+          "raw": 1556
+        },
+        {
+          "label": "Crouch",
+          "value": "2 blocks",
+          "raw": 197
+        },
+        {
+          "label": "Jump",
+          "value": "130",
+          "raw": 130
+        },
+        {
+          "label": "Sneak Time",
+          "value": "0 min",
+          "raw": 70
+        },
+        {
+          "label": "Damage Taken",
+          "value": "10",
+          "raw": 10
+        },
+        {
+          "label": "Open Chest",
+          "value": "3",
+          "raw": 3
+        },
+        {
+          "label": "Talked To Villager",
+          "value": "2",
+          "raw": 2
+        },
+        {
+          "label": "Leave Game",
+          "value": "1",
+          "raw": 1
+        },
+        {
+          "label": "Interact With Cartography Table",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    },
+    {
+      "category": "Items Used",
+      "items": [
+        {
+          "label": "Goggles",
+          "value": "1",
+          "raw": 1
+        }
+      ]
+    }
+  ],
+  "claims": [],
+  "waypoints": []
+}

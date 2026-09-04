@@ -1,0 +1,58 @@
+name: Sync Translations to Data Pack Repos
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Compute and log the diff without pushing'
+        type: boolean
+        default: true
+  schedule:
+    # Offset from generate-files.yml's every-2h cadence to avoid contention
+    # and keep commit noise across 12 repos to once a day.
+    - cron: '0 4 * * *'
+
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    name: Export accepted translations
+    runs-on: ubuntu-latest
+    env:
+      REPO_TOKEN: ${{ secrets.REPO_TOKEN }}
+      TRANSLATIONS_DATABASE_URL: ${{ secrets.TRANSLATIONS_DATABASE_URL }}
+      # workflow_dispatch: honor the checkbox (defaults to true - safe for
+      # manual runs). schedule: dry-run unless the repo variable
+      # SYNC_TRANSLATIONS_LIVE is explicitly set to 'true' (Settings ->
+      # Secrets and variables -> Actions -> Variables). This is the switch
+      # that turns on real, unattended commits to the 12 data pack repos -
+      # flip it only after a manual workflow_dispatch dry run has been
+      # reviewed and REPO_TOKEN's push access has been confirmed.
+      DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || vars.SYNC_TRANSLATIONS_LIVE != 'true' }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+      - name: Install script dependencies
+        shell: bash
+        run: npm install --no-save --package-lock=false pg
+      - name: Apply pending schema migrations
+        shell: bash
+        run: node tools/scripts/db-migrate.js
+      - name: Export accepted translations to data pack repos
+        shell: bash
+        run: node tools/scripts/export-translations.js
+      - name: Clean up users inactive for over a year
+        # Skipped during dry runs, same as the export itself - a dry run
+        # shouldn't have side effects.
+        if: env.DRY_RUN != 'true'
+        shell: bash
+        run: node tools/scripts/purge-inactive-users.js
+      - name: Delete withdrawn/declined suggestions older than a week
+        if: env.DRY_RUN != 'true'
+        shell: bash
+        run: node tools/scripts/purge-old-suggestions.js

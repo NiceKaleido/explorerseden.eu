@@ -1,0 +1,1 @@
+<?php $_GET['page'] = 'statistics'; require __DIR__ . '/../index.php';
